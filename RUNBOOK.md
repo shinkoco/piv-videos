@@ -39,7 +39,7 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
    - Vérifier 3 images extraites du rendu (texte lisible, rien coupé), corriger si besoin.
 4. Copier les rendus dans `clips/AAAA-MM-JJ/`, commit + push (`git -c push.negotiate=true push`).
 5. Buffer `create_post` × 2 chaînes × 2 vidéos, `schedulingType: automatic`, `mode: customScheduled`,
-   `dueAt` 12:00 et 19:00 heure de Paris (offset +01:00 en hiver) :
+   `dueAt` 08:00 et 17:00 heure de Paris (offset +01:00 en hiver) :
    - YouTube : `metadata.youtube` = `{title (≤ 90 car., FR, accrocheur), categoryId "20", privacy "public", madeForKids false}`
    - Texte / légende (les deux) :
      ```

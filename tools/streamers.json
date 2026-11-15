@@ -1,14 +1,81 @@
 {
   "_note": "Logins to check each day. platform: twitch|kick. cam: webcam box [x,y,w,h] in 1280x720 source pixels, or null if unknown (then use classic layout or measure it once and save it here). lang: stream language.",
   "streamers": [
-    {"name": "Kai Cenat", "login": "kaicenat", "platform": "twitch", "lang": "en", "cam": [0, 178, 246, 138]},
-    {"name": "xQc", "login": "xqc", "platform": "kick", "lang": "en", "cam": null},
-    {"name": "Adin Ross", "login": "adinross", "platform": "kick", "lang": "en", "cam": null},
-    {"name": "N3on", "login": "n3on", "platform": "kick", "lang": "en", "cam": null},
-    {"name": "Squeezie", "login": "squeezie", "platform": "twitch", "lang": "fr", "cam": null},
-    {"name": "ZeratoR", "login": "zerator", "platform": "twitch", "lang": "fr", "cam": null},
-    {"name": "Joueur du Grenier", "login": "joueur_du_grenier", "platform": "twitch", "lang": "fr", "cam": null},
-    {"name": "Doigby", "login": "doigby", "platform": "twitch", "lang": "fr", "cam": null}
+    {
+      "name": "Kai Cenat",
+      "login": "kaicenat",
+      "platform": "twitch",
+      "lang": "en",
+      "cam": [
+        0,
+        178,
+        246,
+        138
+      ]
+    },
+    {
+      "name": "xQc",
+      "login": "xqc",
+      "platform": "kick",
+      "lang": "en",
+      "cam": null
+    },
+    {
+      "name": "Adin Ross",
+      "login": "adinross",
+      "platform": "kick",
+      "lang": "en",
+      "cam": null
+    },
+    {
+      "name": "N3on",
+      "login": "n3on",
+      "platform": "kick",
+      "lang": "en",
+      "cam": null
+    },
+    {
+      "name": "Michou",
+      "login": "michou",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Inoxtag",
+      "login": "inoxtag",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Squeezie",
+      "login": "squeezie",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "ZeratoR",
+      "login": "zerator",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Joueur du Grenier",
+      "login": "joueur_du_grenier",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Doigby",
+      "login": "doigby",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    }
   ],
   "blocked": [],
   "mode": "B"
