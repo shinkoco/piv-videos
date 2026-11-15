@@ -3,7 +3,7 @@ zoom punches, progress bar and end card.  usage: python3 make_compil.py spec.jso
 import json, subprocess, sys, os
 
 spec = json.load(open(sys.argv[1]))
-SRC, OUT, HOOK = spec["src"], spec["out"], spec["hook"]
+SRC, OUT, HOOK = spec.get("src"), spec["out"], spec["hook"]
 AVATAR = spec["avatar"]
 W, H = 1080, 1920
 LAYOUT = spec.get("layout", "classic")
@@ -92,7 +92,7 @@ for i, m in enumerate(spec["moments"]):
               f"[bg][fg]overlay=0:{FY},"
               f"drawbox=x=0:y={FY}:w={W}:h={FH}:color=white@0.55:t=fill:enable='between(t,{p:.2f},{p+0.12:.2f})',"
               f"subtitles={assf}[v]")
-    run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-t", str(d), "-i", SRC,
+    run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-t", str(d), "-i", m.get("src", SRC),
          "-filter_complex", fc, "-map", "[v]", "-map", "0:a",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-ar", "48000", "-ac", "2", seg])
     parts.append(seg)

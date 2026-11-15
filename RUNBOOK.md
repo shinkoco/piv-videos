@@ -17,7 +17,12 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
   - Au premier avertissement / retrait signalé par Mathieu : passer `mode` à `C`, ajouter le streamer à `blocked`, commit.
 - Toujours **créditer** le streamer dans la légende (nom + lien de sa chaîne).
 - Ne jamais republier un moment déjà publié : vérifier `published.json`.
-- Squeezie et ZeratoR ont des VODs réservées aux abonnés : ignorées tant qu'on n'a pas d'autre source.
+- Beaucoup de streamers FR (Squeezie, ZeratoR, Gotaga, AmineMaTué, Kameto, Locklear, Ponce, MisterMV, Domingo, JLTomy)
+  ont des VODs réservées aux abonnés : pour eux, utiliser `python3 tools/clips.py LAST_DAY` (clips publics faits par
+  les viewers, filtrés sur la catégorie GTA VI, triés par vues). Ces clips sont déjà des moments forts : en prendre
+  3 (même streamer ou thème commun), télécharger chacun avec yt-dlp, et mettre `"src"` par moment dans le spec
+  (`start` 0 / `end` = durée, `peak` = moment fort repéré à la transcription ou au volume).
+- Sources possibles chaque jour : VODs (`discover.py`) ET clips (`clips.py`). Préférer les plus vus.
 
 ## Étapes (2 vidéos par jour)
 1. `python3 tools/discover.py 36` → liste des VODs GTA des dernières 36 h.

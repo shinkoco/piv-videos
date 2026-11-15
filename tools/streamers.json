@@ -1,5 +1,5 @@
 {
-  "_note": "Logins to check each day. platform: twitch|kick. cam: webcam box [x,y,w,h] in 1280x720 source pixels, or null if unknown (then use classic layout or measure it once and save it here). lang: stream language.",
+  "_note": "Logins to check each day. platform: twitch|kick. cam: webcam box [x,y,w,h] in 1280x720 source pixels, or null if unknown (then use classic layout or measure it once and save it here). lang: stream language. VOD sub-only streamers (gotaga, aminematue, kamet0, locklear, ponce, mistermv, domingo, jltomy, squeezie, zerator): use tools/clips.py (public viewer clips) instead of VODs.",
   "streamers": [
     {
       "name": "Kai Cenat",
@@ -72,6 +72,104 @@
     {
       "name": "Doigby",
       "login": "doigby",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Gotaga",
+      "login": "gotaga",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "AmineMaTué",
+      "login": "aminematue",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Kameto",
+      "login": "kamet0",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Locklear",
+      "login": "locklear",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Ponce",
+      "login": "ponce",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "MisterMV",
+      "login": "mistermv",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Domingo",
+      "login": "domingo",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "JLTomy",
+      "login": "jltomy",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Sardoche",
+      "login": "sardoche",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Antoine Daniel",
+      "login": "antoinedaniel",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Etoiles",
+      "login": "etoiles",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "LeBouseuh",
+      "login": "lebouseuh",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Rebeudeter",
+      "login": "rebeudeter",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Tonton",
+      "login": "tonton",
       "platform": "twitch",
       "lang": "fr",
       "cam": null
