@@ -56,6 +56,15 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
 6. Rapport final en français à Mathieu (court) : vidéos publiées / programmées, streamers, problèmes.
    Supprimer de `clips/` les vidéos de plus de 7 jours (Buffer les a déjà récupérées).
 
+## Titres, légendes et hashtags
+- **Titre** (YouTube) et **accroche** (1re ligne de légende TikTok) : en français, 40–70 caractères, nom du streamer +
+  ce qui se passe + tension ou curiosité, 1 emoji max. Jamais de fausse promesse (« leak », « secret » inventé).
+  Formats qui tournent : « <Streamer> découvre … 💀 », « <Streamer> se fait … dans GTA 6 », « TOP 3 des moments de
+  <Streamer> sur GTA 6 », « Il pensait s'en sortir… », « Le moment où <Streamer> … ».
+- Varier les formules d'un jour à l'autre (vérifier published.json).
+- **Hashtags** (4–5, pas de #fyp ni #pourtoi) : 2 larges `#gta6 #gtavi`, 1 FR `#gta6fr`, 1 streamer `#<login>`,
+  1 lieu/thème du moment si pertinent (`#vicecity #leonida #police #course`…). YouTube : mêmes hashtags en fin de description.
+
 ## Design (validé le 15/11/2026)
 - Titre en bulle blanche, texte noir, en haut. Numéros #3 #2 #1 orange. Bulle de contexte violette.
 - Sous-titres FR mot par mot (jaune). Zoom + flash + mot de réaction au pic.
