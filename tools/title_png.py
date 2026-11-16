@@ -13,7 +13,7 @@ ES = 82 / 109
 
 def is_emoji(c):
     o = ord(c)
-    return o >= 0x1F000 or 0x2600 <= o <= 0x27BF or o in (0xFE0F, 0x200D)
+    return o >= 0x1F000 or 0x2600 <= o <= 0x27BF or 0x2300 <= o <= 0x23FF or 0x2B00 <= o <= 0x2BFF or o in (0xFE0F, 0x200D)
 
 
 def runs(s):
