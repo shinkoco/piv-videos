@@ -64,6 +64,10 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
   Formats qui tournent : « <Streamer> découvre … 💀 », « <Streamer> se fait … dans GTA 6 », « TOP 3 des moments de
   <Streamer> sur GTA 6 », « Il pensait s'en sortir… », « Le moment où <Streamer> … ».
 - Varier les formules d'un jour à l'autre (vérifier published.json).
+- **Chaque publication a sa propre légende et son propre jeu de hashtags** : jamais le même texte sur YouTube et TikTok,
+  ni d'un jour à l'autre. TikTok : finir par une question pour les commentaires. YouTube : phrase descriptive.
+- TikTok : choisir la miniature avec `assets[].video.metadata.thumbnailOffset` (ms) sur l'image la plus forte
+  (gros texte / pic d'action), différente de l'image de début. YouTube : pas de choix de miniature via Buffer.
 - **Hashtags** (4–5, pas de #fyp ni #pourtoi) : 2 larges `#gta6 #gtavi`, 1 FR `#gta6fr`, 1 streamer `#<login>`,
   1 lieu/thème du moment si pertinent (`#vicecity #leonida #police #course`…). YouTube : mêmes hashtags en fin de description.
 
