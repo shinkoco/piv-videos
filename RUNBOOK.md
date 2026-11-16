@@ -73,3 +73,9 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
 - Filigrane `@partnersinvicefr` translucide avec contour, dans le dernier quart du gameplay.
 - Barre de progression orange. Écran de fin 3 s : logo + « Abonne-toi pour la suite ».
 - Marges : rien dans les ~150 px de droite (icônes TikTok/YouTube) ni en bas (légende).
+
+## Montages de visuels officiels (template « edit »)
+- `tools/make_montage.py` : visuels officiels Rockstar (rockstargames.com/VI), coupes calées sur le tempo,
+  titre bulle blanche avec emojis (tools/title_png.py) qui pulse, filigrane, écran de fin. **Pas de barre de progression.**
+- Musique 100 % originale : `tools/music.py outrun` (préférée de Mathieu, 118 bpm) ou `heist` (108 bpm). **Jamais de phonk.**
+- Jamais de visuels non officiels (fan arts, edits d'autres créateurs).
