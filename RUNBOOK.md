@@ -44,7 +44,9 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
    - Vérifier 3 images extraites du rendu (texte lisible, rien coupé), corriger si besoin.
 4. Copier les rendus dans `clips/AAAA-MM-JJ/`, commit + push (`git -c push.negotiate=true push`).
 5. Buffer `create_post` × 2 chaînes × 2 vidéos, `schedulingType: automatic`, `mode: customScheduled`,
-   `dueAt` 08:00 et 17:00 heure de Paris (offset +01:00 en hiver) :
+   `dueAt` heure de Paris (offset +01:00 en hiver), créneaux décalés par plateforme :
+   vidéo A → TikTok 08:00 + YouTube 16:00 ; vidéo B → YouTube 19:00 + TikTok 21:00.
+   Si la vidéo A n'est pas prête avant 07:55, TikTok au plus tôt possible.
    - YouTube : `metadata.youtube` = `{title (≤ 90 car., FR, accrocheur), categoryId "20", privacy "public", madeForKids false}`
    - Texte / légende (les deux) :
      ```
