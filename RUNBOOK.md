@@ -4,6 +4,8 @@ Chaîne de clips GTA 6 en français : TikTok @partnersinvicefr + YouTube « Part
 Publication via le connecteur **Buffer** (organisation « My organization ») :
 - YouTube channelId `6afa0f34ece6dfde5fd78fb8`
 - TikTok channelId `6afa0f0eece6dfde5fd78eaa`
+- Instagram (Reels) channelId `6afb16d7ece6dfde5fe51faf` — `metadata.instagram = {type: "reel", shouldShareToFeed: true}`,
+  hashtags dans la légende (le 1er commentaire est payant sur Buffer gratuit), `thumbnailOffset` comme TikTok.
 
 Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`), servies par
 `https://raw.githubusercontent.com/shinkoco/piv-videos/main/<chemin>`.
@@ -45,7 +47,7 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
 4. Copier les rendus dans `clips/AAAA-MM-JJ/`, commit + push (`git -c push.negotiate=true push`).
 5. Buffer `create_post` × 2 chaînes × 2 vidéos, `schedulingType: automatic`, `mode: customScheduled`,
    `dueAt` heure de Paris (offset +01:00 en hiver), créneaux décalés par plateforme :
-   vidéo A → TikTok 08:00 + YouTube 16:00 ; vidéo B → YouTube 19:00 + TikTok 21:00.
+   vidéo A → TikTok 08:00 + Instagram 12:30 + YouTube 16:00 ; vidéo B → Instagram 18:00 + YouTube 19:00 + TikTok 21:00.
    Si la vidéo A n'est pas prête avant 07:55, TikTok au plus tôt possible.
    - YouTube : `metadata.youtube` = `{title (≤ 90 car., FR, accrocheur), categoryId "20", privacy "public", madeForKids false}`
    - Texte / légende (les deux) :
