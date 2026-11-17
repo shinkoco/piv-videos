@@ -94,3 +94,27 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
   titre bulle blanche avec emojis (tools/title_png.py) qui pulse, filigrane, écran de fin. **Pas de barre de progression.**
 - Musique 100 % originale : `tools/music.py outrun` (préférée de Mathieu, 118 bpm) ou `heist` (108 bpm). **Jamais de phonk.**
 - Jamais de visuels non officiels (fan arts, edits d'autres créateurs).
+
+## Rotation hebdomadaire (à partir du 19/11)
+
+Chaque jour, par compte : clips A et B (horaires inchangés) + 1 carrousel (TikTok et Instagram) + une 3e vidéo certains jours.
+
+| Jour | Carrousel (IG 10:00, TikTok 13:00) | 3e vidéo (YT 12:00, TikTok 18:00, IG 20:00) |
+|---|---|---|
+| Lundi | Sondage / débat | — |
+| Mardi | Actu de la semaine | Montage de visuels officiels (make_montage.py) |
+| Mercredi | Guide pratique | — |
+| Jeudi | Vrai ou faux | Vrai ou faux en vidéo (montage 9:16, une affirmation par segment, réponse « VRAI »/« FAUX » au beat) |
+| Vendredi | Nostalgie Vice City 2002 contre GTA 6 | — |
+| Samedi | Sondage / débat | Montage de visuels officiels |
+| Dimanche | Top de la semaine | Compilation longue YouTube à 17:00 |
+
+### Règles des formats
+- Carrousels : make_carousel.py, 6 à 10 slides, 1080×1350. Instagram : `type: "post"`. TikTok : publication photo ; la musique originale est ajoutée seulement si l'API le permet.
+- Sondage / débat : une question clivante sur le jeu (ex. : Jason ou Lucia ?). La dernière slide dit « Réponds en commentaire ».
+- Actu, guide, vrai ou faux : recherche web obligatoire, uniquement des sources fiables (Rockstar Newswire, Take-Two, grands médias jeu vidéo). Chaque fait est vérifié et la source est citée en légende. Si une info n'est pas confirmée, elle est présentée comme « rumeur non confirmée », ou laissée de côté. Zéro fake, jamais.
+- Nostalgie : visuels officiels de GTA 6 uniquement. Vice City 2002 est évoqué par le texte seulement : aucune image tierce.
+- Top de la semaine : les 3 meilleurs moments des clips de la semaine (captures de nos propres rendus).
+- Compilation longue du dimanche : vidéo YouTube 16:9 horizontale de 1920×1080 (pas un Short), 8 à 10 min. Elle reprend les meilleurs clips de la semaine dans le format plein écran d'origine, avec des intertitres entre les clips, le crédit de chaque streamer à l'écran et en description, la musique Outrun en fond (~13 %) et une miniature 1280×720 tirée d'un visuel officiel ou d'une frame forte. Dans la description : chapitres horodatés et liste des streamers crédités.
+- Toujours : uniquement des visuels officiels ou nos propres clips, uniquement notre musique originale (jamais de phonk). Chaque post a sa propre légende et ses propres hashtags.
+- Limite Buffer : 10 posts programmés par canal. Ne programmer que J et J+1, jamais plus loin.
