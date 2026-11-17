@@ -107,7 +107,7 @@ Chaque jour, par compte : clips A et B (horaires inchangés) + 1 carrousel (TikT
 | Jeudi | Vrai ou faux | Vrai ou faux en vidéo (montage 9:16, une affirmation par segment, réponse « VRAI »/« FAUX » au beat) |
 | Vendredi | Nostalgie Vice City 2002 contre GTA 6 | — |
 | Samedi | Sondage / débat | Montage de visuels officiels |
-| Dimanche | Top de la semaine | Compilation longue YouTube à 17:00 |
+| Dimanche | Top de la semaine | — |
 
 ### Règles des formats
 - Carrousels : make_carousel.py, 6 à 10 slides, 1080×1350. Instagram : `type: "post"`. TikTok : publication photo ; la musique originale est ajoutée seulement si l'API le permet.
@@ -115,6 +115,6 @@ Chaque jour, par compte : clips A et B (horaires inchangés) + 1 carrousel (TikT
 - Actu, guide, vrai ou faux : recherche web obligatoire, uniquement des sources fiables (Rockstar Newswire, Take-Two, grands médias jeu vidéo). Chaque fait est vérifié et la source est citée en légende. Si une info n'est pas confirmée, elle est présentée comme « rumeur non confirmée », ou laissée de côté. Zéro fake, jamais.
 - Nostalgie : visuels officiels de GTA 6 uniquement. Vice City 2002 est évoqué par le texte seulement : aucune image tierce.
 - Top de la semaine : les 3 meilleurs moments des clips de la semaine (captures de nos propres rendus).
-- Compilation longue du dimanche : vidéo YouTube 16:9 horizontale de 1920×1080 (pas un Short), 8 à 10 min. Elle reprend les meilleurs clips de la semaine dans le format plein écran d'origine, avec des intertitres entre les clips, le crédit de chaque streamer à l'écran et en description, la musique Outrun en fond (~13 %) et une miniature 1280×720 tirée d'un visuel officiel ou d'une frame forte. Dans la description : chapitres horodatés et liste des streamers crédités.
+- Compilation longue YouTube : EN PAUSE (décision du 17/11, focus Shorts/TikTok). Ne pas produire.
 - Toujours : uniquement des visuels officiels ou nos propres clips, uniquement notre musique originale (jamais de phonk). Chaque post a sa propre légende et ses propres hashtags.
 - Limite Buffer : 10 posts programmés par canal. Ne programmer que J et J+1, jamais plus loin.
