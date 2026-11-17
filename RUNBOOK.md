@@ -135,3 +135,6 @@ Publication automatique via `call_tool posts_create_post` :
 
 ## Déjà programmé (ne pas refaire)
 - Samedi 21/11 : la 3e vidéo est DÉJÀ programmée (montage « Bienvenue à Vice City », clips/2026-11-21/vc_welcome.mp4) sur YouTube 12:00, TikTok 18:00 et Instagram 20:00. Ce jour-là, ne pas produire de 3e vidéo.
+
+## Règle de démarrage (17/11, remplace « ne rien faire avant le 19/11 »)
+La rotation des formats (carrousels et 3e vidéo) tourne TOUS les jours, dès maintenant. Seuls les clips de streamers attendent la sortie du jeu, le 19/11. Chaque matin, la tâche programme les publications du lendemain. Elle n'attend jamais de validation.
