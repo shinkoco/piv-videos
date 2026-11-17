@@ -118,3 +118,8 @@ Chaque jour, par compte : clips A et B (horaires inchangés) + 1 carrousel (TikT
 - Compilation longue YouTube : EN PAUSE (décision du 17/11, focus Shorts/TikTok). Ne pas produire.
 - Toujours : uniquement des visuels officiels ou nos propres clips, uniquement notre musique originale (jamais de phonk). Chaque post a sa propre légende et ses propres hashtags.
 - Limite Buffer : 10 posts programmés par canal. Ne programmer que J et J+1, jamais plus loin.
+
+## TikTok : publication manuelle (décision du 17/11)
+TikTok bloque la distribution des posts publiés via l'API sur ce compte : 0 vue, et « ajouter à la story » indisponible, pour la vidéo J-3 comme pour le carrousel.
+- TOUS les posts TikTok (clips, carrousels, 3e vidéo) partent avec `schedulingType: "notification"` : Mathieu reçoit un rappel et publie lui-même depuis l'appli, en ajoutant un son tendance.
+- Cette règle remplace « automatique à partir du 19/11 ». Instagram et YouTube restent automatiques.
