@@ -144,3 +144,10 @@ Les carrousels font 0 vue sur Instagram comme sur TikTok, alors que les vidéos 
 - Chaque « carrousel » de la rotation est produit en slides avec make_carousel.py, puis converti en VIDÉO diaporama 9:16 avec `tools/make_slideshow.py OUT.mp4 <musique outrun ou heist> <bpm> slides...` (6 temps par slide, environ 3 s).
 - Il est publié en vidéo : en Reel sur Instagram à 10:00, en vidéo sur TikTok à 13:00 via Zernio, et en Short sur YouTube à 14:00.
 - Ne JAMAIS publier en `type: "post"` ni en `mediaType: "photo"`.
+
+## Rotation des musiques (17/11)
+On a 2 musiques : Outrun (118 bpm) et Heist (108 bpm). Jamais de phonk.
+- Alterner d'une vidéo à l'autre : si la dernière vidéo publiée (voir published.json, champ "music") était en Outrun, la suivante est en Heist, et inversement.
+- Pour ne pas réutiliser exactement le même morceau, générer une variante avec `python3 tools/music.py outrun|heist OUT.wav <durée> <seed>`, avec seed = la date du jour au format AAAAMMJJ plus le numéro de la vidéo.
+- Passer le bon bpm aux outils : 118 pour Outrun, 108 pour Heist.
+- Noter le style utilisé dans published.json.
