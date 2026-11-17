@@ -138,3 +138,9 @@ Publication automatique via `call_tool posts_create_post` :
 
 ## Règle de démarrage (17/11, remplace « ne rien faire avant le 19/11 »)
 La rotation des formats (carrousels et 3e vidéo) tourne TOUS les jours, dès maintenant. Seuls les clips de streamers attendent la sortie du jeu, le 19/11. Chaque matin, la tâche programme les publications du lendemain. Elle n'attend jamais de validation.
+
+## Zéro carrousel pour le moment (décision du 17/11, remplace tout ce qui concerne les carrousels)
+Les carrousels font 0 vue sur Instagram comme sur TikTok, alors que les vidéos sont poussées. Tant que le compte a peu d'abonnés :
+- Chaque « carrousel » de la rotation est produit en slides avec make_carousel.py, puis converti en VIDÉO diaporama 9:16 avec `tools/make_slideshow.py OUT.mp4 <musique outrun ou heist> <bpm> slides...` (6 temps par slide, environ 3 s).
+- Il est publié en vidéo : en Reel sur Instagram à 10:00, en vidéo sur TikTok à 13:00 via Zernio, et en Short sur YouTube à 14:00.
+- Ne JAMAIS publier en `type: "post"` ni en `mediaType: "photo"`.
