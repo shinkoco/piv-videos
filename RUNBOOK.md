@@ -123,3 +123,12 @@ Chaque jour, par compte : clips A et B (horaires inchangés) + 1 carrousel (TikT
 TikTok bloque la distribution des posts publiés via l'API sur ce compte : 0 vue, et « ajouter à la story » indisponible, pour la vidéo J-3 comme pour le carrousel.
 - TOUS les posts TikTok (clips, carrousels, 3e vidéo) partent avec `schedulingType: "notification"` : Mathieu reçoit un rappel et publie lui-même depuis l'appli, en ajoutant un son tendance.
 - Cette règle remplace « automatique à partir du 19/11 ». Instagram et YouTube restent automatiques.
+
+## TikTok via Zernio (décision du 17/11, remplace les sections TikTok précédentes)
+TikTok ne passe PLUS par Buffer, il passe par Zernio, compte PIV `6afc525031be0a779a30b36e`. Buffer garde Instagram (`6afb16d7ece6dfde5fe51faf`) et YouTube PIV (`6afa0f34ece6dfde5fd78fb8`).
+Publication automatique via `call_tool posts_create_post` :
+- Vidéo : `media_items` contient 1 vidéo (URL raw GitHub). Mettre `scheduled_for` en heure locale avec `timezone` "Europe/Paris", et `platforms` = [{platform: "tiktok", accountId: "6afc525031be0a779a30b36e"}].
+- `tiktok_settings` : `{"privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": true, "allowDuet": true, "allowStitch": true, "contentPreviewConfirmed": true, "expressConsentGiven": true, "videoCoverTimestampMs": <frame du grand J-x ou du pic>}`
+- Carrousel : `media_items` contient les images, avec `tiktok_settings.mediaType` "photo", `autoAddMusic` true et `description` = la légende complète. `content` ≤ 90 caractères : c'est le titre.
+- Limites : 15 vidéos et 15 photos par jour et par compte. Ne jamais mettre de `draft` sauf si Mathieu le demande.
+- Le compte Tamko TikTok (`6af7635df038e4d78c1b8569`) est sur le même Zernio : ne JAMAIS publier dessus depuis cette tâche.
