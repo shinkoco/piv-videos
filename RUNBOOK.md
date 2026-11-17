@@ -132,3 +132,6 @@ Publication automatique via `call_tool posts_create_post` :
 - Carrousel : `media_items` contient les images, avec `tiktok_settings.mediaType` "photo", `autoAddMusic` true et `description` = la légende complète. `content` ≤ 90 caractères : c'est le titre.
 - Limites : 15 vidéos et 15 photos par jour et par compte. Ne jamais mettre de `draft` sauf si Mathieu le demande.
 - Le compte Tamko TikTok (`6af7635df038e4d78c1b8569`) est sur le même Zernio : ne JAMAIS publier dessus depuis cette tâche.
+
+## Déjà programmé (ne pas refaire)
+- Samedi 21/11 : la 3e vidéo est DÉJÀ programmée (montage « Bienvenue à Vice City », clips/2026-11-21/vc_welcome.mp4) sur YouTube 12:00, TikTok 18:00 et Instagram 20:00. Ce jour-là, ne pas produire de 3e vidéo.
