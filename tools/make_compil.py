@@ -121,11 +121,22 @@ hookass = os.path.join(tmp, "hook.ass")
 open(hookass, "w").write(HEAD.replace("Style: Num", f"Style: Hook,{FONT},74,&H00111111,&H00111111,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,16,0,8,130,150,{150 if LAYOUT=='split' else 230},1\nStyle: WM,{FONT},46,&H8CFFFFFF,&H8CFFFFFF,&HB4000000,&H00000000,1,0,0,0,100,100,1,0,1,2.5,0,5,0,0,0,1\nStyle: Num") +
     f"Dialogue: 0,{ts(0)},{ts(D - 3)},Hook,,0,0,0,,{esc(HOOK)}\n"
     f"Dialogue: 0,{ts(0)},{ts(D - 3)},WM,,0,0,0,,{{\\pos({W//2},{FY + int(FH*0.78)})}}@partnersinvicefr\n")
-run(["ffmpeg", "-v", "error", "-y", "-i", joined,
-     "-f", "lavfi", "-i", f"color=c=0xFF7A45:s={W}x12:r=30",
-     "-filter_complex",
-     f"[0:v]subtitles={hookass},drawbox=x=0:y={BARY}:w={W}:h=12:color=black@0.5:t=fill[base];"
-     f"[base][1:v]overlay=x='-{W}+{W}*t/{D:.2f}':y={BARY}:shortest=1[v]",
-     "-map", "[v]", "-map", "0:a",
-     "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "copy", OUT])
+HERE = os.path.dirname(os.path.abspath(__file__))
+MUSIC = spec.get("music", os.path.join(HERE, "music_outrun.wav"))  # null = no music (streamer already has music)
+LVL = float(spec.get("music_level", 0.13))
+vf = (f"[0:v]subtitles={hookass},drawbox=x=0:y={BARY}:w={W}:h=12:color=black@0.5:t=fill[base];"
+      f"[base][1:v]overlay=x='-{W}+{W}*t/{D:.2f}':y={BARY}:shortest=1[v]")
+cmd = ["ffmpeg", "-v", "error", "-y", "-i", joined, "-f", "lavfi", "-i", f"color=c=0xFF7A45:s={W}x12:r=30"]
+if MUSIC:
+    cmd += ["-stream_loop", "-1", "-i", MUSIC]
+    af = (f"[0:a]asplit=2[voice][key];"
+          f"[2:a]atrim=0:{D:.2f},asetpts=PTS-STARTPTS,volume='if(gte(t,{D-3:.2f}),0.9,{LVL})':eval=frame,"
+          f"afade=t=in:d=0.6,afade=t=out:st={D-1.2:.2f}:d=1.2[mus];"
+          f"[mus][key]sidechaincompress=threshold=0.02:ratio=10:attack=15:release=450:makeup=1[duck];"
+          f"[voice][duck]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.95[a]")
+    cmd += ["-filter_complex", vf + ";" + af, "-map", "[v]", "-map", "[a]", "-c:a", "aac", "-b:a", "192k"]
+else:
+    cmd += ["-filter_complex", vf, "-map", "[v]", "-map", "0:a", "-c:a", "copy"]
+cmd += ["-c:v", "libx264", "-preset", "veryfast", "-crf", "21", OUT]
+run(cmd)
 print("OK", round(D, 1), "s ->", OUT)

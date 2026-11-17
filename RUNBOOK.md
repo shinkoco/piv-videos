@@ -73,6 +73,15 @@ Les vidéos sont hébergées dans ce dépôt public (`clips/AAAA-MM-JJ/…mp4`),
 - **Hashtags** (4–5, pas de #fyp ni #pourtoi) : 2 larges `#gta6 #gtavi`, 1 FR `#gta6fr`, 1 streamer `#<login>`,
   1 lieu/thème du moment si pertinent (`#vicecity #leonida #police #course`…). YouTube : mêmes hashtags en fin de description.
 
+## Musique de fond des clips (validé le 17/11/2026)
+- `make_compil.py` ajoute automatiquement notre musique Outrun (tools/music_outrun.wav) à ~13 % du volume,
+  baissée automatiquement quand le streamer parle (sidechain), et à plein volume sur l'écran de fin.
+- Si le stream contient déjà de la musique (audible pendant les moments choisis) : mettre `"music": null` dans le spec.
+- Option `"music": "tools/music_heist.wav"` pour varier. Jamais de musique sous droits.
+
+## Publication TikTok
+- Jusqu'au 18/11 inclus : TikTok en mode notification (publication manuelle par Mathieu). À partir du 19/11 : tout en automatique.
+
 ## Design (validé le 15/11/2026)
 - Titre en bulle blanche, texte noir, en haut. Numéros #3 #2 #1 orange. Bulle de contexte violette.
 - Sous-titres FR mot par mot (jaune). Zoom + flash + mot de réaction au pic.
