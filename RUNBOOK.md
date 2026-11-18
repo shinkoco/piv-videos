@@ -184,7 +184,7 @@ Source : VidIQ, recherches en France. Chaque post combine 1 tag CŒUR, 2 tags TH
   - Actu et infos : #gta6news, #gta6infos, #rockstargames
   - Consoles et tech : #gta6ps5, #ps5, #xboxseries, #gta630fps
 - NICHE (génériques jeu vidéo, à alterner) : #gaming, #jeuxvidéo, #gamingfr, #ps5, #xboxseriesx, #easteregg (uniquement pour un vrai easter egg), #jeuxvideofr
-  - YouTube Shorts : ajouter aussi #shorts.
+  - JAMAIS #shorts, ni en hashtag ni dans les légendes ou les titres (inutile en 2026).
   - Tags YouTube génériques : « jeux vidéo », « gaming », « gameplay », « ps5 », « xbox series x », « easter egg » (si pertinent).
 - Titres YouTube et légendes : placer naturellement un mot-clé fort (« GTA 6 », « GTA 6 gameplay », « Vice City », « Lucia », « carte de Leonida », « GTA 6 en français »), sans bourrage.
 - YouTube : tags vidéo = les mêmes mots-clés sans #, plus « gta 6 fr » et « gta 6 français ».
