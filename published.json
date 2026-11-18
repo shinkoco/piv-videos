@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "date": "2026-11-19",
+  "type": "carrousel_diaporama",
+  "theme": "vrai_ou_faux",
+  "file": "clips/2026-11-19/vf1.mp4",
+  "music": "heist",
+  "bpm": 108,
+  "posts": {
+   "instagram_10:00": "6afd3b8abb12698d159e35f6",
+   "tiktok_13:00": "6afd3b74dc591d6dc47080c4",
+   "youtube_14:00": "6afd3b8aaa3b065dd9771e65"
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "type": "video_3e",
+  "theme": "vrai_ou_faux_video",
+  "file": "clips/2026-11-19/vf2.mp4",
+  "music": "outrun",
+  "bpm": 118,
+  "posts": {
+   "youtube_12:00": "6afd3b8b9f3765f6ab35222d",
+   "tiktok_18:00": "6afd3b88dc591d6dc4708128",
+   "instagram_20:00": "6afd3b8c9f3765f6ab3522ad"
+  }
+ }
+]
