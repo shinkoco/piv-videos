@@ -41,10 +41,10 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,{FONT},78,&H00FFFFFF,&H0045C8FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,7,0,8,110,150,{CAPY},1
-Style: Ctx,{FONT},56,&H00FFFFFF,&H00FFFFFF,&H003A0B1C,&HCC3A0B1C,1,0,0,0,100,100,0,0,3,18,0,8,120,150,{CTXY},1
-Style: Num,{FONT},120,&H00457AFF,&H00457AFF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,8,0,7,70,50,{NUMY},1
-Style: React,{FONT},130,&H00FFFFFF,&H00FFFFFF,&H007E2AA0,&H00000000,1,0,0,0,100,100,0,0,1,10,0,5,40,40,0,1
+Style: Cap,{FONT},78,&H00FFFFFF,&H00A83DFF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,7,0,8,110,150,{CAPY},1
+Style: Ctx,{FONT},56,&H00FFFFFF,&H00FFFFFF,&H003C0A1B,&HCC3C0A1B,1,0,0,0,100,100,0,0,3,18,0,8,120,150,{CTXY},1
+Style: Num,{FONT},120,&H009E2EE5,&H009E2EE5,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,8,0,7,70,50,{NUMY},1
+Style: React,{FONT},130,&H00FFFFFF,&H00FFFFFF,&H00E43F7B,&H00000000,1,0,0,0,100,100,0,0,1,10,0,5,40,40,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -114,19 +114,22 @@ run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c
 D = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", joined],
                          capture_output=True, text=True).stdout)
 hookass = os.path.join(tmp, "hook.ass")
-open(hookass, "w").write(HEAD.replace("Style: Num", f"Style: Hook,{FONT},74,&H00111111,&H00111111,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,16,0,8,130,150,{150 if LAYOUT=='split' else 230},1\nStyle: WM,{FONT},46,&H8CFFFFFF,&H8CFFFFFF,&HB4000000,&H00000000,1,0,0,0,100,100,1,0,1,2.5,0,5,0,0,0,1\nStyle: Num") +
-    f"Dialogue: 0,{ts(0)},{ts(D - 3)},Hook,,0,0,0,,{esc(HOOK)}\n"
+open(hookass, "w").write(HEAD.replace("Style: Num", f"Style: Hook,{FONT},74,&H00E43F7B,&H00E43F7B,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,3,16,0,8,130,150,{150 if LAYOUT=='split' else 230},1\nStyle: WM,{FONT},46,&H8CFFFFFF,&H8CFFFFFF,&HB4000000,&H00000000,1,0,0,0,100,100,1,0,1,2.5,0,5,0,0,0,1\nStyle: Num") +
     f"Dialogue: 0,{ts(0)},{ts(D - 3)},WM,,0,0,0,,{{\\pos({W//2},{FY + int(FH*0.78)})}}@partnersinvicefr\n")
 HERE = os.path.dirname(os.path.abspath(__file__))
 MUSIC = spec.get("music", os.path.join(HERE, "music_outrun.wav"))  # null = no music (streamer already has music)
 LVL = float(spec.get("music_level", 0.13))
-vf = (f"[0:v]subtitles={hookass},drawbox=x=0:y={BARY}:w={W}:h=12:color=black@0.5:t=fill[base];"
+hookpng = os.path.join(tmp, "hook.png")
+run(["python3", os.path.join(HERE, "title_png.py"), HOOK, hookpng, "900"])
+HY = 120 if LAYOUT == 'split' else 200
+vf = (f"[0:v]subtitles={hookass},drawbox=x=0:y={BARY}:w={W}:h=12:color=black@0.5:t=fill[b0];"
+      f"[b0][2:v]overlay=x=(W-w)/2:y={HY}:enable='lt(t,{D-3:.2f})'[base];"
       f"[base][1:v]overlay=x='-{W}+{W}*t/{D:.2f}':y={BARY}:shortest=1[v]")
-cmd = ["ffmpeg", "-v", "error", "-y", "-i", joined, "-f", "lavfi", "-i", f"color=c=0xFF7A45:s={W}x12:r=30"]
+cmd = ["ffmpeg", "-v", "error", "-y", "-i", joined, "-f", "lavfi", "-i", f"color=c=0xE52E9E:s={W}x12:r=30", "-i", hookpng]
 if MUSIC:
     cmd += ["-stream_loop", "-1", "-i", MUSIC]
     af = (f"[0:a]asplit=2[voice][key];"
-          f"[2:a]atrim=0:{D:.2f},asetpts=PTS-STARTPTS,volume='if(gte(t,{D-3:.2f}),0.9,{LVL})':eval=frame,"
+          f"[3:a]atrim=0:{D:.2f},asetpts=PTS-STARTPTS,volume='if(gte(t,{D-3:.2f}),0.9,{LVL})':eval=frame,"
           f"afade=t=in:d=0.6,afade=t=out:st={D-1.2:.2f}:d=1.2[mus];"
           f"[mus][key]sidechaincompress=threshold=0.02:ratio=10:attack=15:release=450:makeup=1[duck];"
           f"[voice][duck]amix=inputs=2:normalize=0:duration=first,alimiter=limit=0.95[a]")
