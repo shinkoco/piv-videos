@@ -192,3 +192,7 @@ Source : VidIQ, recherches en France. Chaque post combine 1 tag CŒUR, 2 tags TH
 
 ## Emojis sur les clips (18/11)
 Au moment fort, 2 emojis apparaissent de part et d'autre du mot-réaction : ils montent doucement en se balançant pendant environ 1,3 s. Dans spec.json, le champ optionnel `"emojis": ["🔥","😱"]` de chaque moment les choisit selon l'ambiance (🔥 action, 😱 surprise, 💀 échec, 😂 drôle, 🚨 police, 💥 crash, 😳 gênant). Sans ce champ, make_compil fait tourner des paires par défaut. Le rendu est local, donc gratuit.
+
+## Priorité aux streamers FR (18/11)
+Clips A et B : piocher d'abord parmi les streamers français de streamers.json (Squeezie, ZeratoR, Gotaga, Inoxtag, Michou, Kameto, Doigby, etc.). Les streamers US ne servent qu'en secours, si aucun moment FR assez fort n'est trouvé dans les dernières 24 h. Pour les VOD réservées aux abonnés, passer par clips.py (clips publics Twitch).
+En cas d'échec d'une étape : ne jamais publier un clip à moitié fini, passer au moment ou au streamer suivant, et le signaler dans le récap.
