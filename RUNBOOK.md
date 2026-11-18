@@ -189,3 +189,6 @@ Source : VidIQ, recherches en France. Chaque post combine 1 tag CŒUR, 2 tags TH
 - Titres YouTube et légendes : placer naturellement un mot-clé fort (« GTA 6 », « GTA 6 gameplay », « Vice City », « Lucia », « carte de Leonida », « GTA 6 en français »), sans bourrage.
 - YouTube : tags vidéo = les mêmes mots-clés sans #, plus « gta 6 fr » et « gta 6 français ».
 - Hors sujet, à éviter : « gta 6 south park », « gta 6 edge », « gta 6 leaks » (risque d'infos non vérifiées).
+
+## Emojis sur les clips (18/11)
+Au moment fort, 2 emojis apparaissent de part et d'autre du mot-réaction : ils montent doucement en se balançant pendant environ 1,3 s. Dans spec.json, le champ optionnel `"emojis": ["🔥","😱"]` de chaque moment les choisit selon l'ambiance (🔥 action, 😱 surprise, 💀 échec, 😂 drôle, 🚨 police, 💥 crash, 😳 gênant). Sans ce champ, make_compil fait tourner des paires par défaut. Le rendu est local, donc gratuit.

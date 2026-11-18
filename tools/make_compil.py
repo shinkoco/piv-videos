@@ -50,6 +50,7 @@ Style: React,{FONT},130,&H00FFFFFF,&H00FFFFFF,&H00E43F7B,&H00000000,1,0,0,0,100,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
 
+EMOJI_SETS = [["🔥", "😱"], ["💀", "😂"], ["🚨", "🔥"], ["😳", "💥"], ["🤣", "💀"]]
 parts = []
 for i, m in enumerate(spec["moments"]):
     a, b = m["start"], m["end"]
@@ -92,7 +93,21 @@ for i, m in enumerate(spec["moments"]):
               f"[bg][fg]overlay=0:{FY},"
               f"drawbox=x=0:y={FY}:w={W}:h={FH}:color=white@0.55:t=fill:enable='between(t,{p:.2f},{p+0.12:.2f})',"
               f"subtitles={assf}[v]")
-    run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-t", str(d), "-i", m.get("src", SRC),
+    # emojis autour du mot-réaction (gratuit : rendu local)
+    EMO = m.get("emojis") or EMOJI_SETS[i % len(EMOJI_SETS)]
+    ey = FY + (int(FH*0.55) if LAYOUT == "split" else FH//2) - 85
+    extra_in, chain = [], "[s0]"
+    fc = fc.replace(f"subtitles={assf}[v]", f"subtitles={assf}[s0]")
+    for j, (emo, ex) in enumerate(zip(EMO[:2], [90, W - 260])):
+        ep = os.path.join(tmp, f"e{i}_{j}.png")
+        run(["python3", os.path.join(os.path.dirname(os.path.abspath(__file__)), "emoji_png.py"), emo, ep, "170"])
+        extra_in += ["-loop", "1", "-i", ep]
+        t0 = p + 0.08 * j
+        nxt = "[v]" if j == min(len(EMO), 2) - 1 else f"[s{j+1}]"
+        fc += (f";[{j+1}:v]format=rgba,rotate='{(-0.25 if j == 0 else 0.25)}*sin(2*PI*t)':c=none:ow=rotw(0.3):oh=roth(0.3)[em{j}];"
+               f"{chain}[em{j}]overlay=x={ex}:y='{ey}-70*max(0,t-{t0:.2f})':enable='between(t,{t0:.2f},{t0+1.3:.2f})':shortest=1{nxt}")
+        chain = nxt
+    run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-t", str(d), "-i", m.get("src", SRC), *extra_in,
          "-filter_complex", fc, "-map", "[v]", "-map", "0:a",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-ar", "48000", "-ac", "2", seg])
     parts.append(seg)
