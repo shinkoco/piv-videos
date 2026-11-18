@@ -173,7 +173,7 @@ Vérifier ensuite que `ffmpeg` est présent (sinon : `apt-get install -y -q ffmp
 - Choix V2 (18/11) : texte du titre en dégradé violet → rose dans la pastille blanche (géré par title_png.py), grand chiffre en blanc. Fin de vidéo générée par tools/endcard.py (utilisée automatiquement par make_montage et make_compil).
 
 ## Mots-clés et hashtags (VidIQ, 18/11) : rotation obligatoire
-Source : VidIQ, recherches en France. Chaque post combine 1 tag CŒUR, 2 tags THÈME (selon le contenu) et 1 à 2 tags FR, soit 4 à 5 au total, jamais le même assortiment deux fois de suite.
+Source : VidIQ, recherches en France. Chaque post combine 1 tag CŒUR, 2 tags THÈME (selon le contenu), 1 tag FR et 1 tag NICHE, soit 5 au total, jamais le même assortiment deux fois de suite.
 - CŒUR (gros volume, à alterner) : #gta6, #gtavi, #gta6gameplay, #grandtheftauto6
 - FR (moins de concurrence, notre cible) : #gta6fr, #gta6français, #gta6infos, #gta6nouveautés
 - THÈMES, selon le contenu :
@@ -183,6 +183,9 @@ Source : VidIQ, recherches en France. Chaque post combine 1 tag CŒUR, 2 tags TH
   - Voitures : #gta6cars
   - Actu et infos : #gta6news, #gta6infos, #rockstargames
   - Consoles et tech : #gta6ps5, #ps5, #xboxseries, #gta630fps
+- NICHE (génériques jeu vidéo, à alterner) : #gaming, #jeuxvidéo, #gamingfr, #ps5, #xboxseriesx, #easteregg (uniquement pour un vrai easter egg), #jeuxvideofr
+  - YouTube Shorts : ajouter aussi #shorts.
+  - Tags YouTube génériques : « jeux vidéo », « gaming », « gameplay », « ps5 », « xbox series x », « easter egg » (si pertinent).
 - Titres YouTube et légendes : placer naturellement un mot-clé fort (« GTA 6 », « GTA 6 gameplay », « Vice City », « Lucia », « carte de Leonida », « GTA 6 en français »), sans bourrage.
 - YouTube : tags vidéo = les mêmes mots-clés sans #, plus « gta 6 fr » et « gta 6 français ».
 - Hors sujet, à éviter : « gta 6 south park », « gta 6 edge », « gta 6 leaks » (risque d'infos non vérifiées).
