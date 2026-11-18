@@ -151,3 +151,16 @@ On a 2 musiques : Outrun (118 bpm) et Heist (108 bpm). Jamais de phonk.
 - Pour ne pas réutiliser exactement le même morceau, générer une variante avec `python3 tools/music.py outrun|heist OUT.wav <durée> <seed>`, avec seed = la date du jour au format AAAAMMJJ plus le numéro de la vidéo.
 - Passer le bon bpm aux outils : 118 pour Outrun, 108 pour Heist.
 - Noter le style utilisé dans published.json.
+
+## Installation au démarrage de chaque exécution (OBLIGATOIRE, 18/11)
+L'environnement de la tâche repart de zéro à chaque exécution. Avant toute chose, lancer :
+`pip install --break-system-packages -q yt-dlp faster-whisper numpy pillow`
+Vérifier ensuite que `ffmpeg` est présent (sinon : `apt-get install -y -q ffmpeg`). Ne JAMAIS sauter les clips parce qu'un outil manque : l'installer.
+
+## Calendrier : clips du jour J, rotation du lendemain (18/11)
+- Clips de streamers A et B : pour le JOUR MÊME (horaires du runbook, de TikTok 08:00 à TikTok 21:00). Ils sont faits à partir des streams GTA 6 des dernières 24 h. Si un créneau est déjà passé ou à moins de 20 min, le décaler au prochain créneau libre du jour.
+- Rotation (diaporama et 3e vidéo) : programmée pour le LENDEMAIN.
+
+## Stats
+- TikTok PIV : `call_tool posts_list_posts` avec `account_id` "6afc525031be0a779a30b36e" et `status` "published", puis `analytics_get_analytics` pour chaque post. Ne pas filtrer sur le profil : les deux comptes TikTok partagent le même profil Zernio.
+- Les stats Buffer peuvent avoir jusqu'à 24 h de retard : l'indiquer dans le récap si tout est à 0.
