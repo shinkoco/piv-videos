@@ -164,3 +164,10 @@ Vérifier ensuite que `ffmpeg` est présent (sinon : `apt-get install -y -q ffmp
 ## Stats
 - TikTok PIV : `call_tool posts_list_posts` avec `account_id` "6afc525031be0a779a30b36e" et `status` "published", puis `analytics_get_analytics` pour chaque post. Ne pas filtrer sur le profil : les deux comptes TikTok partagent le même profil Zernio.
 - Les stats Buffer peuvent avoir jusqu'à 24 h de retard : l'indiquer dans le récap si tout est à 0.
+
+## Charte graphique v2 (18/11, à appliquer à toutes les vidéos)
+- Police : Inter Display uniquement (Black pour les titres et chiffres, Bold ou SemiBold pour le reste). Aucune police script ou fantaisie.
+- Couleurs (nouvel avatar) : violet profond #1B0A3C, violet #7B3FE4, magenta #E52E9E, rose #FF3DA8. Dégradé = violet → magenta → rose.
+- Titre (hook) : pastille blanche arrondie avec une ombre douce, texte Inter Display Black.
+- Fin de vidéo : fond violet profond, avatar `tools/avatar_v2.png` en rond au centre, puis une pastille blanche « Abonne-toi pour la suite ». Ne JAMAIS écrire « Partners in Vice » en texte.
+- Style du grand chiffre et de la couleur du titre : en attente du choix de Mathieu (V1 ou V2).
