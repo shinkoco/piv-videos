@@ -170,4 +170,4 @@ Vérifier ensuite que `ffmpeg` est présent (sinon : `apt-get install -y -q ffmp
 - Couleurs (nouvel avatar) : violet profond #1B0A3C, violet #7B3FE4, magenta #E52E9E, rose #FF3DA8. Dégradé = violet → magenta → rose.
 - Titre (hook) : pastille blanche arrondie avec une ombre douce, texte Inter Display Black.
 - Fin de vidéo : fond violet profond, avatar `tools/avatar_v2.png` en rond au centre, puis une pastille blanche « Abonne-toi pour la suite ». Ne JAMAIS écrire « Partners in Vice » en texte.
-- Style du grand chiffre et de la couleur du titre : en attente du choix de Mathieu (V1 ou V2).
+- Choix V2 (18/11) : texte du titre en dégradé violet → rose dans la pastille blanche (géré par title_png.py), grand chiffre en blanc. Fin de vidéo générée par tools/endcard.py (utilisée automatiquement par make_montage et make_compil).

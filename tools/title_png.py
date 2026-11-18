@@ -48,6 +48,7 @@ LH, PADX, PADY = 104, 34, 16
 W = int(max(width(l) for l in lines) + 2 * PADX)
 H = LH * len(lines) + 2 * PADY
 img = Image.new("RGBA", (W + 20, H + 20), (0, 0, 0, 0))
+tmask = Image.new("L", img.size, 0); tm = ImageDraw.Draw(tmask)
 d = ImageDraw.Draw(img)
 for i, l in enumerate(lines):
     lw = width(l)
@@ -68,7 +69,15 @@ for i, l in enumerate(lines):
                 img.alpha_composite(g, (int(x + 3), int(y0 + (LH - g.height) / 2 - 4)))
                 x += g.width + 6
         else:
-            d.text((x, y0 + 4), r, font=font, fill=(17, 17, 17, 255))
+            tm.text((x, y0 + 4), r, font=font, fill=255)
             x += font.getlength(r)
+# charte v2 : texte en dégradé violet -> magenta -> rose
+import numpy as np
+cols = [(123, 63, 228), (229, 46, 158), (255, 61, 168)]
+g = np.zeros((img.height, img.width, 3), np.uint8)
+for i in range(img.width):
+    t = i / max(1, img.width - 1); k = min(int(t * 2), 1); u = t * 2 - k
+    g[:, i] = [int(cols[k][j] * (1 - u) + cols[k + 1][j] * u) for j in range(3)]
+img.paste(Image.fromarray(g).convert("RGBA"), (0, 0), tmask)
 img.save(out)
 print(out, img.size)

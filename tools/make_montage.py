@@ -64,15 +64,12 @@ for i, lab in enumerate(labels):
 assf = os.path.join(tmp, "m.ass")
 open(assf, "w").write(ass)
 
-# end card
-endass = os.path.join(tmp, "end.ass")
-open(endass, "w").write(ass.split("[Events]")[0] + "[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n"
-    f"Dialogue: 0,{ts(0)},{ts(3)},End,,0,0,0,,{{\\pos({W//2},1330)\\an8\\fad(200,0)}}Abonne-toi pour la suite\n"
-    f"Dialogue: 0,{ts(0.3)},{ts(3)},End,,0,0,0,,{{\\pos({W//2},1405)\\an8\\fs52\\fad(200,0)}}@partnersinvicefr\n")
+# end card (charte v2)
+endpng = os.path.join(tmp, "end.png")
+run(["python3", os.path.join(os.path.dirname(os.path.abspath(__file__)), "endcard.py"), endpng])
 endv = os.path.join(tmp, "end.mp4")
-run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"color=c=0x120626:s={W}x{H}:r={FPS}:d=3", "-loop", "1", "-i", spec["avatar"],
-     "-filter_complex", f"[1:v]scale=560:560,format=rgba,geq=lum='p(X,Y)':a='if(lt(hypot(X-280,Y-280),280),255,0)'[av];[0:v][av]overlay=(W-w)/2:620,subtitles={endass},format=yuv420p[v]",
-     "-map", "[v]", "-t", "3", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", endv])
+run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-framerate", str(FPS), "-i", endpng, "-vf", "fade=in:st=0:d=0.25,format=yuv420p",
+     "-t", "3", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", endv])
 
 withtxt = os.path.join(tmp, "txt.mp4")
 run(["ffmpeg", "-v", "error", "-y", "-i", body, "-vf", f"subtitles={assf}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", withtxt])

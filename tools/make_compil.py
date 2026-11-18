@@ -97,18 +97,14 @@ for i, m in enumerate(spec["moments"]):
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-ar", "48000", "-ac", "2", seg])
     parts.append(seg)
 
-# end card
-endass = os.path.join(tmp, "end.ass")
-open(endass, "w").write(HEAD +
-    f"Dialogue: 0,{ts(0)},{ts(3)},Cap,,0,0,0,,{{\\pos({W//2},1330)\\an8\\fad(200,0)}}Abonne-toi pour la suite\n"
-    f"Dialogue: 0,{ts(0.3)},{ts(3)},Ctx,,0,0,0,,{{\\pos({W//2},1470)\\an8\\fad(200,0)}}@partnersinvicefr\n")
+# end card (charte v2)
+endpng = os.path.join(tmp, "end.png")
+run(["python3", os.path.join(os.path.dirname(os.path.abspath(__file__)), "endcard.py"), endpng])
 endseg = os.path.join(tmp, "end.mp4")
-run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"color=c=0x120626:s={W}x{H}:r=30:d=3",
-     "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo", "-loop", "1", "-i", AVATAR,
-     "-filter_complex", f"[2:v]scale=560:560,format=rgba,geq=lum='p(X,Y)':a='if(lt(hypot(X-280,Y-280),280),255,0)'[av];"
-                        f"[0:v][av]overlay=(W-w)/2:620,subtitles={endass}[v]",
-     "-map", "[v]", "-map", "1:a", "-t", "3", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
-     "-c:a", "aac", "-ar", "48000", "-ac", "2", endseg])
+run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-framerate", "30", "-i", endpng,
+     "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
+     "-vf", "fade=in:st=0:d=0.25,format=yuv420p", "-map", "0:v", "-map", "1:a", "-t", "3",
+     "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-ar", "48000", "-ac", "2", endseg])
 parts.append(endseg)
 
 lst = os.path.join(tmp, "list.txt")
