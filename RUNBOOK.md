@@ -196,3 +196,14 @@ Au moment fort, 2 emojis apparaissent de part et d'autre du mot-réaction : ils 
 ## Priorité aux streamers FR (18/11)
 Clips A et B : piocher d'abord parmi les streamers français de streamers.json (Squeezie, ZeratoR, Gotaga, Inoxtag, Michou, Kameto, Doigby, etc.). Les streamers US ne servent qu'en secours, si aucun moment FR assez fort n'est trouvé dans les dernières 24 h. Pour les VOD réservées aux abonnés, passer par clips.py (clips publics Twitch).
 En cas d'échec d'une étape : ne jamais publier un clip à moitié fini, passer au moment ou au streamer suivant, et le signaler dans le récap.
+
+## Musiques : 7 styles en rotation (18/11, remplace la règle des 2 musiques)
+Styles validés par Mathieu, tous générés par `tools/music.py STYLE OUT.wav DURÉE SEED` (originaux, sans droits) :
+- outrun (118 bpm) : synthwave pumping, polyvalent
+- heist (108 bpm) : sombre, gros snare, braquages et tension
+- sunset (104 bpm) : synthwave lumineuse en arpèges, le style préféré de Mathieu, à utiliser souvent
+- miami (92 bpm) : planant, pour les montages et diaporamas
+- drive (140 bpm) : rapide, pour l'action et les poursuites
+- funk (112 bpm) : groove années 80, pour les moments drôles
+- tension (88 bpm) : suspense, pour les vrai ou faux et les moments tendus
+Règles : choisir selon l'ambiance, jamais le même style deux vidéos de suite (vérifier le champ "music" de published.json), toujours un seed unique (date + numéro de la vidéo), passer le bon bpm aux outils. phonk est INTERDIT.
