@@ -252,3 +252,6 @@ Les faits : sur la chaîne PIV, YouTube refuse le 3e Short dans une fenêtre de 
 - Déjà programmés : 20/11 14:30 nos1 · 21/11 14:30 vc_welcome · 22/11 14:30 squeezie1 → le clip A du jour va à 20:00, le clip B ne va pas sur YouTube ces jours-là.
 - Chaque matin, replanifier tout post YouTube en erreur sur le prochain créneau libre.
 - Si la limite augmente (aucune erreur 7 jours de suite), tester 3 créneaux : 12:00, 16:30, 21:00.
+
+## TikTok : pas d'URL dans les légendes (19/11)
+Sur TikTok, ne JAMAIS mettre d'URL (twitch.tv/…) dans la légende : liens non cliquables et suspectés de freiner la diffusion. Crédit en texte seul : « 🎥 JLTomy en live sur Twitch ». Les URL restent OK sur YouTube et Instagram.
