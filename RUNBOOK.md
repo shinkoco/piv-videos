@@ -212,3 +212,10 @@ Règles : choisir selon l'ambiance, jamais le même style deux vidéos de suite 
 La tâche n'a pas accès au dépôt studiomgi.github.io. Elle écrit donc le récap du HUB dans `hub/piv.json` de CE dépôt (shinkoco/piv-videos), puis commit et push avec le reste. La page https://studiomgi.github.io lit ce fichier en direct.
 Format : {"updated": "AAAA-MM-JJTHH:MM:00+01:00", "date_label": "Jeudi 19 novembre", "alerts": ["Partners in Vice : …"], "channel": {...}}.
 "channel" reprend le format décrit dans HUB.md : name, headline [début, fin en gras], summary, kpis, followers, today [{time, platform, title, status}], upcoming, trend, engagement, best_time. Partir du fichier existant et le mettre à jour. N'inventer aucun chiffre (null si inconnu).
+
+## Clips C et D, TikTok uniquement (19/11 au 19/12/2026 minimum)
+Pendant le mois de lancement : 4 clips de streamers par jour.
+- Clips A et B : inchangés, sur les 3 plateformes.
+- Clips C et D : TikTok seulement, via Zernio, à 15:00 et 23:00. Ce sont d'autres moments et d'autres streamers que A et B (priorité FR), avec la charte v2, les emojis, une musique différente du clip précédent et 5 hashtags de la rotation.
+- Si les moments forts manquent, ne publier que ce qui est bon : mieux vaut 3 clips qu'un clip faible.
+- Après le 19/12, réévaluer avec Mathieu selon les stats et la consommation d'usage.
