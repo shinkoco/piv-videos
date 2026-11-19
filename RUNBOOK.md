@@ -207,3 +207,8 @@ Styles validés par Mathieu, tous générés par `tools/music.py STYLE OUT.wav D
 - funk (112 bpm) : groove années 80, pour les moments drôles
 - tension (88 bpm) : suspense, pour les vrai ou faux et les moments tendus
 Règles : choisir selon l'ambiance, jamais le même style deux vidéos de suite (vérifier le champ "music" de published.json), toujours un seed unique (date + numéro de la vidéo), passer le bon bpm aux outils. phonk est INTERDIT.
+
+## HUB (19/11) : écrire dans CE dépôt
+La tâche n'a pas accès au dépôt studiomgi.github.io. Elle écrit donc le récap du HUB dans `hub/piv.json` de CE dépôt (shinkoco/piv-videos), puis commit et push avec le reste. La page https://studiomgi.github.io lit ce fichier en direct.
+Format : {"updated": "AAAA-MM-JJTHH:MM:00+01:00", "date_label": "Jeudi 19 novembre", "alerts": ["Partners in Vice : …"], "channel": {...}}.
+"channel" reprend le format décrit dans HUB.md : name, headline [début, fin en gras], summary, kpis, followers, today [{time, platform, title, status}], upcoming, trend, engagement, best_time. Partir du fichier existant et le mettre à jour. N'inventer aucun chiffre (null si inconnu).
