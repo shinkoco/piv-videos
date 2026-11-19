@@ -78,5 +78,37 @@
    "tiktok_13:00": "6afe8dfd69735d4122853686",
    "youtube_14:00": "6afe8e00749099bdc7135b1c"
   }
+ },
+ {
+  "date": "2026-11-19",
+  "type": "clip_C",
+  "streamer": "JLTomy + Kameto",
+  "source": "clips Twitch publics",
+  "file": "clips/2026-11-19/c_police.mp4",
+  "music": "tension",
+  "bpm": 88,
+  "seed": 202611193,
+  "hashtags": {
+   "tiktok": "#gtavi #gta6vicecity #gta6online #gta6français #jeuxvideofr"
+  },
+  "posts": {
+   "tiktok_15:00": "6afeca7a6a716a6ea0aac637"
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "type": "clip_D",
+  "streamer": "Domingo",
+  "source": "clips Twitch publics",
+  "file": "clips/2026-11-19/d_domingo.mp4",
+  "music": "funk",
+  "bpm": 112,
+  "seed": 202611194,
+  "hashtags": {
+   "tiktok": "#gta6gameplay #gaming #leonida #gta6nouveautés #ps5"
+  },
+  "posts": {
+   "tiktok_23:00": "6afeca7b6b841cf2f07638af"
+  }
  }
 ]

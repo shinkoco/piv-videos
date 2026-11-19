@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T08:10:00+01:00",
+  "updated": "2026-11-19T11:10:00+01:00",
   "date_label": "Jeudi 19 novembre",
   "alerts": [],
   "channel": {
@@ -8,7 +8,7 @@
       "Partners in Vice,",
       "premiers clips du lancement."
     ],
-    "summary": "Jour de sortie : 2 clips de streamers FR (Squeezie, Michou) + Vrai ou faux. Demain : diaporama Vice City 2002 contre GTA 6.",
+    "summary": "Jour de sortie : clips A/B (Squeezie, Michou), clips C/D TikTok (JLTomy+Kameto, Domingo) + Vrai ou faux. Demain : diaporama Vice City 2002 contre GTA 6.",
     "kpis": [
       {
         "platform": "TikTok",
@@ -78,6 +78,12 @@
         "status": "programmé"
       },
       {
+        "time": "15:00",
+        "platform": "TikTok",
+        "title": "Clip C · JLTomy + Kameto (police)",
+        "status": "programmé"
+      },
+      {
         "time": "16:00",
         "platform": "YouTube",
         "title": "Clip A · Squeezie",
@@ -111,6 +117,12 @@
         "time": "21:00",
         "platform": "TikTok",
         "title": "Clip B · Michou",
+        "status": "programmé"
+      },
+      {
+        "time": "23:00",
+        "platform": "TikTok",
+        "title": "Clip D · Domingo",
         "status": "programmé"
       }
     ],
