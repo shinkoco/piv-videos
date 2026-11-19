@@ -262,3 +262,6 @@ Constat : 6 posts TikTok le 19/11 sur un compte à 40 abonnés → les derniers 
 - Envoi via Zernio en brouillon : posts_create_post avec publish_now true, tiktok_settings {"draft": true}, le matin (TikTok : 5 brouillons max par 24 h). Mathieu publie à la main depuis sa Boîte de réception TikTok.
 - La légende n'est PAS transmise : l'écrire dans hub/piv.json → channel.drafts [{time, label, caption}] (sans URL, 5 hashtags, jamais #shorts).
 - Les posts TikTok déjà programmés en direct dans Zernio : les supprimer et les renvoyer en brouillon le jour J.
+
+## TikTok : retour en publication AUTO (19/11, 19:05) — remplace le mode brouillon
+Mathieu ne veut pas publier à la main. TikTok repasse en publication directe programmée via Zernio (sans draft), MAIS 3 vidéos/jour max à 12:00, 18:00, 21:00, jamais 2 à moins de 3 h d'écart, légende sans URL. Ne plus remplir channel.drafts (laisser vide).
