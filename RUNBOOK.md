@@ -271,3 +271,4 @@ Erreur d'interprétation : Mathieu veut le mode brouillon (Zernio tiktok_setting
 
 ## Anyme (19/11)
 Ajouté par Mathieu : TikTok @anyme023 (handle confirmé par lui) → à inclure dans la chauffe et dans les créateurs FR à surveiller pour les clips. Twitch NON vérifié : avant tout clip, vérifier si twitch.tv/anyme023 existe et diffuse GTA 6 ; sinon prendre ses vidéos YouTube publiques. Jamais d'URL dans la légende TikTok.
+MAJ 19/11 19:25 : Twitch CONFIRMÉ — twitch.tv/anyme023 diffuse GTA VI (« 5 JOURS NON STOP GTA VI »), VODs accessibles avec yt-dlp. YouTube aussi accessible depuis l'environnement (yt-dlp OK) : les VODs YouTube publiques des streamers FR sont une source valable quand Twitch est en sub-only.
