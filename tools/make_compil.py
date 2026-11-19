@@ -137,9 +137,9 @@ LVL = float(spec.get("music_level", 0.13))
 hookpng = os.path.join(tmp, "hook.png")
 run(["python3", os.path.join(HERE, "title_png.py"), HOOK, hookpng, "900"])
 HY = 120 if LAYOUT == 'split' else 200
-vf = (f"[0:v]subtitles={hookass},drawbox=x=0:y={BARY}:w={W}:h=12:color=black@0.5:t=fill[b0];"
+vf = (f"[0:v]subtitles={hookass},drawbox=x=0:y={BARY}:w={W}:h=12:color=black@0.5:t=fill:enable='lt(t,{D-3:.2f})'[b0];"
       f"[b0][2:v]overlay=x=(W-w)/2:y={HY}:enable='lt(t,{D-3:.2f})'[base];"
-      f"[base][1:v]overlay=x='-{W}+{W}*t/{D:.2f}':y={BARY}:shortest=1[v]")
+      f"[base][1:v]overlay=x='-{W}+{W}*min(1,t/{D-3:.2f})':y={BARY}:enable='lt(t,{D-3:.2f})':shortest=1[v]")
 cmd = ["ffmpeg", "-v", "error", "-y", "-i", joined, "-f", "lavfi", "-i", f"color=c=0xE52E9E:s={W}x12:r=30", "-i", hookpng]
 if MUSIC:
     cmd += ["-stream_loop", "-1", "-i", MUSIC]
