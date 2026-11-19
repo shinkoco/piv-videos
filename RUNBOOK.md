@@ -236,3 +236,11 @@ Buffer gratuit : 10 posts EN ATTENTE max par chaîne (place libérée à chaque 
 ## Chauffe TikTok dans le HUB (19/11)
 Chaque matin, écrire dans hub/piv.json → channel.warmup une liste de 5 éléments {label, url, comment} : liens TikTok directs (pages hashtag tiktok.com/tag/…, recherche tiktok.com/search?q=…, profils de streamers FR du moment tiktok.com/@…), avec un commentaire court, naturel, en français, différent chaque jour. Mathieu les ouvre et agit lui-même : JAMAIS d'automatisation de likes, commentaires ou abonnements.
 Chauffe : n'utiliser QUE des comptes TikTok vérifiés (handle trouvé dans une source fiable : description YouTube officielle, Social Blade). Comptes connus : @michouoff, @sniryt, @chris_klippel. JAMAIS deviner un handle (@michou est un faux compte).
+
+## Réponses aux commentaires TikTok via Zernio (19/11)
+Chaque matin : `comments_list_inbox_comments` (account_id 6afc525031be0a779a30b36e), puis pour chaque post avec commentCount > 0, lire les commentaires et répondre aux nouveaux avec `comments_reply_to_inbox_post` (post_id, account_id, comment_id).
+- Réponses courtes, naturelles, en français, ton pote gamer, 1 emoji max, toujours différentes ; relancer avec une question quand c'est possible.
+- Max 15 réponses par jour. Ignorer spam, insultes, liens, haine (ne pas répondre).
+- Jamais de promesse, jamais de faux, jamais de demande d'abonnement agressive.
+- Noter chaque comment_id traité dans replied_comments.json pour ne jamais répondre deux fois.
+- Instagram et YouTube : pas d'outil de réponse gratuit (Buffer) → ne rien faire.
