@@ -24,5 +24,59 @@
    "tiktok_18:00": "6afd3b88dc591d6dc4708128",
    "instagram_20:00": "6afd3b8c9f3765f6ab3522ad"
   }
+ },
+ {
+  "date": "2026-11-19",
+  "type": "clip_A",
+  "streamer": "Squeezie",
+  "source": "clips Twitch publics",
+  "file": "clips/2026-11-19/squeezie1.mp4",
+  "music": "sunset",
+  "bpm": 104,
+  "seed": 202611191,
+  "hashtags": {
+   "tiktok": "#gta6 #gta6gameplay #gta6ps5 #gta6fr #gamingfr",
+   "instagram": "#gtavi #gta6gameplay #gaming #gta6français #jeuxvidéo",
+   "youtube": "#grandtheftauto6 #gta6ps5 #gta6gameplay #gta6nouveautés #ps5"
+  },
+  "posts": {
+   "tiktok_08:00": "6afe8deae169c9010f3ce867",
+   "instagram_12:30": "6afe8deb59eff0b616e36f69",
+   "youtube_16:00": "6afe8dec3802f5b9fc6ed71f"
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "type": "clip_B",
+  "streamer": "Michou",
+  "source": "clips Twitch publics",
+  "file": "clips/2026-11-19/michou1.mp4",
+  "music": "drive",
+  "bpm": 140,
+  "seed": 202611192,
+  "hashtags": {
+   "tiktok": "#grandtheftauto6 #gta6gameplay #gta6map #gta6fr #jeuxvidéo",
+   "instagram": "#gta6 #vicecity #gta6lucia #gta6infos #jeuxvideofr",
+   "youtube": "#gtavi #gta6vicecity #gta6online #gta6français #xboxseriesx"
+  },
+  "posts": {
+   "instagram_18:00": "6afe8dfe46636f319e8efacf",
+   "youtube_19:00": "6afe8dff3802f5b9fc6ee3c8",
+   "tiktok_21:00": "6afe8dfc69735d4122853680"
+  }
+ },
+ {
+  "date": "2026-11-20",
+  "type": "carrousel_diaporama",
+  "theme": "nostalgie_vice_city",
+  "file": "clips/2026-11-20/nos1.mp4",
+  "music": "miami",
+  "bpm": 92,
+  "seed": 202611201,
+  "posts": {
+   "instagram_10:00": "6afe8dffb16549e9b829b774",
+   "tiktok_13:00": "6afe8dfd69735d4122853686",
+   "youtube_14:00": "6afe8e00749099bdc7135b1c"
+  }
  }
 ]
