@@ -268,3 +268,6 @@ Mathieu ne veut pas publier à la main. TikTok repasse en publication directe pr
 
 ## ANNULE la section précédente (19/11, 19:06) : TikTok reste en BROUILLON
 Erreur d'interprétation : Mathieu veut le mode brouillon (Zernio tiktok_settings draft true, 3/jour à 12:00, 18:00, 21:00, légendes dans hub/piv.json → channel.drafts). Ce qu'il refuse, c'est télécharger la vidéo à la main. Pas de publication directe sur TikTok.
+
+## Anyme (19/11)
+Ajouté par Mathieu : TikTok @anyme023 (handle confirmé par lui) → à inclure dans la chauffe et dans les créateurs FR à surveiller pour les clips. Twitch NON vérifié : avant tout clip, vérifier si twitch.tv/anyme023 existe et diffuse GTA 6 ; sinon prendre ses vidéos YouTube publiques. Jamais d'URL dans la légende TikTok.
