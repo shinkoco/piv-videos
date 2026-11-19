@@ -235,3 +235,4 @@ Buffer gratuit : 10 posts EN ATTENTE max par chaîne (place libérée à chaque 
 
 ## Chauffe TikTok dans le HUB (19/11)
 Chaque matin, écrire dans hub/piv.json → channel.warmup une liste de 5 éléments {label, url, comment} : liens TikTok directs (pages hashtag tiktok.com/tag/…, recherche tiktok.com/search?q=…, profils de streamers FR du moment tiktok.com/@…), avec un commentaire court, naturel, en français, différent chaque jour. Mathieu les ouvre et agit lui-même : JAMAIS d'automatisation de likes, commentaires ou abonnements.
+Chauffe : n'utiliser QUE des comptes TikTok vérifiés (handle trouvé dans une source fiable : description YouTube officielle, Social Blade). Comptes connus : @michouoff, @sniryt, @chris_klippel. JAMAIS deviner un handle (@michou est un faux compte).

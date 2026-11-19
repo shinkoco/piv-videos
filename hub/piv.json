@@ -176,29 +176,29 @@
   "best_time": null,
   "warmup": [
    {
-    "label": "#gta6 : fil des vidéos récentes",
+    "label": "#gta6 : fil des vidéos (1 tap = défile)",
     "url": "https://www.tiktok.com/tag/gta6",
     "comment": "La map a l'air énorme, vous commencez par où ? 🌴"
    },
    {
-    "label": "Recherche « gta 6 fr »",
-    "url": "https://www.tiktok.com/search?q=gta%206%20fr",
-    "comment": "Enfin du GTA 6 en français, merci 🔥"
+    "label": "Michou (@michouoff)",
+    "url": "https://www.tiktok.com/@michouoff",
+    "comment": "Ta course-poursuite avec la police, légendaire 🚓"
+   },
+   {
+    "label": "Snir, GTA FR (@sniryt)",
+    "url": "https://www.tiktok.com/@sniryt",
+    "comment": "Toujours les meilleures infos GTA 6, merci ☕"
+   },
+   {
+    "label": "Chris Klippel, Rockstar Mag (@chris_klippel)",
+    "url": "https://www.tiktok.com/@chris_klippel",
+    "comment": "Le détail que personne n'avait vu 👀"
    },
    {
     "label": "#vicecity",
     "url": "https://www.tiktok.com/tag/vicecity",
     "comment": "Ces néons… Vice City n'a jamais été aussi beau 😍"
-   },
-   {
-    "label": "Squeezie (TikTok)",
-    "url": "https://www.tiktok.com/@squeezie",
-    "comment": "Le live GTA 6 était incroyable 😂"
-   },
-   {
-    "label": "Michou (TikTok)",
-    "url": "https://www.tiktok.com/@michou",
-    "comment": "Ta course-poursuite avec la police, légendaire 🚓"
    }
   ]
  }
