@@ -265,3 +265,6 @@ Constat : 6 posts TikTok le 19/11 sur un compte à 40 abonnés → les derniers 
 
 ## TikTok : retour en publication AUTO (19/11, 19:05) — remplace le mode brouillon
 Mathieu ne veut pas publier à la main. TikTok repasse en publication directe programmée via Zernio (sans draft), MAIS 3 vidéos/jour max à 12:00, 18:00, 21:00, jamais 2 à moins de 3 h d'écart, légende sans URL. Ne plus remplir channel.drafts (laisser vide).
+
+## ANNULE la section précédente (19/11, 19:06) : TikTok reste en BROUILLON
+Erreur d'interprétation : Mathieu veut le mode brouillon (Zernio tiktok_settings draft true, 3/jour à 12:00, 18:00, 21:00, légendes dans hub/piv.json → channel.drafts). Ce qu'il refuse, c'est télécharger la vidéo à la main. Pas de publication directe sur TikTok.
