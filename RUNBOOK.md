@@ -227,3 +227,6 @@ Objectif : ne presque jamais réutiliser les mêmes images.
   1. Visuels officiels Rockstar : captures et artworks de la page GTA VI et du Newswire sur rockstargames.com. Vérifier régulièrement s'il y en a de nouveaux, et les ajouter dans `visuals/rockstar/`.
   2. Images tirées de nos propres clips : les meilleures frames 4K des streams déjà téléchargés (paysages, voitures, scènes fortes), sans webcam ni interface. Les ajouter dans `visuals/frames/`.
 - Interdit : fan art, images d'autres créateurs, captures d'autres comptes de clipping, images IA.
+
+## Limite YouTube via Buffer (19/11)
+Buffer refuse au-delà d'environ 3 posts YouTube par jour et par chaîne (erreur « daily posting limit »). Règle : MAX 3 posts YouTube par jour (clips A et B + au plus 1 diaporama). Les vidéos en trop vont sur un autre jour. Chaque matin, vérifier les posts YouTube en erreur dans Buffer et les replanifier sur un jour qui a moins de 3 posts.
