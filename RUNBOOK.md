@@ -244,3 +244,11 @@ Chaque matin : `comments_list_inbox_comments` (account_id 6afc525031be0a779a30b3
 - Jamais de promesse, jamais de faux, jamais de demande d'abonnement agressive.
 - Noter chaque comment_id traité dans replied_comments.json pour ne jamais répondre deux fois.
 - Instagram et YouTube : pas d'outil de réponse gratuit (Buffer) → ne rien faire.
+
+## YouTube : 2 posts par 24 h GLISSANTES (19/11, constaté)
+Les faits : sur la chaîne PIV, YouTube refuse le 3e Short dans une fenêtre de 24 h glissantes. Règle (remplace « max 3 par jour ») :
+- 2 créneaux YouTube fixes par jour : 14:30 et 20:00 (Paris). Jamais d'autre horaire.
+- Priorité YouTube : clips de streamers (A puis B). Diaporamas sur YouTube seulement si un créneau est libre ; sinon diaporama TikTok + Instagram uniquement.
+- Déjà programmés : 20/11 14:30 nos1 · 21/11 14:30 vc_welcome · 22/11 14:30 squeezie1 → le clip A du jour va à 20:00, le clip B ne va pas sur YouTube ces jours-là.
+- Chaque matin, replanifier tout post YouTube en erreur sur le prochain créneau libre.
+- Si la limite augmente (aucune erreur 7 jours de suite), tester 3 créneaux : 12:00, 16:30, 21:00.
