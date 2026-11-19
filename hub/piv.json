@@ -1,178 +1,205 @@
 {
-  "updated": "2026-11-19T11:10:00+01:00",
-  "date_label": "Jeudi 19 novembre",
-  "alerts": [],
-  "channel": {
-    "name": "Partners in Vice",
-    "headline": [
-      "Partners in Vice,",
-      "premiers clips du lancement."
+ "updated": "2026-11-19T11:10:00+01:00",
+ "date_label": "Jeudi 19 novembre",
+ "alerts": [],
+ "channel": {
+  "name": "Partners in Vice",
+  "headline": [
+   "Partners in Vice,",
+   "premiers clips du lancement."
+  ],
+  "summary": "Jour de sortie : clips A/B (Squeezie, Michou), clips C/D TikTok (JLTomy+Kameto, Domingo) + Vrai ou faux. Demain : diaporama Vice City 2002 contre GTA 6.",
+  "kpis": [
+   {
+    "platform": "TikTok",
+    "label": "Meilleure vidéo",
+    "detail": "J-2, publiée le 17/11",
+    "value": 719,
+    "unit": "vues",
+    "bar": 0.8
+   },
+   {
+    "platform": "Instagram",
+    "label": "Meilleur Reel",
+    "detail": "J-3, publié le 16/11",
+    "value": 131,
+    "unit": "vues",
+    "bar": 0.2
+   },
+   {
+    "platform": "YouTube",
+    "label": "Meilleur Short",
+    "detail": "Stats en attente",
+    "value": null,
+    "unit": "vues",
+    "bar": 0
+   }
+  ],
+  "followers": {
+   "label": "Abonnés TikTok",
+   "value": 5,
+   "goal": 1000
+  },
+  "today": [
+   {
+    "time": "08:00",
+    "platform": "TikTok",
+    "title": "Clip A · Squeezie",
+    "status": "programmé"
+   },
+   {
+    "time": "10:00",
+    "platform": "Instagram",
+    "title": "Vrai ou faux (diaporama)",
+    "status": "programmé"
+   },
+   {
+    "time": "12:00",
+    "platform": "YouTube",
+    "title": "Vrai ou faux : 4 idées reçues",
+    "status": "programmé"
+   },
+   {
+    "time": "12:30",
+    "platform": "Instagram",
+    "title": "Clip A · Squeezie",
+    "status": "programmé"
+   },
+   {
+    "time": "13:00",
+    "platform": "TikTok",
+    "title": "Vrai ou faux (diaporama)",
+    "status": "programmé"
+   },
+   {
+    "time": "14:00",
+    "platform": "YouTube",
+    "title": "Vrai ou faux (diaporama)",
+    "status": "programmé"
+   },
+   {
+    "time": "15:00",
+    "platform": "TikTok",
+    "title": "Clip C · JLTomy + Kameto (police)",
+    "status": "programmé"
+   },
+   {
+    "time": "16:00",
+    "platform": "YouTube",
+    "title": "Clip A · Squeezie",
+    "status": "programmé"
+   },
+   {
+    "time": "18:00",
+    "platform": "Instagram",
+    "title": "Clip B · Michou",
+    "status": "programmé"
+   },
+   {
+    "time": "18:00",
+    "platform": "TikTok",
+    "title": "Vrai ou faux : 4 idées reçues",
+    "status": "programmé"
+   },
+   {
+    "time": "19:00",
+    "platform": "YouTube",
+    "title": "Clip B · Michou",
+    "status": "programmé"
+   },
+   {
+    "time": "20:00",
+    "platform": "Instagram",
+    "title": "Vrai ou faux : 4 idées reçues",
+    "status": "programmé"
+   },
+   {
+    "time": "21:00",
+    "platform": "TikTok",
+    "title": "Clip B · Michou",
+    "status": "programmé"
+   },
+   {
+    "time": "23:00",
+    "platform": "TikTok",
+    "title": "Clip D · Domingo",
+    "status": "programmé"
+   }
+  ],
+  "upcoming": [
+   {
+    "day": "Vendredi 20",
+    "text": "Diaporama « Vice City 2002 contre GTA 6 »"
+   },
+   {
+    "day": "Samedi 21",
+    "text": "Montage « Bienvenue à Vice City »"
+   }
+  ],
+  "trend": {
+   "labels": [
+    "12/11",
+    "13/11",
+    "14/11",
+    "15/11",
+    "16/11",
+    "17/11",
+    "18/11"
+   ],
+   "series": {
+    "TikTok": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     732,
+     null
     ],
-    "summary": "Jour de sortie : clips A/B (Squeezie, Michou), clips C/D TikTok (JLTomy+Kameto, Domingo) + Vrai ou faux. Demain : diaporama Vice City 2002 contre GTA 6.",
-    "kpis": [
-      {
-        "platform": "TikTok",
-        "label": "Meilleure vidéo",
-        "detail": "J-2, publiée le 17/11",
-        "value": 719,
-        "unit": "vues",
-        "bar": 0.8
-      },
-      {
-        "platform": "Instagram",
-        "label": "Meilleur Reel",
-        "detail": "J-3, publié le 16/11",
-        "value": 131,
-        "unit": "vues",
-        "bar": 0.2
-      },
-      {
-        "platform": "YouTube",
-        "label": "Meilleur Short",
-        "detail": "Stats en attente",
-        "value": null,
-        "unit": "vues",
-        "bar": 0
-      }
-    ],
-    "followers": {
-      "label": "Abonnés TikTok",
-      "value": 5,
-      "goal": 1000
-    },
-    "today": [
-      {
-        "time": "08:00",
-        "platform": "TikTok",
-        "title": "Clip A · Squeezie",
-        "status": "programmé"
-      },
-      {
-        "time": "10:00",
-        "platform": "Instagram",
-        "title": "Vrai ou faux (diaporama)",
-        "status": "programmé"
-      },
-      {
-        "time": "12:00",
-        "platform": "YouTube",
-        "title": "Vrai ou faux : 4 idées reçues",
-        "status": "programmé"
-      },
-      {
-        "time": "12:30",
-        "platform": "Instagram",
-        "title": "Clip A · Squeezie",
-        "status": "programmé"
-      },
-      {
-        "time": "13:00",
-        "platform": "TikTok",
-        "title": "Vrai ou faux (diaporama)",
-        "status": "programmé"
-      },
-      {
-        "time": "14:00",
-        "platform": "YouTube",
-        "title": "Vrai ou faux (diaporama)",
-        "status": "programmé"
-      },
-      {
-        "time": "15:00",
-        "platform": "TikTok",
-        "title": "Clip C · JLTomy + Kameto (police)",
-        "status": "programmé"
-      },
-      {
-        "time": "16:00",
-        "platform": "YouTube",
-        "title": "Clip A · Squeezie",
-        "status": "programmé"
-      },
-      {
-        "time": "18:00",
-        "platform": "Instagram",
-        "title": "Clip B · Michou",
-        "status": "programmé"
-      },
-      {
-        "time": "18:00",
-        "platform": "TikTok",
-        "title": "Vrai ou faux : 4 idées reçues",
-        "status": "programmé"
-      },
-      {
-        "time": "19:00",
-        "platform": "YouTube",
-        "title": "Clip B · Michou",
-        "status": "programmé"
-      },
-      {
-        "time": "20:00",
-        "platform": "Instagram",
-        "title": "Vrai ou faux : 4 idées reçues",
-        "status": "programmé"
-      },
-      {
-        "time": "21:00",
-        "platform": "TikTok",
-        "title": "Clip B · Michou",
-        "status": "programmé"
-      },
-      {
-        "time": "23:00",
-        "platform": "TikTok",
-        "title": "Clip D · Domingo",
-        "status": "programmé"
-      }
-    ],
-    "upcoming": [
-      {
-        "day": "Vendredi 20",
-        "text": "Diaporama « Vice City 2002 contre GTA 6 »"
-      },
-      {
-        "day": "Samedi 21",
-        "text": "Montage « Bienvenue à Vice City »"
-      }
-    ],
-    "trend": {
-      "labels": [
-        "12/11",
-        "13/11",
-        "14/11",
-        "15/11",
-        "16/11",
-        "17/11",
-        "18/11"
-      ],
-      "series": {
-        "TikTok": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          732,
-          null
-        ],
-        "Instagram": [
-          null,
-          null,
-          null,
-          null,
-          131,
-          null,
-          null
-        ]
-      }
-    },
-    "engagement": {
-      "likes": 30,
-      "comments": 0,
-      "shares": 2,
-      "followers_gain": null
-    },
-    "best_time": null
-  }
+    "Instagram": [
+     null,
+     null,
+     null,
+     null,
+     131,
+     null,
+     null
+    ]
+   }
+  },
+  "engagement": {
+   "likes": 30,
+   "comments": 0,
+   "shares": 2,
+   "followers_gain": null
+  },
+  "best_time": null,
+  "warmup": [
+   {
+    "label": "#gta6 : fil des vidéos récentes",
+    "url": "https://www.tiktok.com/tag/gta6",
+    "comment": "La map a l'air énorme, vous commencez par où ? 🌴"
+   },
+   {
+    "label": "Recherche « gta 6 fr »",
+    "url": "https://www.tiktok.com/search?q=gta%206%20fr",
+    "comment": "Enfin du GTA 6 en français, merci 🔥"
+   },
+   {
+    "label": "#vicecity",
+    "url": "https://www.tiktok.com/tag/vicecity",
+    "comment": "Ces néons… Vice City n'a jamais été aussi beau 😍"
+   },
+   {
+    "label": "Squeezie (TikTok)",
+    "url": "https://www.tiktok.com/@squeezie",
+    "comment": "Le live GTA 6 était incroyable 😂"
+   },
+   {
+    "label": "Michou (TikTok)",
+    "url": "https://www.tiktok.com/@michou",
+    "comment": "Ta course-poursuite avec la police, légendaire 🚓"
+   }
+  ]
+ }
 }

@@ -232,3 +232,6 @@ Objectif : ne presque jamais réutiliser les mêmes images.
 Buffer refuse au-delà d'environ 3 posts YouTube par jour et par chaîne (erreur « daily posting limit »). Règle : MAX 3 posts YouTube par jour (clips A et B + au plus 1 diaporama). Les vidéos en trop vont sur un autre jour. Chaque matin, vérifier les posts YouTube en erreur dans Buffer et les replanifier sur un jour qui a moins de 3 posts.
 
 Buffer gratuit : 10 posts EN ATTENTE max par chaîne (place libérée à chaque publication). Ne jamais programmer au-delà.
+
+## Chauffe TikTok dans le HUB (19/11)
+Chaque matin, écrire dans hub/piv.json → channel.warmup une liste de 5 éléments {label, url, comment} : liens TikTok directs (pages hashtag tiktok.com/tag/…, recherche tiktok.com/search?q=…, profils de streamers FR du moment tiktok.com/@…), avec un commentaire court, naturel, en français, différent chaque jour. Mathieu les ouvre et agit lui-même : JAMAIS d'automatisation de likes, commentaires ou abonnements.
