@@ -255,3 +255,10 @@ Les faits : sur la chaîne PIV, YouTube refuse le 3e Short dans une fenêtre de 
 
 ## TikTok : pas d'URL dans les légendes (19/11)
 Sur TikTok, ne JAMAIS mettre d'URL (twitch.tv/…) dans la légende : liens non cliquables et suspectés de freiner la diffusion. Crédit en texte seul : « 🎥 JLTomy en live sur Twitch ». Les URL restent OK sur YouTube et Instagram.
+
+## TikTok : mode BROUILLON + 3 posts/jour max (19/11)
+Constat : 6 posts TikTok le 19/11 sur un compte à 40 abonnés → les derniers à 0 vue. Nouvelle règle (remplace clips C et D et tout envoi direct TikTok) :
+- TikTok = 3 vidéos/jour MAX, espacées : 12:00, 18:00, 21:00. Priorité : clip A, clip B, puis diaporama ou clip C. Jamais 2 vidéos à moins de 3 h d'écart.
+- Envoi via Zernio en brouillon : posts_create_post avec publish_now true, tiktok_settings {"draft": true}, le matin (TikTok : 5 brouillons max par 24 h). Mathieu publie à la main depuis sa Boîte de réception TikTok.
+- La légende n'est PAS transmise : l'écrire dans hub/piv.json → channel.drafts [{time, label, caption}] (sans URL, 5 hashtags, jamais #shorts).
+- Les posts TikTok déjà programmés en direct dans Zernio : les supprimer et les renvoyer en brouillon le jour J.
