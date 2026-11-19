@@ -230,3 +230,5 @@ Objectif : ne presque jamais réutiliser les mêmes images.
 
 ## Limite YouTube via Buffer (19/11)
 Buffer refuse au-delà d'environ 3 posts YouTube par jour et par chaîne (erreur « daily posting limit »). Règle : MAX 3 posts YouTube par jour (clips A et B + au plus 1 diaporama). Les vidéos en trop vont sur un autre jour. Chaque matin, vérifier les posts YouTube en erreur dans Buffer et les replanifier sur un jour qui a moins de 3 posts.
+
+Buffer gratuit : 10 posts EN ATTENTE max par chaîne (place libérée à chaque publication). Ne jamais programmer au-delà.
