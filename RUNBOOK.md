@@ -219,3 +219,11 @@ Pendant le mois de lancement : 4 clips de streamers par jour.
 - Clips C et D : TikTok seulement, via Zernio, à 15:00 et 23:00. Ce sont d'autres moments et d'autres streamers que A et B (priorité FR), avec la charte v2, les emojis, une musique différente du clip précédent et 5 hashtags de la rotation.
 - Si les moments forts manquent, ne publier que ce qui est bon : mieux vaut 3 clips qu'un clip faible.
 - Après le 19/12, réévaluer avec Mathieu selon les stats et la consommation d'usage.
+
+## Rotation des visuels (19/11)
+Objectif : ne presque jamais réutiliser les mêmes images.
+- Tenir `visuals_used.json` à jour (nom du fichier, nombre d'utilisations, dernière date). Pour chaque diaporama ou montage, prendre en priorité les images jamais utilisées, puis les moins utilisées. Pas d'image déjà utilisée dans les 14 derniers jours.
+- Sources autorisées, toutes gratuites et sans outil supplémentaire :
+  1. Visuels officiels Rockstar : captures et artworks de la page GTA VI et du Newswire sur rockstargames.com. Vérifier régulièrement s'il y en a de nouveaux, et les ajouter dans `visuals/rockstar/`.
+  2. Images tirées de nos propres clips : les meilleures frames 4K des streams déjà téléchargés (paysages, voitures, scènes fortes), sans webcam ni interface. Les ajouter dans `visuals/frames/`.
+- Interdit : fan art, images d'autres créateurs, captures d'autres comptes de clipping, images IA.
