@@ -280,3 +280,8 @@ Erreur d'interprétation : Mathieu veut le mode brouillon (Zernio tiktok_setting
 ## Anyme (19/11)
 Ajouté par Mathieu : TikTok @anyme023 (handle confirmé par lui) → à inclure dans la chauffe et dans les créateurs FR à surveiller pour les clips. Twitch NON vérifié : avant tout clip, vérifier si twitch.tv/anyme023 existe et diffuse GTA 6 ; sinon prendre ses vidéos YouTube publiques. Jamais d'URL dans la légende TikTok.
 MAJ 19/11 19:25 : Twitch CONFIRMÉ — twitch.tv/anyme023 diffuse GTA VI (« 5 JOURS NON STOP GTA VI »), VODs accessibles avec yt-dlp. YouTube aussi accessible depuis l'environnement (yt-dlp OK) : les VODs YouTube publiques des streamers FR sont une source valable quand Twitch est en sub-only.
+
+## Nouveaux templates de clip (20/11, validés en maquette, À TESTER avant usage quotidien)
+Template 1 « Réaction PIV » (principal) : écran partagé, webcam du streamer en haut (~46 %), jeu en bas, filet rose #E52E9E entre les deux ; accroche courte (3-4 mots) dans la pastille blanche en haut ; sous-titres discrets façon TikTok, mot-clé en rose ; repères 1/3, 2/3, 3/3 ; ON GARDE les gros mots/emojis qui apparaissent sur les temps forts ; NOIR ET BLANC sur les moments de désolation (+ léger zoom). On SUPPRIME : gros titre 2 lignes, classement #1/#3, barre de progression.
+Template 2 « Série » : jeu plein écran, webcam en bulle ronde cerclée de rose, étiquette « Épisode N · titre », fin « La suite au prochain clip ». Pour les histoires en plusieurs parties.
+Tant que Mathieu n'a pas validé un clip test, garder l'ancien montage.
