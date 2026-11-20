@@ -110,5 +110,59 @@
   "posts": {
    "tiktok_23:00": "6afeca7b6b841cf2f07638af"
   }
+ },
+ {
+  "date": "2026-11-20",
+  "type": "clip_A",
+  "streamer": "ZeratoR",
+  "source": "clips Twitch publics",
+  "file": "clips/2026-11-20/zerator1.mp4",
+  "music": "sunset",
+  "bpm": 104,
+  "seed": 202611205,
+  "hashtags": {
+   "tiktok": "(brouillon, légende dans hub)",
+   "instagram": "#gtavi #gta6gameplay #leonida #gta6infos #jeuxvidéo",
+   "youtube": "#grandtheftauto6 #gta6gameplay #gaming #gta6fr #ps5"
+  },
+  "posts": {
+   "tiktok_12:00_draft": "6affd7a6be8dc3620f1cfd02",
+   "instagram_12:30": "6affd7d8d5f8acdd0d731472",
+   "youtube_20:00": "6affd7da7b0a126cebad0b8c"
+  }
+ },
+ {
+  "date": "2026-11-20",
+  "type": "clip_B",
+  "streamer": "Domingo",
+  "source": "clips Twitch publics",
+  "file": "clips/2026-11-20/domingo1.mp4",
+  "music": "heist",
+  "bpm": 108,
+  "seed": 202611206,
+  "hashtags": {
+   "tiktok": "(brouillon, légende dans hub)",
+   "instagram": "#gta6 #gta6gameplay #vicecity #gta6français #gamingfr"
+  },
+  "posts": {
+   "tiktok_18:00_draft": "6affd7b78c17de4cc517281d",
+   "instagram_18:00": "6affd7d9738ce4635f8b7505"
+  }
+ },
+ {
+  "date": "2026-11-21",
+  "type": "carrousel_diaporama",
+  "theme": "sondage_jason_lucia",
+  "file": "clips/2026-11-21/sondage.mp4",
+  "music": "outrun",
+  "bpm": 118,
+  "seed": 202611211,
+  "hashtags": {
+   "instagram": "#gta6 #gta6lucia #jasonetlucia #gta6fr #gaming"
+  },
+  "posts": {
+   "instagram_10:00": "6affd7da4c1afd05def46fd9"
+  },
+  "note": "TikTok : brouillon à envoyer le 21/11 au matin ; pas de slot YouTube libre (14:30 vc_welcome, 20:00 clip A)"
  }
 ]

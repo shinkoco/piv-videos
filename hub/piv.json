@@ -1,171 +1,144 @@
 {
- "updated": "2026-11-19T11:10:00+01:00",
- "date_label": "Jeudi 19 novembre",
- "alerts": [],
+ "updated": "2026-11-20T06:30:00+01:00",
+ "date_label": "Vendredi 20 novembre",
+ "alerts": [
+  "Partners in Vice : 2 brouillons TikTok à publier depuis la Boîte de réception (12:00 ZeratoR, 18:00 Domingo). Le post TikTok direct de 13:00 (diaporama Vice City) reste programmé : suppression refusée par le système, à retirer si tu préfères le brouillon.",
+  "Partners in Vice : le post YouTube Squeezie (22/11 14:30) affiche toujours l'erreur « limite quotidienne » : à surveiller."
+ ],
  "channel": {
   "name": "Partners in Vice",
   "headline": [
    "Partners in Vice,",
-   "premiers clips du lancement."
+   "clips FR du jour : ZeratoR et Domingo."
   ],
-  "summary": "Jour de sortie : clips A/B (Squeezie, Michou), clips C/D TikTok (JLTomy+Kameto, Domingo) + Vrai ou faux. Demain : diaporama Vice City 2002 contre GTA 6.",
+  "summary": "Vendredi 20/11 : clip A ZeratoR (yéti), clip B Domingo (requins), diaporama Vice City 2002 contre GTA 6. Demain : sondage Jason ou Lucia + montage Vice City. TikTok en brouillon.",
   "kpis": [
    {
     "platform": "TikTok",
-    "label": "Meilleure vidéo",
-    "detail": "J-2, publiée le 17/11",
-    "value": 719,
+    "label": "Meilleure vidéo de la veille",
+    "detail": "Michou, 19/11",
+    "value": 273,
     "unit": "vues",
-    "bar": 0.8
+    "bar": 0.5
    },
    {
     "platform": "Instagram",
-    "label": "Meilleur Reel",
-    "detail": "J-3, publié le 16/11",
-    "value": 131,
+    "label": "Meilleur Reel de la veille",
+    "detail": "Squeezie, 19/11",
+    "value": 143,
     "unit": "vues",
-    "bar": 0.2
+    "bar": 0.3
    },
    {
     "platform": "YouTube",
-    "label": "Meilleur Short",
-    "detail": "Stats en attente",
-    "value": null,
+    "label": "Meilleur Short de la veille",
+    "detail": "Vrai ou faux, 19/11",
+    "value": 320,
     "unit": "vues",
-    "bar": 0
+    "bar": 0.6
    }
   ],
   "followers": {
    "label": "Abonnés TikTok",
-   "value": 5,
+   "value": 38,
    "goal": 1000
   },
   "today": [
    {
-    "time": "08:00",
-    "platform": "TikTok",
-    "title": "Clip A · Squeezie",
-    "status": "programmé"
-   },
-   {
     "time": "10:00",
     "platform": "Instagram",
-    "title": "Vrai ou faux (diaporama)",
+    "title": "Diaporama Vice City 2002 contre GTA 6",
     "status": "programmé"
    },
    {
     "time": "12:00",
-    "platform": "YouTube",
-    "title": "Vrai ou faux : 4 idées reçues",
-    "status": "programmé"
+    "platform": "TikTok",
+    "title": "Clip A · ZeratoR et le yéti (brouillon)",
+    "status": "brouillon à publier"
    },
    {
     "time": "12:30",
     "platform": "Instagram",
-    "title": "Clip A · Squeezie",
+    "title": "Clip A · ZeratoR",
     "status": "programmé"
    },
    {
     "time": "13:00",
     "platform": "TikTok",
-    "title": "Vrai ou faux (diaporama)",
+    "title": "Diaporama Vice City (direct)",
     "status": "programmé"
    },
    {
-    "time": "14:00",
+    "time": "14:30",
     "platform": "YouTube",
-    "title": "Vrai ou faux (diaporama)",
+    "title": "Diaporama Vice City 2002 contre GTA 6",
     "status": "programmé"
    },
    {
-    "time": "15:00",
+    "time": "18:00",
     "platform": "TikTok",
-    "title": "Clip C · JLTomy + Kameto (police)",
-    "status": "programmé"
-   },
-   {
-    "time": "16:00",
-    "platform": "YouTube",
-    "title": "Clip A · Squeezie",
-    "status": "programmé"
+    "title": "Clip B · Domingo et les requins (brouillon)",
+    "status": "brouillon à publier"
    },
    {
     "time": "18:00",
     "platform": "Instagram",
-    "title": "Clip B · Michou",
-    "status": "programmé"
-   },
-   {
-    "time": "18:00",
-    "platform": "TikTok",
-    "title": "Vrai ou faux : 4 idées reçues",
-    "status": "programmé"
-   },
-   {
-    "time": "19:00",
-    "platform": "YouTube",
-    "title": "Clip B · Michou",
+    "title": "Clip B · Domingo",
     "status": "programmé"
    },
    {
     "time": "20:00",
-    "platform": "Instagram",
-    "title": "Vrai ou faux : 4 idées reçues",
-    "status": "programmé"
-   },
-   {
-    "time": "21:00",
-    "platform": "TikTok",
-    "title": "Clip B · Michou (brouillon, à publier à la main)",
+    "platform": "YouTube",
+    "title": "Clip A · ZeratoR vs le yéti",
     "status": "programmé"
    }
   ],
   "upcoming": [
    {
-    "day": "Vendredi 20",
-    "text": "Diaporama « Vice City 2002 contre GTA 6 »"
+    "day": "Samedi 21",
+    "text": "Sondage « Jason ou Lucia » (IG 10:00) + montage « Bienvenue à Vice City » (YT 14:30, TikTok 18:00, IG 20:00) + clips A/B"
    },
    {
-    "day": "Samedi 21",
-    "text": "Montage « Bienvenue à Vice City »"
+    "day": "Dimanche 22",
+    "text": "Top de la semaine + clip Squeezie YouTube 14:30"
    }
   ],
   "trend": {
    "labels": [
-    "12/11",
-    "13/11",
     "14/11",
     "15/11",
     "16/11",
     "17/11",
-    "18/11"
+    "18/11",
+    "19/11",
+    "20/11"
    ],
    "series": {
     "TikTok": [
      null,
      null,
      null,
-     null,
-     null,
-     732,
+     734,
+     822,
+     273,
      null
     ],
     "Instagram": [
      null,
      null,
-     null,
-     null,
      131,
-     null,
+     58,
+     114,
+     143,
      null
     ]
    }
   },
   "engagement": {
-   "likes": 30,
+   "likes": 118,
    "comments": 0,
-   "shares": 2,
-   "followers_gain": null
+   "shares": null,
+   "followers_gain": 36
   },
   "best_time": null,
   "warmup": [
@@ -200,6 +173,17 @@
     "comment": "Ces néons… Vice City n'a jamais été aussi beau 😍"
    }
   ],
-  "drafts": []
+  "drafts": [
+   {
+    "time": "12:00",
+    "label": "Clip A · ZeratoR et le yéti",
+    "caption": "Zerator tombe sur un yéti dans GTA 6 😱 Il voulait juste lui parler… Tu l'aurais fait fuir toi aussi ? 👇\n🎥 ZeratoR en live sur Twitch\n#gta6 #gta6gameplay #gta6online #gta6français #gamingfr"
+   },
+   {
+    "time": "18:00",
+    "label": "Clip B · Domingo et les requins",
+    "caption": "Domingo se fait attaquer par un requin dans GTA 6 💀 Ça t'est déjà arrivé de te faire piéger comme ça ? 👇\n🎥 Domingo en live sur Twitch\n#grandtheftauto6 #gta6online #gta6gameplay #gta6fr #ps5"
+   }
+  ]
  }
 }
