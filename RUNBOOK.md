@@ -287,3 +287,6 @@ Template 1 « Réaction PIV » (principal) : écran partagé, webcam du streamer
 Template 2 « Série » : jeu plein écran, webcam en bulle ronde cerclée de rose, étiquette « Épisode N · titre », fin « La suite au prochain clip ». Pour les histoires en plusieurs parties.
 Tant que Mathieu n'a pas validé un clip test, garder l'ancien montage.
 MAJ 20/11 (retours de Mathieu sur le test) : durée MINIMUM 60 s (enchaîner 2-3 clips Twitch du même streamer, même cadrage webcam) + outro endcard.py 3 s à la fin. Qualité webcam petite/floue = OK, ne pas écarter un streamer pour ça. Doubles sous-titres (stream + nos sous-titres) = acceptable. Référence : clips/tests/2026-11-20_anyme_reaction_piv_71s.mp4.
+
+## 20/11 08:40 : diaporama « Bienvenue à Vice City » (clips/2026-11-21/vc_welcome.mp4)
+Son envoi TikTok direct du 21/11 a été supprimé. Le 21/11 au matin, l'envoyer en BROUILLON comme les autres (légende : « Bienvenue à Vice City 🌴 Tu commences par quoi : la plage, les néons ou les grosses cylindrées ? 👇 📸 Visuels officiels Rockstar Games · 🎵 son original #gtavi #vicecity #leonida #gta6fr #gamingfr »). Attention : dans Zernio, un brouillon programmé à une heure n'arrive dans la boîte TikTok qu'à cette heure-là.
