@@ -4,6 +4,7 @@
 - Instagram (Buffer) : clips A, B et diaporama. Max 10 posts en attente par chaîne Buffer.
 - Chaque matin : réponses aux commentaires TikTok (max 15, replied_comments.json) ; liste « Chauffe TikTok » (channel.warmup, 5 liens, comptes vérifiés uniquement) ; rotation des visuels (visuals_used.json).
 - Sources clips : Twitch public d'abord, YouTube (yt-dlp OK) en secours. Créateurs FR : Squeezie, Michou (@michouoff), JLTomy, Kameto, Domingo, Anyme (twitch.tv/anyme023, TikTok @anyme023).
+- CLIPS (validé 20/11) : template « Réaction PIV » via tools/make_reaction.py spec.json out.mp4 (voir docstring). 60 s MINIMUM (2-3 clips Twitch du même streamer), webcam en haut, filet rose, accroche courte, sous-titres mot-clé rose, emojis/pops sur les temps forts, NOIR ET BLANC sur la désolation, repères 1/3-3/3, outro 3 s. Plus de gros titre, classement ni barre de progression. make_compil.py = ANCIEN, ne plus l'utiliser pour les clips. Repérer la webcam en regardant une image du clip (crop x,y,w,h). Template « Série » (bulle webcam, épisodes) : à construire plus tard.
 - Jamais : automatiser likes/commentaires, deviner un handle, fan art/IA, VidIQ, outils payants.
 
 # Partners in Vice — runbook de la tâche quotidienne
