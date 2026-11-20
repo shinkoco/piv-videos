@@ -1,4 +1,4 @@
-# ⚠️ ÉTAT ACTUEL AU 19/11/2026 — CE RÉSUMÉ FAIT FOI (en cas de contradiction plus bas)
+# ⚠️ ÉTAT ACTUEL AU 20/11/2026 — CE RÉSUMÉ FAIT FOI (en cas de contradiction plus bas)
 - TikTok (Zernio 6afc525031be0a779a30b36e) : 3 vidéos/jour MAX à 12:00, 18:00, 21:00, envoyées le matin en BROUILLON (tiktok_settings draft true, 5 brouillons max/24 h). Légendes dans hub/piv.json → channel.drafts [{time,label,caption}]. Légendes SANS URL, 5 hashtags, jamais #shorts. Pas de publication directe.
 - YouTube (Buffer) : 2 créneaux/jour, 14:30 et 20:00 (limite YouTube = 2 Shorts par 24 h glissantes). Priorité clips streamers. Replanifier chaque matin les posts en erreur.
 - Instagram (Buffer) : clips A, B et diaporama. Max 10 posts en attente par chaîne Buffer.
