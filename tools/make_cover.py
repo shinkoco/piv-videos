@@ -22,15 +22,15 @@ im = im.crop((x, 0, x + W, H)).convert("RGBA")
 g = Image.new("RGBA", (W, H)); d = ImageDraw.Draw(g); s = int(H * 0.42)
 for y in range(s, H): d.line([(0, y), (W, y)], fill=(18, 6, 40, min(245, int(300 * (y - s) / (H - s)))))
 im.alpha_composite(g); d = ImageDraw.Draw(im)
-d.rounded_rectangle((60, 230, W - 60, 278), 24, fill=(255, 255, 255, 220))
+d.rounded_rectangle((140, 230, W - 140, 278), 24, fill=(255, 255, 255, 220))
 d.text((W / 2, 254), f"ACTU GTA VI  ·  {topic.upper()}", font=f("Inter-SemiBold.otf", 26), fill=VIO, anchor="mm")
 ft = f("Inter-SemiBold.otf", 32); w = d.textlength(cat, font=ft) + 48
 d.rounded_rectangle(((W - w) / 2, 1180, (W + w) / 2, 1236), 28, fill=MAG); d.text((W / 2, 1208), cat, font=ft, fill="white", anchor="mm")
 for i, line in enumerate((l1, l2)):
     size = 160
-    while d.textlength(line.upper(), font=f("InterDisplay-Black.otf", size)) > W - 100: size -= 6
+    while d.textlength(line.upper(), font=f("InterDisplay-Black.otf", size)) > 800: size -= 6
     d.text((W / 2, 1260 + i * 170), line.upper(), font=f("InterDisplay-Black.otf", size), fill="white", anchor="mt")
-d.text((W / 2, 1625), sub, font=f("InterDisplay-SemiBold.otf", 46), fill=PINK, anchor="mt")
+d.text((W / 2, 1625), sub, font=f("InterDisplay-SemiBold.otf", 40), fill=PINK, anchor="mt")
 a = Image.open(os.path.join(HERE, "avatar_v2.png")).convert("RGBA").resize((96, 96))
 m = Image.new("L", (96, 96)); ImageDraw.Draw(m).ellipse((0, 0, 95, 95), fill=255); im.paste(a, ((W - 96) // 2, 1740), m)
 im.convert("RGB").save(out, quality=92); print("OK", out)

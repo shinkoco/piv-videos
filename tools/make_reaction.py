@@ -1,4 +1,4 @@
-"""Template « Réaction PIV » — ZONES SÛRES TikTok (21/11) : rien dans les 220 px du haut (barre de recherche), rien dans les 140 px de droite (icônes), rien sous y=1500 (légende).
+"""Template « Réaction PIV » — ZONES SÛRES TikTok (corrigées 21/11, mesurées sur iPhone) : les écrans 19,5:9 ROGNENT ~110 px à gauche ET à droite. Tout texte doit tenir dans x 130→950 (largeur max 800, centré), y 230→1500 ; colonne d'icônes à droite : rien au-delà de x=930 entre y=1000 et 1700.
 Template « Réaction PIV » (validé le 20/11/2026).
 usage: python3 make_reaction.py spec.json out.mp4
 
@@ -34,8 +34,11 @@ def dur(f): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entrie
 
 
 def sub_png(a, pink, b, path):
-    f = ImageFont.truetype(fp, 46); parts = [(a, 0), (pink, 1), (b, 0)]
-    w = sum(f.getlength(t) for t, _ in parts) + 56
+    parts = [(a, 0), (pink, 1), (b, 0)]; size = 46
+    while True:
+        f = ImageFont.truetype(fp, size); w = sum(f.getlength(t) for t, _ in parts) + 56
+        if w <= 800 or size <= 30: break
+        size -= 2
     im = Image.new("RGBA", (int(w), 84), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     d.rounded_rectangle([0, 0, im.width - 1, 83], 18, fill=(0, 0, 0, 190)); x = 28
     for t, p in parts:
@@ -49,7 +52,7 @@ def chap_png(i, path):
     d.rounded_rectangle([0, 0, w - 1, 63], 14, fill=(123, 63, 228)); d.text((18, 8), t, font=f, fill="white"); im.save(path)
 
 
-hook = f"{tmp}/hook.png"; run(["python3", f"{HERE}/title_png.py", spec["hook"], hook, "900"])
+hook = f"{tmp}/hook.png"; run(["python3", f"{HERE}/title_png.py", spec["hook"], hook, "800"])
 for i in (1, 2, 3): chap_png(i, f"{tmp}/c{i}.png")
 x, y, w, h = spec["cam"]
 for k, p in enumerate(spec["parts"]):
@@ -62,13 +65,13 @@ for k, p in enumerate(spec["parts"]):
     for c in (() if spec.get("short") else (1, 2, 3)):
         a, b = total * (c - 1) / 3 - t0, total * c / 3 - t0
         if b > 0 and a < d:
-            ins += ["-loop", "1", "-i", f"{tmp}/c{c}.png"]; ov.append(("28:796", max(a, 0), min(b, d)))
+            ins += ["-loop", "1", "-i", f"{tmp}/c{c}.png"]; ov.append(("130:800", max(a, 0), min(b, d)))
     for j, (a, b, s1, pk, s2) in enumerate(p.get("subs", [])):
         f = f"{tmp}/s{k}_{j}.png"; sub_png(s1, pk, s2, f); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:660", a, b))
     for j, (a, b, e) in enumerate(p.get("emojis", [])):
         f = f"{tmp}/e{k}_{j}.png"; run(["python3", f"{HERE}/emoji_png.py", e, f, "210"]); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:1150", a, b))
     for j, (a, b, t) in enumerate(p.get("pops", [])):
-        f = f"{tmp}/p{k}_{j}.png"; run(["python3", f"{HERE}/title_png.py", t, f, "600"]); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:1250", a, b))
+        f = f"{tmp}/p{k}_{j}.png"; run(["python3", f"{HERE}/title_png.py", t, f, "560"]); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:1250", a, b))
     fc = (f"[0:v]split[a][b];[a]crop={w}:{h}:{x}:{y},scale=1080:762[cam];[b]scale=-2:1152,crop=1080:1152[game];"
           f"color=c=0xE52E9E:s=1080x6:d={d + 1}[line];[cam][line][game]vstack=3,fps=30,format=yuv420p,setsar=1[v0];")
     bw = "+".join(f"between(t,{a},{b})" for a, b in p.get("bw", []))
