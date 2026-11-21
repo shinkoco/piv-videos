@@ -299,3 +299,6 @@ MAJ 20/11 (retours de Mathieu sur le test) : durée MINIMUM 60 s (enchaîner 2-3
 ## 20/11 08:40 : diaporama « Bienvenue à Vice City » (clips/2026-11-21/vc_welcome.mp4)
 Son envoi TikTok direct du 21/11 a été supprimé. Le 21/11 au matin, l'envoyer en BROUILLON comme les autres (légende : « Bienvenue à Vice City 🌴 Tu commences par quoi : la plage, les néons ou les grosses cylindrées ? 👇 📸 Visuels officiels Rockstar Games · 🎵 son original #gtavi #vicecity #leonida #gta6fr #gamingfr »). Attention : dans Zernio, un brouillon programmé à une heure n'arrive dans la boîte TikTok qu'à cette heure-là.
 - Drapeaux emoji (🇺🇸…) NON supportés par title_png/emoji_png : ne pas en mettre.
+
+## 22/11 : clip court DÉJÀ PRÊT
+Le clip court de 17:00 du 22/11 est clips/2026-11-22/kai_short.mp4 (Kai Cenat, 20 s, validé par Mathieu). Ne pas en refaire un ; l'envoyer en brouillon à 16:15. Légende : « Kai Cenat prend 6 étoiles en 20 secondes 😱 Tu fais mieux ? 👇 🎥 Kai Cenat en live sur Twitch #gta6 #kaicenat #gta6fr #gamingfr #gta6gameplay ». Comme c'est le clip US du jour, les 2 clips longs du 22/11 sont FRANÇAIS.
