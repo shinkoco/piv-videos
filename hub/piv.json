@@ -11,7 +11,7 @@
    "Partners in Vice,",
    "clip FR du jour : Gotaga sur GTA 6."
   ],
-  "summary": "Samedi 21/11 : clip A Gotaga (course moto, 79 s), sondage Jason ou Lucia (IG 10:00), montage Vice City (YT 15:10, TikTok 18:00, IG 20:00). TikTok en brouillon.",
+  "summary": "Samedi 21/11 : clip A Gotaga (course moto, 79 s), sondage Jason ou Lucia (IG 10:00), montage Vice City (YT 15:10, TikTok 18:00, IG 20:00). TikTok en brouillon : Gotaga 12:00, Vice City 18:00, Anyme 21:00.",
   "kpis": [
    {
     "platform": "TikTok",
@@ -82,15 +82,15 @@
    },
    {
     "time": "21:00",
-    "platform": "TikTok",
-    "title": "Sondage Jason ou Lucia (brouillon)",
-    "status": "brouillon à publier"
-   },
-   {
-    "time": "21:00",
     "platform": "YouTube",
     "title": "Clip A · Gotaga",
     "status": "programmé"
+   },
+   {
+    "time": "21:00",
+    "platform": "TikTok",
+    "title": "Clip B · Anyme (brouillon)",
+    "status": "brouillon à publier"
    }
   ],
   "upcoming": [
@@ -182,8 +182,8 @@
    },
    {
     "time": "21:00",
-    "label": "Sondage · Jason ou Lucia",
-    "caption": "Jason ou Lucia ? Choisis ton camp pour GTA 6 et dis pourquoi en commentaire 👇\n📸 Visuels officiels Rockstar Games · 🎵 son original\n#gta6 #gta6lucia #jasonetlucia #gta6fr #gaming"
+    "label": "Clip B · Anyme",
+    "caption": "Anyme vs GTA 6 : Lucia se fait embarquer, puis il découvre les cinématiques 🚨 Tu aurais fait mieux ? 👇\n🎥 Anyme en live sur Twitch\n#gta6 #gta6gameplay #gta6fr #anyme #gamingfr"
    }
   ]
  }
