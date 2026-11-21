@@ -1,4 +1,5 @@
-"""Template « Réaction PIV » — ZONES SÛRES TikTok (corrigées 21/11, mesurées sur iPhone) : les écrans 19,5:9 ROGNENT ~110 px à gauche ET à droite. Tout texte doit tenir dans x 130→950 (largeur max 800, centré), y 230→1500 ; colonne d'icônes à droite : rien au-delà de x=930 entre y=1000 et 1700.
+"""LAYOUTS (21/11) : "split" (webcam en haut / jeu en bas) ou "double" (live complet en haut, zoom streamer en bas, accroche au milieu) ; tiré au hasard si "layout" absent. Option "zoom": [x,y,w,h] = cadre serré sur le VISAGE du streamer (ratio ~0,82) pour la vue du bas. Choisir "double" pour les moments où le streamer PARLE/RÉAGIT face caméra (idéal clips courts), "split" pour l'action en jeu.
+Template « Réaction PIV » — ZONES SÛRES TikTok (corrigées 21/11, mesurées sur iPhone) : les écrans 19,5:9 ROGNENT ~110 px à gauche ET à droite. Tout texte doit tenir dans x 130→950 (largeur max 800, centré), y 230→1500 ; colonne d'icônes à droite : rien au-delà de x=930 entre y=1000 et 1700.
 Template « Réaction PIV » (validé le 20/11/2026).
 usage: python3 make_reaction.py spec.json out.mp4
 
@@ -32,6 +33,8 @@ STYLES = [
   {"bubble": [0,0,0,0], "grad": [[255,255,255],[255,255,255],[255,255,255]], "line": "0x00E5FF", "tag": (0,150,170), "pink": (0,229,255), "hook_y": 900},
 ]
 ST = STYLES[spec["style"]] if "style" in spec else random.choice(STYLES)
+LAYOUT = spec.get("layout") or random.choice(["split", "split", "double"])
+if LAYOUT == "double": ST = dict(ST, hook_y=640)
 os.environ["PIV_BUBBLE"] = json.dumps(ST["bubble"]); os.environ["PIV_GRAD"] = json.dumps(ST["grad"])
 tmp = tempfile.mkdtemp()
 fp = subprocess.run(["fc-match", "-f", "%{file}", "Inter:bold"], capture_output=True, text=True).stdout
@@ -75,15 +78,21 @@ for k, p in enumerate(spec["parts"]):
     for c in (() if spec.get("short") else (1, 2, 3)):
         a, b = total * (c - 1) / 3 - t0, total * c / 3 - t0
         if b > 0 and a < d:
-            ins += ["-loop", "1", "-i", f"{tmp}/c{c}.png"]; ov.append(("130:800", max(a, 0), min(b, d)))
+            ins += ["-loop", "1", "-i", f"{tmp}/c{c}.png"]; ov.append(("130:" + ("1300" if LAYOUT == "double" else "800"), max(a, 0), min(b, d)))
     for j, (a, b, s1, pk, s2) in enumerate(p.get("subs", [])):
-        f = f"{tmp}/s{k}_{j}.png"; sub_png(s1, pk, s2, f); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:660", a, b))
+        f = f"{tmp}/s{k}_{j}.png"; sub_png(s1, pk, s2, f); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:" + ("1380" if LAYOUT == "double" else "660"), a, b))
     for j, (a, b, e) in enumerate(p.get("emojis", [])):
-        f = f"{tmp}/e{k}_{j}.png"; run(["python3", f"{HERE}/emoji_png.py", e, f, "210"]); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:1150", a, b))
+        f = f"{tmp}/e{k}_{j}.png"; run(["python3", f"{HERE}/emoji_png.py", e, f, "210"]); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:" + ("330" if LAYOUT == "double" else "1150"), a, b))
     for j, (a, b, t) in enumerate(p.get("pops", [])):
-        f = f"{tmp}/p{k}_{j}.png"; run(["python3", f"{HERE}/title_png.py", t, f, "560"]); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:1250", a, b))
-    fc = (f"[0:v]split[a][b];[a]crop={w}:{h}:{x}:{y},scale=1080:762[cam];[b]scale=-2:1152,crop=1080:1152[game];"
-          f"color=c={ST["line"]}:s=1080x6:d={d + 1}[line];[cam][line][game]vstack=3,fps=30,format=yuv420p,setsar=1[v0];")
+        f = f"{tmp}/p{k}_{j}.png"; run(["python3", f"{HERE}/title_png.py", t, f, "560"]); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:" + ("380" if LAYOUT == "double" else "1250"), a, b))
+    if LAYOUT == "double":
+        zx, zy, zw, zh = spec.get("zoom") or [max(0, x + w // 2 - int(h * 1080 / 1312) // 2), y, int(h * 1080 / 1312) // 2 * 2, h]
+        # « double vue » : image complète du live en haut, zoom sur le streamer en bas, accroche au milieu
+        fc = (f"[0:v]split[a][b];[b]scale=1080:608[full];[a]crop={zw}:{zh}:{zx}:{zy},scale=1080:1312[zoom];"
+              f"[full][zoom]vstack=2,fps=30,format=yuv420p,setsar=1[v0];")
+    else:
+        fc = (f"[0:v]split[a][b];[a]crop={w}:{h}:{x}:{y},scale=1080:762[cam];[b]scale=-2:1152,crop=1080:1152[game];"
+              f"color=c={ST["line"]}:s=1080x6:d={d + 1}[line];[cam][line][game]vstack=3,fps=30,format=yuv420p,setsar=1[v0];")
     bw = "+".join(f"between(t,{a},{b})" for a, b in p.get("bw", []))
     fc += f"[v0]hue=s=0:enable='{bw}'[v1];" if bw else "[v0]null[v1];"
     fc += f"[v1][1:v]overlay=(W-w)/2:{ST['hook_y']}:shortest=1[v2];"; last = "v2"
