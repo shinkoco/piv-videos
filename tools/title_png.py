@@ -1,6 +1,6 @@
 """Render a white-bubble title with colour emoji to a transparent PNG.
 usage: python3 title_png.py "TEXTE 🔥" out.png [max_width]"""
-import sys, subprocess
+import sys, subprocess, os, json
 from PIL import Image, ImageDraw, ImageFont
 
 text, out = sys.argv[1], sys.argv[2]
@@ -54,7 +54,7 @@ for i, l in enumerate(lines):
     lw = width(l)
     x0 = (W - lw) / 2 - PADX + 10
     y0 = 10 + PADY + i * LH
-    d.rounded_rectangle([x0, y0 - 8, x0 + lw + 2 * PADX, y0 + LH - 4], radius=26, fill=(255, 255, 255, 255))
+    d.rounded_rectangle([x0, y0 - 8, x0 + lw + 2 * PADX, y0 + LH - 4], radius=26, fill=tuple(json.loads(os.environ.get("PIV_BUBBLE", "[255,255,255,255]"))))
     x = x0 + PADX
     for r, e in runs(l):
         if e:
@@ -73,7 +73,7 @@ for i, l in enumerate(lines):
             x += font.getlength(r)
 # charte v2 : texte en dégradé violet -> magenta -> rose
 import numpy as np
-cols = [(123, 63, 228), (229, 46, 158), (255, 61, 168)]
+cols = [tuple(c) for c in json.loads(os.environ.get("PIV_GRAD", "[[123,63,228],[229,46,158],[255,61,168]]"))]
 g = np.zeros((img.height, img.width, 3), np.uint8)
 for i in range(img.width):
     t = i / max(1, img.width - 1); k = min(int(t * 2), 1); u = t * 2 - k

@@ -18,11 +18,21 @@ Repères 1/3 2/3 3/3 calculés sur la durée totale ; outro endcard.py de 3 s aj
 Option par part : "cut": [début, fin] en secondes (les temps des subs/emojis/pops sont alors RELATIFS au début du cut).
 CLIP COURT : ajouter "short": true (15-25 s, 1 seule part, pas de repères, pas d'outro, couper juste avant la fin pour la boucle).
 """
-import json, os, subprocess, sys, tempfile
+import json, os, random, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 spec, out = json.load(open(sys.argv[1])), sys.argv[2]
+# VARIATION OBLIGATOIRE (21/11) : chaque clip tire un style différent (palette, bulle, position de l'accroche, filet)
+STYLES = [
+  {"bubble": [255,255,255,255], "grad": [[123,63,228],[229,46,158],[255,61,168]], "line": "0xE52E9E", "tag": (123,63,228), "pink": (255,61,168), "hook_y": 230},
+  {"bubble": [12,8,24,235], "grad": [[255,255,255],[255,200,240],[255,61,168]], "line": "0xFFFFFF", "tag": (229,46,158), "pink": (255,214,0), "hook_y": 230},
+  {"bubble": [123,63,228,240], "grad": [[255,255,255],[255,255,255],[255,230,250]], "line": "0x7B3FE4", "tag": (20,20,30), "pink": (0,229,255), "hook_y": 900},
+  {"bubble": [255,214,0,255], "grad": [[20,20,30],[60,20,80],[123,63,228]], "line": "0xFFD600", "tag": (229,46,158), "pink": (255,214,0), "hook_y": 230},
+  {"bubble": [0,0,0,0], "grad": [[255,255,255],[255,255,255],[255,255,255]], "line": "0x00E5FF", "tag": (0,150,170), "pink": (0,229,255), "hook_y": 900},
+]
+ST = STYLES[spec["style"]] if "style" in spec else random.choice(STYLES)
+os.environ["PIV_BUBBLE"] = json.dumps(ST["bubble"]); os.environ["PIV_GRAD"] = json.dumps(ST["grad"])
 tmp = tempfile.mkdtemp()
 fp = subprocess.run(["fc-match", "-f", "%{file}", "Inter:bold"], capture_output=True, text=True).stdout
 
@@ -42,14 +52,14 @@ def sub_png(a, pink, b, path):
     im = Image.new("RGBA", (int(w), 84), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     d.rounded_rectangle([0, 0, im.width - 1, 83], 18, fill=(0, 0, 0, 190)); x = 28
     for t, p in parts:
-        d.text((x, 14), t, font=f, fill=(255, 61, 168) if p else (255, 255, 255)); x += f.getlength(t)
+        d.text((x, 14), t, font=f, fill=ST["pink"] if p else (255, 255, 255)); x += f.getlength(t)
     im.save(path)
 
 
 def chap_png(i, path):
     f = ImageFont.truetype(fp, 40); t = f"{i}/3"; w = int(f.getlength(t)) + 36
     im = Image.new("RGBA", (w, 64), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    d.rounded_rectangle([0, 0, w - 1, 63], 14, fill=(123, 63, 228)); d.text((18, 8), t, font=f, fill="white"); im.save(path)
+    d.rounded_rectangle([0, 0, w - 1, 63], 14, fill=ST["tag"]); d.text((18, 8), t, font=f, fill="white"); im.save(path)
 
 
 hook = f"{tmp}/hook.png"; run(["python3", f"{HERE}/title_png.py", spec["hook"], hook, "800"])
@@ -73,10 +83,10 @@ for k, p in enumerate(spec["parts"]):
     for j, (a, b, t) in enumerate(p.get("pops", [])):
         f = f"{tmp}/p{k}_{j}.png"; run(["python3", f"{HERE}/title_png.py", t, f, "560"]); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:1250", a, b))
     fc = (f"[0:v]split[a][b];[a]crop={w}:{h}:{x}:{y},scale=1080:762[cam];[b]scale=-2:1152,crop=1080:1152[game];"
-          f"color=c=0xE52E9E:s=1080x6:d={d + 1}[line];[cam][line][game]vstack=3,fps=30,format=yuv420p,setsar=1[v0];")
+          f"color=c={ST["line"]}:s=1080x6:d={d + 1}[line];[cam][line][game]vstack=3,fps=30,format=yuv420p,setsar=1[v0];")
     bw = "+".join(f"between(t,{a},{b})" for a, b in p.get("bw", []))
     fc += f"[v0]hue=s=0:enable='{bw}'[v1];" if bw else "[v0]null[v1];"
-    fc += "[v1][1:v]overlay=(W-w)/2:230:shortest=1[v2];"; last = "v2"
+    fc += f"[v1][1:v]overlay=(W-w)/2:{ST['hook_y']}:shortest=1[v2];"; last = "v2"
     for n, (pos, a, b) in enumerate(ov):
         fc += f"[{last}][{n + 2}:v]overlay={pos}:enable='between(t,{a:.2f},{b:.2f})'[o{n}];"; last = f"o{n}"
     part = f"{tmp}/part{k}.mp4"; pieces.append(part)
