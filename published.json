@@ -164,5 +164,30 @@
    "instagram_10:00": "6affd7da4c1afd05def46fd9"
   },
   "note": "TikTok : brouillon à envoyer le 21/11 au matin ; pas de slot YouTube libre (14:30 vc_welcome, 20:00 clip A)"
+ },
+ {
+  "date": "2026-11-21",
+  "type": "clip_A",
+  "streamer": "Gotaga",
+  "source": "clips Twitch publics (3 clips)",
+  "file": "clips/2026-11-21/gotaga1.mp4",
+  "music": null,
+  "hashtags": {
+   "tiktok": "(brouillon, légende dans hub)",
+   "instagram": "#gta6 #gta6gameplay #gta6fr #gamingfr #jeuxvidéo",
+   "youtube": "#gtavi #gta6gameplay #gta6infos #gaming #gta6online"
+  },
+  "posts": {
+   "tiktok_12:00_draft": "6b0127ea35dff8be330e2669",
+   "instagram_12:30": "6b01282a5e993799d8532189",
+   "youtube_21:00": "6b01282e5102766245f9ca69",
+   "tiktok_18:00_draft_vc_welcome": "6b0127f67697837fa705049b",
+   "tiktok_21:00_draft_sondage": "6b0127f7db2c3bc02d942c0e"
+  },
+  "clip_ids": [
+   "g0 22s",
+   "g3 36s",
+   "g4 17s"
+  ]
  }
 ]

@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-20T06:30:00+01:00",
- "date_label": "Vendredi 20 novembre",
+ "updated": "2026-11-21T06:20:00+01:00",
+ "date_label": "Samedi 21 novembre",
  "alerts": [
-  "Partners in Vice : 2 brouillons TikTok à publier depuis la Boîte de réception (12:00 ZeratoR, 18:00 Domingo). Le post TikTok direct de 13:00 (diaporama Vice City) reste programmé : suppression refusée par le système, à retirer si tu préfères le brouillon.",
-  "Partners in Vice : le post YouTube Squeezie (22/11 14:30) affiche toujours l'erreur « limite quotidienne » : à surveiller."
+  "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Gotaga, 18:00 Vice City, 21:00 sondage Jason ou Lucia).",
+  "Partners in Vice : un seul clip streamer aujourd'hui (Gotaga) : pas de 2e moment assez fort et inédit trouvé à temps. Squeezie YouTube déplacé au 22/11 15:45 (erreur « limite quotidienne » corrigée)."
  ],
  "channel": {
   "name": "Partners in Vice",
   "headline": [
    "Partners in Vice,",
-   "clips FR du jour : ZeratoR et Domingo."
+   "clip FR du jour : Gotaga sur GTA 6."
   ],
-  "summary": "Vendredi 20/11 : clip A ZeratoR (yéti), clip B Domingo (requins), diaporama Vice City 2002 contre GTA 6. Demain : sondage Jason ou Lucia + montage Vice City. TikTok en brouillon.",
+  "summary": "Samedi 21/11 : clip A Gotaga (course moto, 79 s), sondage Jason ou Lucia (IG 10:00), montage Vice City (YT 15:10, TikTok 18:00, IG 20:00). TikTok en brouillon.",
   "kpis": [
    {
     "platform": "TikTok",
@@ -47,60 +47,56 @@
    {
     "time": "10:00",
     "platform": "Instagram",
-    "title": "Diaporama Vice City 2002 contre GTA 6",
+    "title": "Sondage Jason ou Lucia",
     "status": "programmé"
    },
    {
     "time": "12:00",
     "platform": "TikTok",
-    "title": "Clip A · ZeratoR et le yéti (brouillon)",
+    "title": "Clip A · Gotaga (brouillon)",
     "status": "brouillon à publier"
    },
    {
     "time": "12:30",
     "platform": "Instagram",
-    "title": "Clip A · ZeratoR",
+    "title": "Clip A · Gotaga",
     "status": "programmé"
    },
    {
-    "time": "13:00",
-    "platform": "TikTok",
-    "title": "Diaporama Vice City (direct)",
-    "status": "programmé"
-   },
-   {
-    "time": "14:30",
+    "time": "15:10",
     "platform": "YouTube",
-    "title": "Diaporama Vice City 2002 contre GTA 6",
+    "title": "Bienvenue à Vice City (montage officiel)",
     "status": "programmé"
    },
    {
     "time": "18:00",
     "platform": "TikTok",
-    "title": "Clip B · Domingo et les requins (brouillon)",
+    "title": "Bienvenue à Vice City (brouillon)",
     "status": "brouillon à publier"
    },
    {
-    "time": "18:00",
+    "time": "20:00",
     "platform": "Instagram",
-    "title": "Clip B · Domingo",
+    "title": "Bienvenue à Vice City",
     "status": "programmé"
    },
    {
-    "time": "20:00",
+    "time": "21:00",
+    "platform": "TikTok",
+    "title": "Sondage Jason ou Lucia (brouillon)",
+    "status": "brouillon à publier"
+   },
+   {
+    "time": "21:00",
     "platform": "YouTube",
-    "title": "Clip A · ZeratoR vs le yéti",
+    "title": "Clip A · Gotaga",
     "status": "programmé"
    }
   ],
   "upcoming": [
    {
-    "day": "Samedi 21",
-    "text": "Sondage « Jason ou Lucia » (IG 10:00) + montage « Bienvenue à Vice City » (YT 14:30, TikTok 18:00, IG 20:00) + clips A/B"
-   },
-   {
     "day": "Dimanche 22",
-    "text": "Top de la semaine + clip Squeezie YouTube 14:30"
+    "text": "Top de la semaine + clip Squeezie YouTube 15:45 + clips du jour"
    }
   ],
   "trend": {
@@ -145,49 +141,49 @@
    {
     "label": "#gta6 : fil des vidéos (1 tap = défile)",
     "url": "https://www.tiktok.com/tag/gta6",
-    "comment": "La map a l'air énorme, vous commencez par où ? 🌴"
+    "comment": "Tu as vu les nouvelles images de Leonida ? Ça donne trop envie 🌴"
    },
    {
     "label": "Anyme (@anyme023)",
     "url": "https://www.tiktok.com/@anyme023",
-    "comment": "Toujours le meilleur pour les moments WTF sur GTA 😂"
+    "comment": "Ton dernier moment sur GTA, j'ai ri tout seul 😂"
    },
    {
     "label": "Michou (@michouoff)",
     "url": "https://www.tiktok.com/@michouoff",
-    "comment": "Ta course-poursuite avec la police, légendaire 🚓"
+    "comment": "Celui-là, il fallait le voir en live 🚓"
    },
    {
     "label": "Snir, GTA FR (@sniryt)",
     "url": "https://www.tiktok.com/@sniryt",
-    "comment": "Toujours les meilleures infos GTA 6, merci ☕"
+    "comment": "Merci pour les infos du jour, toujours au top ☕"
    },
    {
     "label": "Chris Klippel, Rockstar Mag (@chris_klippel)",
     "url": "https://www.tiktok.com/@chris_klippel",
-    "comment": "Le détail que personne n'avait vu 👀"
+    "comment": "Le genre de détail qu'on ne remarque qu'au 2e visionnage 👀"
    },
    {
     "label": "#vicecity",
     "url": "https://www.tiktok.com/tag/vicecity",
-    "comment": "Ces néons… Vice City n'a jamais été aussi beau 😍"
+    "comment": "Vice City la nuit, on est d'accord que c'est le meilleur décor 😍"
    }
   ],
   "drafts": [
    {
     "time": "12:00",
-    "label": "Clip A · ZeratoR et le yéti",
-    "caption": "Zerator tombe sur un yéti dans GTA 6 😱 Il voulait juste lui parler… Tu l'aurais fait fuir toi aussi ? 👇\n🎥 ZeratoR en live sur Twitch\n#gta6 #gta6gameplay #gta6online #gta6français #gamingfr"
+    "label": "Clip A · Gotaga",
+    "caption": "Gotaga sur GTA 6 : 2 500 $ gagnés en course et une moto à 200 🏍️ Tu l'aurais battu ? 👇\n🎥 Gotaga en live sur Twitch\n#gta6 #gta6gameplay #gta6fr #gamingfr #jeuxvidéo"
    },
    {
     "time": "18:00",
-    "label": "Clip B · Domingo et les requins",
-    "caption": "Domingo se fait attaquer par un requin dans GTA 6 💀 Ça t'est déjà arrivé de te faire piéger comme ça ? 👇\n🎥 Domingo en live sur Twitch\n#grandtheftauto6 #gta6online #gta6gameplay #gta6fr #ps5"
+    "label": "Montage · Bienvenue à Vice City",
+    "caption": "Bienvenue à Vice City 🌴 Tu commences par quoi : la plage, les néons ou les grosses cylindrées ? 👇\n📸 Visuels officiels Rockstar Games · 🎵 son original\n#gtavi #vicecity #leonida #gta6fr #gamingfr"
    },
    {
-    "time": "12:00",
-    "label": "Diaporama · Vice City 2002 vs GTA 6 (brouillon envoyé à 12:00)",
-    "caption": "Vice City : 2002 contre GTA 6 🌴 Quel est ton plus beau souvenir de Vice City ? 👇\n📸 Visuels officiels Rockstar Games · 🎵 son original\n#gtavi #leonida #vicecity #gta6nouveautés #jeuxvidéo"
+    "time": "21:00",
+    "label": "Sondage · Jason ou Lucia",
+    "caption": "Jason ou Lucia ? Choisis ton camp pour GTA 6 et dis pourquoi en commentaire 👇\n📸 Visuels officiels Rockstar Games · 🎵 son original\n#gta6 #gta6lucia #jasonetlucia #gta6fr #gaming"
    }
   ]
  }
