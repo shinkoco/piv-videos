@@ -15,6 +15,8 @@ spec.json :
   ]
 }
 Repères 1/3 2/3 3/3 calculés sur la durée totale ; outro endcard.py de 3 s ajoutée.
+Option par part : "cut": [début, fin] en secondes (les temps des subs/emojis/pops sont alors RELATIFS au début du cut).
+CLIP COURT : ajouter "short": true (15-25 s, 1 seule part, pas de repères, pas d'outro, couper juste avant la fin pour la boucle).
 """
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFont
@@ -50,10 +52,14 @@ def chap_png(i, path):
 hook = f"{tmp}/hook.png"; run(["python3", f"{HERE}/title_png.py", spec["hook"], hook, "900"])
 for i in (1, 2, 3): chap_png(i, f"{tmp}/c{i}.png")
 x, y, w, h = spec["cam"]
+for k, p in enumerate(spec["parts"]):
+    if p.get("cut"):
+        a, b = p["cut"]; cutf = f"{tmp}/cut{k}.mp4"
+        run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-to", str(b), "-i", p["src"], "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", cutf]); p["src"] = cutf
 total = sum(dur(p["src"]) for p in spec["parts"]); t0 = 0; pieces = []
 for k, p in enumerate(spec["parts"]):
     d = dur(p["src"]); ins = ["-i", p["src"], "-loop", "1", "-i", hook]; ov = []
-    for c in (1, 2, 3):
+    for c in (() if spec.get("short") else (1, 2, 3)):
         a, b = total * (c - 1) / 3 - t0, total * c / 3 - t0
         if b > 0 and a < d:
             ins += ["-loop", "1", "-i", f"{tmp}/c{c}.png"]; ov.append(("28:796", max(a, 0), min(b, d)))
@@ -74,8 +80,9 @@ for k, p in enumerate(spec["parts"]):
     run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", fc.rstrip(";"), "-map", f"[{last}]", "-map", "0:a",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-ar", "48000", "-ac", "2", "-shortest", part])
     t0 += d
-end = f"{tmp}/end.png"; run(["python3", f"{HERE}/endcard.py", end]); endv = f"{tmp}/end.mp4"; pieces.append(endv)
-run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-t", "3", "-i", end, "-f", "lavfi", "-t", "3", "-i", "anullsrc=r=48000:cl=stereo",
+if not spec.get("short"):
+  end = f"{tmp}/end.png"; run(["python3", f"{HERE}/endcard.py", end]); endv = f"{tmp}/end.mp4"; pieces.append(endv)
+  run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-t", "3", "-i", end, "-f", "lavfi", "-t", "3", "-i", "anullsrc=r=48000:cl=stereo",
      "-vf", "scale=1080:1920,fps=30,format=yuv420p,setsar=1", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-shortest", endv])
 n = len(pieces); args = sum((["-i", p] for p in pieces), [])
 run(["ffmpeg", "-v", "error", "-y", *args, "-filter_complex", "".join(f"[{i}:v][{i}:a]" for i in range(n)) + f"concat=n={n}:v=1:a=1[v][a]",
