@@ -10,6 +10,7 @@
 - CLIPS (validé 20/11) : template « Réaction PIV » via tools/make_reaction.py spec.json out.mp4 (voir docstring). 60 s MINIMUM (2-3 clips Twitch du même streamer), webcam en haut, filet rose, accroche courte, sous-titres mot-clé rose, emojis/pops sur les temps forts, NOIR ET BLANC sur la désolation, repères 1/3-3/3, outro 3 s. Plus de gros titre, classement ni barre de progression. make_compil.py = ANCIEN, ne plus l'utiliser pour les clips. Repérer la webcam en regardant une image du clip (crop x,y,w,h). Template « Série » (bulle webcam, épisodes) : à construire plus tard.
 - COUVERTURES (validé 20/11, option A) : 1re image de chaque diaporama = tools/make_cover.py (barre « ACTU GTA VI · SUJET », pastille rose catégorie, titre 2 lignes Inter Display Black MAJUSCULES, sous-titre rose, avatar). Titres au « tu » qui promettent un bénéfice (ex. « ARGENT ILLIMITÉ — 5 astuces cachées dans GTA 6 »). Inspiration : @radioleonida.fr.
 - WEEK-END (21/11) : samedi et dimanche, les 3 TikTok sont 3 CLIPS DE STREAMERS (pas de diaporama), horaires 12:00, 17:00, 21:00 ; Instagram peut recevoir en plus le diaporama.
+- ZONES SÛRES TikTok (21/11) : aucun texte dans les 220 px du haut (barre de recherche TikTok), ni dans les 140 px de droite (icônes like/commentaire), ni sous y≈1500 (légende). Les outils make_reaction.py et make_cover.py le respectent déjà.
 - Slack ARRÊTÉ (20/11) : plus aucun message Slack, tout passe par le HUB (hub/piv.json → alerts).
 - Jamais : automatiser likes/commentaires, deviner un handle, fan art/IA, VidIQ, outils payants.
 
