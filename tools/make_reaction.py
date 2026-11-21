@@ -1,4 +1,5 @@
-"""Template « Réaction PIV » (validé le 20/11/2026).
+"""Template « Réaction PIV » — ZONES SÛRES TikTok (21/11) : rien dans les 220 px du haut (barre de recherche), rien dans les 140 px de droite (icônes), rien sous y=1500 (légende).
+Template « Réaction PIV » (validé le 20/11/2026).
 usage: python3 make_reaction.py spec.json out.mp4
 
 spec.json :
@@ -55,7 +56,7 @@ for k, p in enumerate(spec["parts"]):
     for c in (1, 2, 3):
         a, b = total * (c - 1) / 3 - t0, total * c / 3 - t0
         if b > 0 and a < d:
-            ins += ["-loop", "1", "-i", f"{tmp}/c{c}.png"]; ov.append(("W-w-24:792", max(a, 0), min(b, d)))
+            ins += ["-loop", "1", "-i", f"{tmp}/c{c}.png"]; ov.append(("28:796", max(a, 0), min(b, d)))
     for j, (a, b, s1, pk, s2) in enumerate(p.get("subs", [])):
         f = f"{tmp}/s{k}_{j}.png"; sub_png(s1, pk, s2, f); ins += ["-loop", "1", "-i", f]; ov.append(("(W-w)/2:660", a, b))
     for j, (a, b, e) in enumerate(p.get("emojis", [])):
@@ -66,7 +67,7 @@ for k, p in enumerate(spec["parts"]):
           f"color=c=0xE52E9E:s=1080x6:d={d + 1}[line];[cam][line][game]vstack=3,fps=30,format=yuv420p,setsar=1[v0];")
     bw = "+".join(f"between(t,{a},{b})" for a, b in p.get("bw", []))
     fc += f"[v0]hue=s=0:enable='{bw}'[v1];" if bw else "[v0]null[v1];"
-    fc += "[v1][1:v]overlay=(W-w)/2:36:shortest=1[v2];"; last = "v2"
+    fc += "[v1][1:v]overlay=(W-w)/2:230:shortest=1[v2];"; last = "v2"
     for n, (pos, a, b) in enumerate(ov):
         fc += f"[{last}][{n + 2}:v]overlay={pos}:enable='between(t,{a:.2f},{b:.2f})'[o{n}];"; last = f"o{n}"
     part = f"{tmp}/part{k}.mp4"; pieces.append(part)

@@ -22,8 +22,8 @@ im = im.crop((x, 0, x + W, H)).convert("RGBA")
 g = Image.new("RGBA", (W, H)); d = ImageDraw.Draw(g); s = int(H * 0.42)
 for y in range(s, H): d.line([(0, y), (W, y)], fill=(18, 6, 40, min(245, int(300 * (y - s) / (H - s)))))
 im.alpha_composite(g); d = ImageDraw.Draw(im)
-d.rounded_rectangle((60, 70, W - 60, 118), 24, fill=(255, 255, 255, 220))
-d.text((W / 2, 94), f"ACTU GTA VI  ·  {topic.upper()}", font=f("Inter-SemiBold.otf", 26), fill=VIO, anchor="mm")
+d.rounded_rectangle((60, 230, W - 60, 278), 24, fill=(255, 255, 255, 220))
+d.text((W / 2, 254), f"ACTU GTA VI  ·  {topic.upper()}", font=f("Inter-SemiBold.otf", 26), fill=VIO, anchor="mm")
 ft = f("Inter-SemiBold.otf", 32); w = d.textlength(cat, font=ft) + 48
 d.rounded_rectangle(((W - w) / 2, 1180, (W + w) / 2, 1236), 28, fill=MAG); d.text((W / 2, 1208), cat, font=ft, fill="white", anchor="mm")
 for i, line in enumerate((l1, l2)):
