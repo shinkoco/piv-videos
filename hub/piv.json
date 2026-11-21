@@ -11,7 +11,7 @@
    "Partners in Vice,",
    "clip FR du jour : Gotaga sur GTA 6."
   ],
-  "summary": "Samedi 21/11 : clip A Gotaga (course moto, 79 s), sondage Jason ou Lucia (IG 10:00), montage Vice City (YT 15:10, TikTok 18:00, IG 20:00). TikTok en brouillon : Gotaga 12:00, Vice City 18:00, Anyme 21:00.",
+  "summary": "Samedi 21/11 (week-end) : 3 clips de streamers sur TikTok — Gotaga 12:00, Kai Cenat sous-titré FR 17:00, Anyme 21:00. Instagram : sondage, Gotaga, Kai, Vice City. YouTube : Vice City 15:10, Gotaga 21:00.",
   "kpis": [
    {
     "platform": "TikTok",
@@ -69,10 +69,16 @@
     "status": "programmé"
    },
    {
-    "time": "18:00",
+    "time": "17:00",
     "platform": "TikTok",
-    "title": "Bienvenue à Vice City (brouillon)",
+    "title": "Clip US · Kai Cenat (brouillon)",
     "status": "brouillon à publier"
+   },
+   {
+    "time": "17:30",
+    "platform": "Instagram",
+    "title": "Clip US · Kai Cenat",
+    "status": "programmé"
    },
    {
     "time": "20:00",
@@ -176,9 +182,9 @@
     "caption": "Gotaga sur GTA 6 : 2 500 $ gagnés en course et une moto à 200 🏍️ Tu l'aurais battu ? 👇\n🎥 Gotaga en live sur Twitch\n#gta6 #gta6gameplay #gta6fr #gamingfr #jeuxvidéo"
    },
    {
-    "time": "18:00",
-    "label": "Montage · Bienvenue à Vice City",
-    "caption": "Bienvenue à Vice City 🌴 Tu commences par quoi : la plage, les néons ou les grosses cylindrées ? 👇\n📸 Visuels officiels Rockstar Games · 🎵 son original\n#gtavi #vicecity #leonida #gta6fr #gamingfr"
+    "time": "17:00",
+    "label": "Clip US · Kai Cenat (sous-titré FR)",
+    "caption": "Kai Cenat découvre GTA 6 et prend 6 étoiles en 2 minutes 😱 Sous-titré en français. Tu aurais tenu combien de temps ? 👇\n🎥 Kai Cenat en live sur Twitch\n#gta6 #kaicenat #gta6gameplay #gta6fr #gamingfr"
    },
    {
     "time": "21:00",
