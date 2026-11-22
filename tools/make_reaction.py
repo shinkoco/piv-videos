@@ -17,6 +17,7 @@ spec.json :
 }
 Repères 1/3 2/3 3/3 calculés sur la durée totale ; outro endcard.py de 3 s ajoutée.
 Option par part : "cut": [début, fin] en secondes (les temps des subs/emojis/pops sont alors RELATIFS au début du cut).
+"tease": [a, b] (2-3 s, temps du clip FINAL) = le meilleur moment montré en ouverture, OBLIGATOIRE sur tous les clips.
 CLIP COURT : ajouter "short": true (15-25 s, 1 seule part, pas de repères, pas d'outro, couper juste avant la fin pour la boucle).
 """
 import json, os, random, subprocess, sys, tempfile
@@ -109,4 +110,10 @@ if not spec.get("short"):
 n = len(pieces); args = sum((["-i", p] for p in pieces), [])
 run(["ffmpeg", "-v", "error", "-y", *args, "-filter_complex", "".join(f"[{i}:v][{i}:a]" for i in range(n)) + f"concat=n={n}:v=1:a=1[v][a]",
      "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", out])
+if spec.get("tease"):
+    # ACCROCHE « meilleur moment d'abord » : les secondes [a, b] du clip final sont montrées en ouverture, puis le clip repart du début
+    a, b = spec["tease"]; full = f"{tmp}/full.mp4"; os.replace(out, full); tz = f"{tmp}/tease.mp4"
+    run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-to", str(b), "-i", full, "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", "-ar", "48000", "-ac", "2", tz])
+    run(["ffmpeg", "-v", "error", "-y", "-i", tz, "-i", full, "-filter_complex", "[0:v][0:a][1:v][1:a]concat=n=2:v=1:a=1[v][a]",
+         "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-c:a", "aac", out])
 print("OK", out, round(dur(out), 1), "s")
