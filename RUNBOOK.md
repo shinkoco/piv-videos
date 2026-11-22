@@ -326,3 +326,6 @@ TikTok + Instagram uniquement (jamais YouTube). Format tips à enregistrer. Uniq
 4. Maibatsu '97 Penumbra FF — garage d'une maison sur Vespucci Island, ouverte et sans alarme : récupérable tôt dans l'histoire.
 5. Supercar dorée — sous le balcon (pont couvert) des Crimson Palms Condominiums, près de la plage.
 Sources : Push Square, Sportskeeda, showgamer, games.gg, ggwtb, detonated. Visuels : uniquement officiels Rockstar (visuals/rockstar) ou captures de lives de streamers ; jamais d'IA. Slide finale : « Enregistre pour ta prochaine session ». Le dire en légende : emplacements valables en solo (histoire), sans lien.
+
+## CHOIX DES MOMENTS (22/11, validé par Mathieu)
+Priorité aux réactions du streamer face au « monde vivant » de Leonida : PNJ improbables (plage, disputes, dialogues), animaux (alligators…), situations absurdes. Constat sur gta6.only (580 K) : ces moments font 150-200 K vues. Ne JAMAIS reprendre les vidéos de pages concurrentes (gta6.only etc.) : contenu dupliqué + risque de signalement.
