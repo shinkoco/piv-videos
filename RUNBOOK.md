@@ -317,3 +317,12 @@ Le clip court de 17:00 du 22/11 est clips/2026-11-22/kai_short.mp4 (Kai Cenat, 2
 
 ## 22/11 : test 3e Short YouTube = ÉCHEC
 Buffer refuse à la programmation un 3e post YouTube sur la même journée calendaire (« maximum 2 »). Rester à 2 Shorts par jour calendaire ET par 24 h glissantes ; le reste va au lendemain (≥ sentAt de l'avant-dernier + 24 h 20).
+
+## DIAPORAMA DE LA SEMAINE (validé par Mathieu le 22/11) — « 5 voitures rares de GTA 6 et où les trouver »
+TikTok + Instagram uniquement (jamais YouTube). Format tips à enregistrer. Uniquement des emplacements confirmés par ≥ 2 guides (vérifié le 22/11) :
+1. Pegassi Infernus (1996) — 7e étage du parking du commissariat de Crosstown, NE 9th St, à l'est de l'hôpital Rockridge (Vice-Dale). Entrer quand une voiture de police sort, sans se faire repérer.
+2. Pegassi Vitello — garage de la villa de Flamingo Pkwy, Waning Sands, à l'est de Belville (Leonard County).
+3. Bravado Gauntlet Hellfire — casse tenue par le gang M7, près du Boone Speedway, Hamlet. Ouvrir les grilles avant pour fuir vite.
+4. Maibatsu '97 Penumbra FF — garage d'une maison sur Vespucci Island, ouverte et sans alarme : récupérable tôt dans l'histoire.
+5. Supercar dorée — sous le balcon (pont couvert) des Crimson Palms Condominiums, près de la plage.
+Sources : Push Square, Sportskeeda, showgamer, games.gg, ggwtb, detonated. Visuels : uniquement officiels Rockstar (visuals/rockstar) ou captures de lives de streamers ; jamais d'IA. Slide finale : « Enregistre pour ta prochaine session ». Le dire en légende : emplacements valables en solo (histoire), sans lien.
