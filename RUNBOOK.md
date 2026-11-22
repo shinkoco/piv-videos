@@ -1,3 +1,4 @@
+# ⚠️ LÉGENDES : jamais de lien (twitch.tv, youtube.com…) nulle part — « 🎥 Issu du live Twitch de <Nom> ».
 # ⚠️ ÉTAT ACTUEL AU 20/11/2026 — CE RÉSUMÉ FAIT FOI (en cas de contradiction plus bas)
 - TikTok — ENVOI DES BROUILLONS 45 MIN AVANT l'heure de publication (constat : TikTok livre un brouillon 20 à 35 min après l'envoi). Envoyer à 11:15 / 16:15 / 20:15 pour une publication par Mathieu vers 12:00 / 17:00 / 21:00 ; dans hub/piv.json → drafts, « time » = heure de PUBLICATION conseillée.
 - TikTok (Zernio 6afc525031be0a779a30b36e) : 3 vidéos/jour MAX à 12:00, 18:00, 21:00, envoyées le matin en BROUILLON (tiktok_settings draft true, 5 brouillons max/24 h). Légendes dans hub/piv.json → channel.drafts [{time,label,caption}]. Légendes SANS URL, 5 hashtags, jamais #shorts. Pas de publication directe.
@@ -282,7 +283,7 @@ Les faits : sur la chaîne PIV, YouTube refuse le 3e Short dans une fenêtre de 
 - Si la limite augmente (aucune erreur 7 jours de suite), tester 3 créneaux : 12:00, 16:30, 21:00.
 
 ## TikTok : pas d'URL dans les légendes (19/11)
-Sur TikTok, ne JAMAIS mettre d'URL (twitch.tv/…) dans la légende : liens non cliquables et suspectés de freiner la diffusion. Crédit en texte seul : « 🎥 JLTomy en live sur Twitch ». Les URL restent OK sur YouTube et Instagram.
+Sur TikTok, ne JAMAIS mettre d'URL (twitch.tv/…) dans la légende : liens non cliquables et suspectés de freiner la diffusion. Crédit en texte seul : « 🎥 JLTomy en live sur Twitch ». MAJ 22/11 (Mathieu) : AUCUNE URL vers une autre plateforme sur AUCUNE plateforme (TikTok, YouTube, Instagram). Crédit texte seul : « 🎥 Issu du live Twitch de <Nom> ». Hashtags inchangés.
 
 ## TikTok : mode BROUILLON + 3 posts/jour max (19/11)
 Constat : 6 posts TikTok le 19/11 sur un compte à 40 abonnés → les derniers à 0 vue. Nouvelle règle (remplace clips C et D et tout envoi direct TikTok) :
