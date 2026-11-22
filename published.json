@@ -189,5 +189,66 @@
    "g3 36s",
    "g4 17s"
   ]
+ },
+ {
+  "date": "2026-11-22",
+  "type": "clip_A",
+  "streamer": "Kameto",
+  "source": "clips Twitch publics (3 clips)",
+  "file": "clips/2026-11-22/kameto1.mp4",
+  "music": null,
+  "hashtags": {
+   "tiktok": "#gta6 #gta6fr #kameto #gamingfr #gta6gameplay",
+   "instagram": "#gta6 #gta6gameplay #gta6fr #gamingfr #jeuxvideofr",
+   "youtube": "#gtavi #gta6gameplay #gta6infos #gaming #gta6nouveautés"
+  },
+  "posts": {
+   "tiktok_12:00_draft(11:15)": "6b027b5eb946361bc3a3ba2b",
+   "instagram_12:30": "6b027b61c72676f5e90574ff",
+   "youtube_23/11_13:30": "6b027b6b846b0ee9076056bf"
+  },
+  "clip_ids": [
+   "kamet0 DeafHappyWasp",
+   "kamet0 CooperativePatientHippo",
+   "kamet0 CallousImpossibleWeasel"
+  ]
+ },
+ {
+  "date": "2026-11-22",
+  "type": "clip_B",
+  "streamer": "Michou",
+  "source": "clips Twitch publics (2 clips)",
+  "file": "clips/2026-11-22/michou2.mp4",
+  "music": null,
+  "hashtags": {
+   "tiktok": "#gta6 #gtavi #michou #gta6français #jeuxvidéo",
+   "instagram": "#gta6 #vicecity #leonida #gta6français #gamingfr"
+  },
+  "posts": {
+   "tiktok_21:00_draft(20:15)": "6b027b60b946361bc3a3ba34",
+   "instagram_19:00": "6b027b63846b0ee90760551e"
+  },
+  "clip_ids": [
+   "michou GiftedArborealParrot (fight 1)",
+   "michou HotOilyCourgette (urus dorée)"
+  ]
+ },
+ {
+  "date": "2026-11-22",
+  "type": "clip_court",
+  "streamer": "Kai Cenat",
+  "source": "clip Twitch public",
+  "file": "clips/2026-11-22/kai_short.mp4",
+  "music": null,
+  "hashtags": {
+   "tiktok": "#gta6 #kaicenat #gta6fr #gamingfr #gta6gameplay",
+   "instagram": "#gtavi #kaicenat #gta6gameplay #gta6infos #ps5",
+   "youtube": "#grandtheftauto6 #gta6gameplay #gaming #gta6français #xboxseries"
+  },
+  "posts": {
+   "tiktok_17:00_draft(16:15)": "6b027b5fa479bd0cb8850b28",
+   "instagram_17:30": "6b027b62846b0ee9076054e7",
+   "youtube_12:30": "6b027b64d5eabfb8cc843dc8"
+  }
  }
 ]

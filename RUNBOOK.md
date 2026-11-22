@@ -309,3 +309,6 @@ Son envoi TikTok direct du 21/11 a été supprimé. Le 21/11 au matin, l'envoyer
 
 ## 22/11 : clip court DÉJÀ PRÊT
 Le clip court de 17:00 du 22/11 est clips/2026-11-22/kai_short.mp4 (Kai Cenat, 20 s, validé par Mathieu). Ne pas en refaire un ; l'envoyer en brouillon à 16:15. Légende : « Kai Cenat prend 6 étoiles en 20 secondes 😱 Tu fais mieux ? 👇 🎥 Kai Cenat en live sur Twitch #gta6 #kaicenat #gta6fr #gamingfr #gta6gameplay ». Comme c'est le clip US du jour, les 2 clips longs du 22/11 sont FRANÇAIS.
+
+## 22/11 : test 3e Short YouTube = ÉCHEC
+Buffer refuse à la programmation un 3e post YouTube sur la même journée calendaire (« maximum 2 »). Rester à 2 Shorts par jour calendaire ET par 24 h glissantes ; le reste va au lendemain (≥ sentAt de l'avant-dernier + 24 h 20).
