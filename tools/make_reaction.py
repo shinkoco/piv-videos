@@ -26,12 +26,12 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = os.path.dirname(os.path.abspath(__file__))
 spec, out = json.load(open(sys.argv[1])), sys.argv[2]
 # VARIATION OBLIGATOIRE (21/11) : chaque clip tire un style différent (palette, bulle, position de l'accroche, filet)
-STYLES = [
+STYLES = [  # charte v2 uniquement : #1B0A3C #7B3FE4 #E52E9E #FF3DA8 + blanc (22/11 : plus de jaune ni de cyan)
   {"bubble": [255,255,255,255], "grad": [[123,63,228],[229,46,158],[255,61,168]], "line": "0xE52E9E", "tag": (123,63,228), "pink": (255,61,168), "hook_y": 230},
-  {"bubble": [12,8,24,235], "grad": [[255,255,255],[255,200,240],[255,61,168]], "line": "0xFFFFFF", "tag": (229,46,158), "pink": (255,214,0), "hook_y": 230},
-  {"bubble": [123,63,228,240], "grad": [[255,255,255],[255,255,255],[255,230,250]], "line": "0x7B3FE4", "tag": (20,20,30), "pink": (0,229,255), "hook_y": 900},
-  {"bubble": [255,214,0,255], "grad": [[20,20,30],[60,20,80],[123,63,228]], "line": "0xFFD600", "tag": (229,46,158), "pink": (255,214,0), "hook_y": 230},
-  {"bubble": [0,0,0,0], "grad": [[255,255,255],[255,255,255],[255,255,255]], "line": "0x00E5FF", "tag": (0,150,170), "pink": (0,229,255), "hook_y": 900},
+  {"bubble": [27,10,60,235], "grad": [[255,255,255],[255,200,240],[255,61,168]], "line": "0xFFFFFF", "tag": (229,46,158), "pink": (255,61,168), "hook_y": 230},
+  {"bubble": [123,63,228,240], "grad": [[255,255,255],[255,255,255],[255,230,250]], "line": "0x7B3FE4", "tag": (27,10,60), "pink": (255,61,168), "hook_y": 900},
+  {"bubble": [229,46,158,255], "grad": [[255,255,255],[255,255,255],[255,240,250]], "line": "0xE52E9E", "tag": (123,63,228), "pink": (123,63,228), "hook_y": 230},
+  {"bubble": [0,0,0,0], "grad": [[255,255,255],[255,255,255],[255,255,255]], "line": "0xFF3DA8", "tag": (123,63,228), "pink": (255,61,168), "hook_y": 900},
 ]
 ST = STYLES[spec["style"]] if "style" in spec else random.choice(STYLES)
 LAYOUT = spec.get("layout") or random.choice(["split", "split", "double"])
