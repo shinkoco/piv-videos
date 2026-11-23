@@ -1,25 +1,26 @@
 {
- "updated": "2026-11-22T06:35:00+01:00",
- "date_label": "Dimanche 22 novembre",
+ "updated": "2026-11-23T06:40:00+01:00",
+ "date_label": "Lundi 23 novembre",
  "alerts": [
-  "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Kameto, 17:00 Kai Cenat court, 21:00 Michou). Ils arrivent ~45 min avant.",
-  "Partners in Vice : test du 3e Short YouTube du dimanche = ÉCHEC, Buffer refuse un 3e post YouTube par jour (limite 2/jour à la programmation). On reste à 2 Shorts/24 h ; Kameto décalé au 23/11 13:30."
+  "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Squeezie court, 17:00 Gotaga court, 21:00 Domingo long). Ils arrivent ~45 min avant.",
+  "Partners in Vice : test court vs long (jour 2) : Michou long 22/11 = 655 vues TikTok (meilleur score), Kai Cenat court = 233 vues (24 % regardé jusqu'au bout), Kameto long = 225. Bilan le 29/11.",
+  "Partners in Vice : YouTube Buffer, aucun post en erreur. Kameto 16:00 (long), Squeezie Short 21:50, Domingo long demain 16:30."
  ],
  "channel": {
   "name": "Partners in Vice",
   "headline": [
    "Partners in Vice,",
-   "2 clips FR du jour : Kameto et Michou."
+   "3 clips FR du jour : Squeezie, Gotaga, Domingo."
   ],
-  "summary": "Dimanche 22/11 : TikTok = Kameto 12:00 (long), Kai Cenat 17:00 (court, sous-titré FR), Michou 21:00 (long). Instagram : Kameto 12:30, Kai 17:30, Michou 19:00. YouTube : Kai Short 12:30, Squeezie 15:45 ; Kameto demain 13:30.",
+  "summary": "Lundi 23/11 : TikTok = Squeezie court 12:00, Gotaga court 17:00, Domingo long 21:00 (brouillons). Instagram : Squeezie 12:30, Gotaga 17:30, Domingo 19:00. YouTube : Kameto 16:00, Squeezie Short 21:50 ; Domingo demain 16:30.",
   "kpis": [
    {
     "platform": "TikTok",
     "label": "Meilleure vidéo de la veille",
-    "detail": "Michou, 19/11",
-    "value": 273,
+    "detail": "Michou long, 22/11",
+    "value": 655,
     "unit": "vues",
-    "bar": 0.5
+    "bar": 0.9
    },
    {
     "platform": "Instagram",
@@ -47,56 +48,56 @@
    {
     "time": "12:00",
     "platform": "TikTok",
-    "title": "Clip A · Kameto (brouillon)",
+    "title": "Clip court · Squeezie (brouillon)",
     "status": "brouillon à publier"
    },
    {
     "time": "12:30",
     "platform": "Instagram",
-    "title": "Clip A · Kameto",
+    "title": "Clip court · Squeezie",
     "status": "programmé"
    },
    {
-    "time": "12:30",
+    "time": "16:00",
     "platform": "YouTube",
-    "title": "Short · Kai Cenat",
-    "status": "programmé"
-   },
-   {
-    "time": "15:45",
-    "platform": "YouTube",
-    "title": "Clip · Squeezie",
+    "title": "Clip long · Kameto",
     "status": "programmé"
    },
    {
     "time": "17:00",
     "platform": "TikTok",
-    "title": "Clip court · Kai Cenat (brouillon)",
+    "title": "Clip court · Gotaga (brouillon)",
     "status": "brouillon à publier"
    },
    {
     "time": "17:30",
     "platform": "Instagram",
-    "title": "Clip court · Kai Cenat",
+    "title": "Clip court · Gotaga",
     "status": "programmé"
    },
    {
     "time": "19:00",
     "platform": "Instagram",
-    "title": "Clip B · Michou",
+    "title": "Clip long · Domingo",
     "status": "programmé"
    },
    {
     "time": "21:00",
     "platform": "TikTok",
-    "title": "Clip B · Michou (brouillon)",
+    "title": "Clip long · Domingo (brouillon)",
     "status": "brouillon à publier"
+   },
+   {
+    "time": "21:50",
+    "platform": "YouTube",
+    "title": "Short · Squeezie",
+    "status": "programmé"
    }
   ],
   "upcoming": [
    {
-    "day": "Lundi 23",
-    "text": "Kameto en YouTube Short 13:30 + clips du jour"
+    "day": "Mardi 24",
+    "text": "Domingo long en YouTube 16:30 + clips du jour"
    }
   ],
   "trend": {
@@ -139,51 +140,46 @@
   "best_time": null,
   "warmup": [
    {
-    "label": "#gta6 : fil des vidéos (1 tap = défile)",
+    "label": "#gta6 : fil des vidéos",
     "url": "https://www.tiktok.com/tag/gta6",
-    "comment": "Le moment du braquage, on dirait presque un vrai film 😳"
+    "comment": "Rockstar a vraiment mis des PNJ partout, on se perd dedans 😅"
    },
    {
     "label": "Anyme (@anyme023)",
     "url": "https://www.tiktok.com/@anyme023",
-    "comment": "Ta dernière vidéo m'a fait rire, merci pour le contenu 😂"
+    "comment": "On attend ton prochain moment GTA 6 avec impatience 🔥"
    },
    {
     "label": "Michou (@michouoff)",
     "url": "https://www.tiktok.com/@michouoff",
-    "comment": "Tu as vu les nouveaux moments GTA 6 de ce week-end ? 👀"
+    "comment": "Ton Urus dorée m'a achevé, quelle chance 😂"
    },
    {
     "label": "Snir, GTA FR (@sniryt)",
     "url": "https://www.tiktok.com/@sniryt",
-    "comment": "Toujours au rendez-vous pour tes infos GTA, merci ☕"
+    "comment": "Merci pour le récap du jour, toujours clair 👌"
    },
    {
     "label": "Chris Klippel, Rockstar Mag (@chris_klippel)",
     "url": "https://www.tiktok.com/@chris_klippel",
-    "comment": "Le meilleur sourire du live, on a hâte de la suite 🌴"
-   },
-   {
-    "label": "#vicecity",
-    "url": "https://www.tiktok.com/tag/vicecity",
-    "comment": "Vice City la nuit, on est d'accord que c'est le meilleur décor 😍"
+    "comment": "Belle analyse, ça donne envie de retourner à Leonida 🌴"
    }
   ],
   "drafts": [
    {
     "time": "12:00",
-    "label": "Clip A · Kameto",
-    "caption": "Kameto se fait braquer chez lui dans GTA 6 😳 Tu aurais ouvert la porte ? 👇\n🎥 Kameto en live sur Twitch\n#gta6 #gta6fr #kameto #gamingfr #gta6gameplay"
+    "label": "Clip court · Squeezie",
+    "caption": "Squeezie jure qu'il n'est pas un mauvais criminel dans GTA 6 😂 Tu lui donnes raison ? 👇\n🎥 Issu du live Twitch de Squeezie\n#gta6 #gtavi #squeezie #gta6fr #gamingfr"
    },
    {
     "time": "17:00",
-    "label": "Clip court · Kai Cenat (sous-titré FR)",
-    "caption": "Kai Cenat prend 6 étoiles en 20 secondes 😱 Tu fais mieux ? 👇\n🎥 Kai Cenat en live sur Twitch\n#gta6 #kaicenat #gta6fr #gamingfr #gta6gameplay"
+    "label": "Clip court · Gotaga",
+    "caption": "Lucia fait danser son bébé et Gotaga fond complètement 🥹 Rockstar a vraiment soigné les détails, non ? 👇\n🎥 Issu du live Twitch de Gotaga\n#gta6 #gta6gameplay #gotaga #gta6français #jeuxvidéo"
    },
    {
     "time": "21:00",
-    "label": "Clip B · Michou",
-    "caption": "Michou s'excuse auprès de Lucia en boucle 🙏 puis tombe sur une Urus dorée dans GTA 6. Tu l'aurais cru ? 👇\n🎥 Michou en live sur Twitch\n#gta6 #gtavi #michou #gta6français #jeuxvidéo"
+    "label": "Clip long · Domingo",
+    "caption": "Domingo rate son braquage dans GTA 6 et s'en veut à mort 💀 Tu aurais fait quoi à sa place ? 👇\n🎥 Issu du live Twitch de Domingo\n#gta6 #gtavi #domingo #vicecity #gta6gameplay"
    }
   ]
  }

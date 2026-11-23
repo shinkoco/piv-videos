@@ -250,5 +250,81 @@
    "instagram_17:30": "6b027b62846b0ee9076054e7",
    "youtube_12:30": "6b027b64d5eabfb8cc843dc8"
   }
+ },
+ {
+  "date": "2026-11-23",
+  "type": "clip_court",
+  "streamer": "Squeezie",
+  "source": "clip Twitch public (EsteemedVainCakeDBstyle)",
+  "file": "clips/2026-11-23/squeezie_court.mp4",
+  "music": null,
+  "layout": "double",
+  "hashtags": {
+   "tiktok": "#gta6 #gtavi #squeezie #gta6fr #gamingfr",
+   "instagram": "#gta6 #gta6gameplay #squeezie #gamingfr #jeuxvideofr",
+   "youtube": "#gtavi #gta6gameplay #gaming #gta6nouveautés #ps5"
+  },
+  "posts": {
+   "tiktok_12:00_draft(11:15)": "6b03cc3a90318f5661b1e46b",
+   "instagram_12:30": "6b03cc51d864a01105224e3d",
+   "youtube_21:50": "6b03cc54cc364169c1b1c939"
+  },
+  "clip_ids": [
+   "squeezie EsteemedVainCakeDBstyle (cut 9-29s)"
+  ],
+  "pops": [
+   "Il a pas tort 😂"
+  ]
+ },
+ {
+  "date": "2026-11-23",
+  "type": "clip_court",
+  "streamer": "Gotaga",
+  "source": "clip Twitch public (SquareCautiousQuailTooSpicy)",
+  "file": "clips/2026-11-23/gotaga_court.mp4",
+  "music": null,
+  "layout": "split",
+  "hashtags": {
+   "tiktok": "#gta6 #gta6gameplay #gotaga #gta6français #jeuxvidéo",
+   "instagram": "#gtavi #vicecity #leonida #gta6français #ps5"
+  },
+  "posts": {
+   "tiktok_17:00_draft(16:15)": "6b03cc3ba4152e96addd6950",
+   "instagram_17:30": "6b03cc52d5eabfb8cc09504a"
+  },
+  "clip_ids": [
+   "gotaga SquareCautiousQuailTooSpicy (cut 0-22s, Lucia et bébé)"
+  ],
+  "pops": [
+   "Gotaga attendri 🥹",
+   "Rockstar a soigné les PNJ 👀"
+  ]
+ },
+ {
+  "date": "2026-11-23",
+  "type": "clip_long",
+  "streamer": "Domingo",
+  "source": "clips Twitch publics (2 clips, 3 coupes)",
+  "file": "clips/2026-11-23/domingo_long.mp4",
+  "music": null,
+  "layout": "split",
+  "hashtags": {
+   "tiktok": "#gta6 #gtavi #domingo #vicecity #gta6gameplay",
+   "instagram": "#gta6 #gta6français #domingo #xboxseriesx #gta6gameplay",
+   "youtube": "#grandtheftauto6 #gta6gameplay #gta6français #gaming #xboxseries"
+  },
+  "posts": {
+   "tiktok_21:00_draft(20:15)": "6b03cc3b90318f5661b1e47b",
+   "instagram_19:00": "6b03cc53c72676f5e98a24ec",
+   "youtube_24/11_16:30": "6b03cc55d5eabfb8cc0953e2"
+  },
+  "clip_ids": [
+   "domingo StormyToughHamburgerAMPEnergy (braquage, cuts 8-33 et 41.5-54)",
+   "domingo RudeCorrectBubbleteaPJSalt (fusillade, cut 3-24.5)"
+  ],
+  "pops": [
+   "Ça sent la galère 👀",
+   "On aurait fait pareil 😂"
+  ]
  }
 ]
