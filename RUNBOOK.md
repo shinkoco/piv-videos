@@ -329,3 +329,6 @@ Sources : Push Square, Sportskeeda, showgamer, games.gg, ggwtb, detonated. Visue
 
 ## CHOIX DES MOMENTS (22/11, validé par Mathieu)
 Priorité aux réactions du streamer face au « monde vivant » de Leonida : PNJ improbables (plage, disputes, dialogues), animaux (alligators…), situations absurdes. Constat sur gta6.only (580 K) : ces moments font 150-200 K vues. Ne JAMAIS reprendre les vidéos de pages concurrentes (gta6.only etc.) : contenu dupliqué + risque de signalement.
+
+## PÉPITES FR (23/11, repérées par Mathieu dans la catégorie GTA VI filtrée en français, 700-3 000 spectateurs)
+Clips publics vérifiés le 23/11 : samueletienne (marathon 7/7 GTA VI), noahlunsi, theorus_, nikos, hctuan, altair, chowh1, skyrroztv, berlu (RP), jirayalecochon (speedrun), wisethug (tutos, peu de clips). pichotm : aucun clip public → ignorer. Moins clippés que les gros streamers = moins de concurrence. Les faire tourner avec la liste principale, 1 pépite par jour minimum quand les gros n'ont rien de mieux. Vérifier que le clip est bien sur GTA 6 avant de l'utiliser.
