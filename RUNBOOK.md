@@ -332,3 +332,8 @@ Priorité aux réactions du streamer face au « monde vivant » de Leonida : PNJ
 
 ## PÉPITES FR (23/11, repérées par Mathieu dans la catégorie GTA VI filtrée en français, 700-3 000 spectateurs)
 Clips publics vérifiés le 23/11 : samueletienne (marathon 7/7 GTA VI), noahlunsi, theorus_, nikos, hctuan, altair, chowh1, skyrroztv, berlu (RP), jirayalecochon (speedrun), wisethug (tutos, peu de clips). pichotm : aucun clip public → ignorer. Moins clippés que les gros streamers = moins de concurrence. Les faire tourner avec la liste principale, 1 pépite par jour minimum quand les gros n'ont rien de mieux. Vérifier que le clip est bien sur GTA 6 avant de l'utiliser.
+
+## RENDEZ-VOUS CHIFFRES (23/11, demandé par Mathieu)
+- Chaque dimanche : revue hebdo (abonnés, meilleur clip, meilleur streamer, une décision) → alerts du HUB.
+- Alerte immédiate dans alerts si : un Short YouTube à 0 vue après 6 h, ou 3 TikTok de suite sous 150 vues, ou une perte d'abonnés 2 jours de suite.
+- 29/11 : bilan du test court/long.
