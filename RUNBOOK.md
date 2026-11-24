@@ -338,3 +338,6 @@ Clips publics vérifiés le 23/11 : samueletienne (marathon 7/7 GTA VI), noahlun
 - Chaque dimanche : revue hebdo (abonnés, meilleur clip, meilleur streamer, une décision) → alerts du HUB.
 - Alerte immédiate dans alerts si : un Short YouTube à 0 vue après 6 h, ou 3 TikTok de suite sous 150 vues, ou une perte d'abonnés 2 jours de suite.
 - 29/11 : bilan du test court/long.
+
+## COURBE DU HUB (24/11 — elle restait bloquée au 20/11)
+À CHAQUE run : recalculer channel.trend dans hub/piv.json = 7 derniers jours glissants (labels jj/mm), série TikTok = vues par jour de publication via Zernio analytics_get_daily_metrics (account_id 6afc525031be0a779a30b36e, from = J-6, to = J). Ne jamais laisser une courbe figée.
