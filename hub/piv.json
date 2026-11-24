@@ -4,15 +4,15 @@
  "alerts": [
   "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Michou stunt court, 17:00 Squeezie court, 21:00 Michou long). Ils arrivent ~45 min avant.",
   "Partners in Vice : aucun post en erreur (Buffer YouTube/Instagram, Zernio TikTok). Abonnés TikTok 59 (+21 depuis le 19/11). Test court vs long (jour 3) : Michou long 22/11 = 755 vues TikTok, Domingo long 23/11 = 219, Gotaga court = 216, Squeezie court = 216, Kai court 22/11 = 235. Bilan le 29/11.",
-  "Partners in Vice : YouTube : Domingo long 16:30, Squeezie Short 22:10 aujourd'hui ; Michou long demain 17:00. Peu de bons moments FR hier (pool Twitch maigre, Gotaga/Squeezie repris), à surveiller."
+  "Partners in Vice : YouTube : Domingo long 16:30, Squeezie Short 22:10 aujourd'hui ; Chowh1 long demain 17:00. Peu de bons moments FR hier (pool Twitch maigre, Gotaga/Squeezie repris), à surveiller."
  ],
  "channel": {
   "name": "Partners in Vice",
   "headline": [
    "Partners in Vice,",
-   "3 clips du jour : Michou (court + long) et Squeezie."
+   "3 clips du jour : Michou, Squeezie et Chowh1."
   ],
-  "summary": "Mardi 24/11 : TikTok = Michou stunt court 12:00, Squeezie court 17:00, Michou long 21:00 (brouillons). Instagram : 12:30, 17:30, 19:00. YouTube : Domingo long 16:30, Squeezie Short 22:10 ; Michou long demain 17:00.",
+  "summary": "Mardi 24/11 : TikTok = Michou stunt court 12:00, Squeezie court 17:00, Chowh1 long 21:00 (brouillons). Instagram : 12:30, 17:30, 19:00. YouTube : Domingo long 16:30, Squeezie Short 22:10 ; Chowh1 long demain 17:00.",
   "kpis": [
    {
     "platform": "TikTok",
@@ -78,13 +78,13 @@
    {
     "time": "19:00",
     "platform": "Instagram",
-    "title": "Clip long · Michou",
+    "title": "Clip long · Chowh1",
     "status": "programmé"
    },
    {
     "time": "21:00",
     "platform": "TikTok",
-    "title": "Clip long · Michou (brouillon)",
+    "title": "Clip long · Chowh1 (brouillon)",
     "status": "brouillon à publier"
    },
    {
@@ -97,7 +97,7 @@
   "upcoming": [
    {
     "day": "Mercredi 25",
-    "text": "Michou long en YouTube 17:00 + clips du jour"
+    "text": "Chowh1 long en YouTube 17:00 + clips du jour"
    }
   ],
   "trend": {
@@ -178,8 +178,8 @@
    },
    {
     "time": "21:00",
-    "label": "Clip long · Michou",
-    "caption": "Michou et son tracteur Lamborghini : le MONSTRE de Leonida 🚜 Tu veux le même ? 👇\n🎥 Issu du live Twitch de Michou\n#grandtheftauto6 #gta6gameplay #michou #gta6infos #xboxseriesx"
+    "label": "Clip long · Chowh1",
+    "caption": "Chowh1 part chasser un T-Rex à moto dans GTA 6… et sa journée dérape 💀 Tu aurais fait quoi à sa place ? 👇\n🎥 Issu du live Twitch de Chowh1\n#grandtheftauto6 #gta6gameplay #chowh1 #gta6infos #xboxseriesx"
    }
   ]
  }
