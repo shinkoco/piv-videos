@@ -326,5 +326,81 @@
    "Ça sent la galère 👀",
    "On aurait fait pareil 😂"
   ]
+ },
+ {
+  "date": "2026-11-24",
+  "type": "clip_court",
+  "streamer": "Michou",
+  "source": "clip Twitch public (SleepyMoistSowPRChase, cut 8-24s)",
+  "file": "clips/2026-11-24/michou_court.mp4",
+  "music": null,
+  "layout": "split",
+  "hashtags": {
+   "tiktok": "#gta6 #michou #gta6gameplay #gta6français #jeuxvidéo",
+   "instagram": "#gtavi #michou #gta6gameplay #gta6infos #gamingfr"
+  },
+  "posts": {
+   "tiktok_12:00_draft(11:15)": "6b051e6a71bc9dcc3b50bf98",
+   "instagram_12:30": "6b051e8ff1f04351231fdc98"
+  },
+  "clip_ids": [
+   "michou SleepyMoistSowPRChase (stunt, cut 8-24s)"
+  ],
+  "pops": [
+   "Cascadeur de Vice City"
+  ]
+ },
+ {
+  "date": "2026-11-24",
+  "type": "clip_court",
+  "streamer": "Squeezie",
+  "source": "clip Twitch public (ThirstyBlazingKiwiAllenHuhu)",
+  "file": "clips/2026-11-24/squeezie_court.mp4",
+  "music": null,
+  "layout": "double",
+  "hashtags": {
+   "tiktok": "#gtavi #squeezie #gta6fr #vicecity #jeuxvideofr",
+   "instagram": "#gta6 #squeezie #gta6fr #vicecity #ps5",
+   "youtube": "#grandtheftauto6 #gta6français #gta6infos #gaming #ps5"
+  },
+  "posts": {
+   "tiktok_17:00_draft(16:15)": "6b051e7071bc9dcc3b50bfc0",
+   "instagram_17:30": "6b051e9031056e7b6e76d9c4",
+   "youtube_24/11_22:10": "6b051e84bc151fa8ad26b786"
+  },
+  "clip_ids": [
+   "squeezie ThirstyBlazingKiwiAllenHuhu (voiture sur toi, cut 15-31s)"
+  ],
+  "pops": [
+   "Quel ami 😂"
+  ]
+ },
+ {
+  "date": "2026-11-24",
+  "type": "clip_long",
+  "streamer": "Michou",
+  "source": "clips Twitch publics (3 clips)",
+  "file": "clips/2026-11-24/michou_long.mp4",
+  "music": null,
+  "layout": "split",
+  "hashtags": {
+   "tiktok": "#grandtheftauto6 #gta6gameplay #michou #gta6infos #xboxseriesx",
+   "instagram": "#gta6 #gta6gameplay #michou #leonida #jeuxvideofr",
+   "youtube": "#gtavi #gta6vicecity #gta6gameplay #gta6fr #xboxseries"
+  },
+  "posts": {
+   "tiktok_21:00_draft(20:15)": "6b051e7071bc9dcc3b50bfc7",
+   "instagram_19:00": "6b051e91f1f04351231fdd7d",
+   "youtube_25/11_17:00": "6b051e8531056e7b6e76d46f"
+  },
+  "clip_ids": [
+   "michou OutstandingAttractiveCucumberPanicVis (tracteur Lambo, 0-26s)",
+   "michou SleepyMoistSowPRChase (0-8.4s, Porsche)",
+   "michou KnottyNimbleSushiOptimizePrime (0-24s, garage)"
+  ],
+  "pops": [
+   "On veut le même 😍",
+   "Rockstar, on a vu 👀"
+  ]
  }
 ]

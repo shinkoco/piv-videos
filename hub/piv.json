@@ -1,94 +1,94 @@
 {
- "updated": "2026-11-23T06:40:00+01:00",
- "date_label": "Lundi 23 novembre",
+ "updated": "2026-11-24T06:40:00+01:00",
+ "date_label": "Mardi 24 novembre",
  "alerts": [
-  "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Squeezie court, 17:00 Gotaga court, 21:00 Domingo long). Ils arrivent ~45 min avant.",
-  "Partners in Vice : test court vs long (jour 2) : Michou long 22/11 = 655 vues TikTok (meilleur score), Kai Cenat court = 233 vues (24 % regardé jusqu'au bout), Kameto long = 225. Bilan le 29/11.",
-  "Partners in Vice : YouTube Buffer, aucun post en erreur. Kameto 16:00 (long), Squeezie Short 21:50, Domingo long demain 16:30."
+  "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Michou stunt court, 17:00 Squeezie court, 21:00 Michou long). Ils arrivent ~45 min avant.",
+  "Partners in Vice : aucun post en erreur (Buffer YouTube/Instagram, Zernio TikTok). Abonnés TikTok 59 (+21 depuis le 19/11). Test court vs long (jour 3) : Michou long 22/11 = 755 vues TikTok, Domingo long 23/11 = 219, Gotaga court = 216, Squeezie court = 216, Kai court 22/11 = 235. Bilan le 29/11.",
+  "Partners in Vice : YouTube : Domingo long 16:30, Squeezie Short 22:10 aujourd'hui ; Michou long demain 17:00. Peu de bons moments FR hier (pool Twitch maigre, Gotaga/Squeezie repris), à surveiller."
  ],
  "channel": {
   "name": "Partners in Vice",
   "headline": [
    "Partners in Vice,",
-   "3 clips FR du jour : Squeezie, Gotaga, Domingo."
+   "3 clips du jour : Michou (court + long) et Squeezie."
   ],
-  "summary": "Lundi 23/11 : TikTok = Squeezie court 12:00, Gotaga court 17:00, Domingo long 21:00 (brouillons). Instagram : Squeezie 12:30, Gotaga 17:30, Domingo 19:00. YouTube : Kameto 16:00, Squeezie Short 21:50 ; Domingo demain 16:30.",
+  "summary": "Mardi 24/11 : TikTok = Michou stunt court 12:00, Squeezie court 17:00, Michou long 21:00 (brouillons). Instagram : 12:30, 17:30, 19:00. YouTube : Domingo long 16:30, Squeezie Short 22:10 ; Michou long demain 17:00.",
   "kpis": [
    {
     "platform": "TikTok",
     "label": "Meilleure vidéo de la veille",
-    "detail": "Michou long, 22/11",
-    "value": 655,
+    "detail": "Domingo long, 23/11 (partiel)",
+    "value": 219,
     "unit": "vues",
-    "bar": 0.9
+    "bar": 0.3
    },
    {
     "platform": "Instagram",
     "label": "Meilleur Reel de la veille",
-    "detail": "Squeezie, 19/11",
-    "value": 143,
+    "detail": "Squeezie court, 23/11",
+    "value": 151,
     "unit": "vues",
     "bar": 0.3
    },
    {
     "platform": "YouTube",
-    "label": "Meilleur Short de la veille",
-    "detail": "Vrai ou faux, 19/11",
-    "value": 320,
+    "label": "Meilleur Short récent",
+    "detail": "Squeezie 66 s, 22/11",
+    "value": 918,
     "unit": "vues",
-    "bar": 0.6
+    "bar": 0.9
    }
   ],
   "followers": {
    "label": "Abonnés TikTok",
-   "value": 38,
+   "value": 59,
    "goal": 1000
   },
   "today": [
    {
     "time": "12:00",
     "platform": "TikTok",
-    "title": "Clip court · Squeezie (brouillon)",
+    "title": "Clip court · Michou stunt (brouillon)",
     "status": "brouillon à publier"
    },
    {
     "time": "12:30",
     "platform": "Instagram",
-    "title": "Clip court · Squeezie",
+    "title": "Clip court · Michou stunt",
     "status": "programmé"
    },
    {
-    "time": "16:00",
+    "time": "16:30",
     "platform": "YouTube",
-    "title": "Clip long · Kameto",
+    "title": "Clip long · Domingo",
     "status": "programmé"
    },
    {
     "time": "17:00",
     "platform": "TikTok",
-    "title": "Clip court · Gotaga (brouillon)",
+    "title": "Clip court · Squeezie (brouillon)",
     "status": "brouillon à publier"
    },
    {
     "time": "17:30",
     "platform": "Instagram",
-    "title": "Clip court · Gotaga",
+    "title": "Clip court · Squeezie",
     "status": "programmé"
    },
    {
     "time": "19:00",
     "platform": "Instagram",
-    "title": "Clip long · Domingo",
+    "title": "Clip long · Michou",
     "status": "programmé"
    },
    {
     "time": "21:00",
     "platform": "TikTok",
-    "title": "Clip long · Domingo (brouillon)",
+    "title": "Clip long · Michou (brouillon)",
     "status": "brouillon à publier"
    },
    {
-    "time": "21:50",
+    "time": "22:10",
     "platform": "YouTube",
     "title": "Short · Squeezie",
     "status": "programmé"
@@ -96,8 +96,8 @@
   ],
   "upcoming": [
    {
-    "day": "Mardi 24",
-    "text": "Domingo long en YouTube 16:30 + clips du jour"
+    "day": "Mercredi 25",
+    "text": "Michou long en YouTube 17:00 + clips du jour"
    }
   ],
   "trend": {
@@ -132,54 +132,54 @@
    }
   },
   "engagement": {
-   "likes": 118,
+   "likes": 264,
    "comments": 0,
    "shares": null,
-   "followers_gain": 36
+   "followers_gain": 21
   },
   "best_time": null,
   "warmup": [
    {
-    "label": "#gta6 : fil des vidéos",
-    "url": "https://www.tiktok.com/tag/gta6",
-    "comment": "Rockstar a vraiment mis des PNJ partout, on se perd dedans 😅"
+    "label": "#gta6fr : fil des vidéos",
+    "url": "https://www.tiktok.com/tag/gta6fr",
+    "comment": "Le jeu est tellement vivant, j'ai passé 10 min à regarder les PNJ 😅"
    },
    {
     "label": "Anyme (@anyme023)",
     "url": "https://www.tiktok.com/@anyme023",
-    "comment": "On attend ton prochain moment GTA 6 avec impatience 🔥"
+    "comment": "Hâte de voir ta prochaine session GTA 6 🔥"
    },
    {
     "label": "Michou (@michouoff)",
     "url": "https://www.tiktok.com/@michouoff",
-    "comment": "Ton Urus dorée m'a achevé, quelle chance 😂"
+    "comment": "Le stunt sur l'autoroute, propre 😎"
    },
    {
     "label": "Snir, GTA FR (@sniryt)",
     "url": "https://www.tiktok.com/@sniryt",
-    "comment": "Merci pour le récap du jour, toujours clair 👌"
+    "comment": "Toujours aussi clair, merci pour le récap 👌"
    },
    {
     "label": "Chris Klippel, Rockstar Mag (@chris_klippel)",
     "url": "https://www.tiktok.com/@chris_klippel",
-    "comment": "Belle analyse, ça donne envie de retourner à Leonida 🌴"
+    "comment": "Bonne analyse, ça donne envie de relancer Leonida 🌴"
    }
   ],
   "drafts": [
    {
     "time": "12:00",
-    "label": "Clip court · Squeezie",
-    "caption": "Squeezie jure qu'il n'est pas un mauvais criminel dans GTA 6 😂 Tu lui donnes raison ? 👇\n🎥 Issu du live Twitch de Squeezie\n#gta6 #gtavi #squeezie #gta6fr #gamingfr"
+    "label": "Clip court · Michou stunt",
+    "caption": "Michou sort un stunt de dingue en pleine autoroute sur GTA 6 😎 Tu aurais osé ? 👇\n🎥 Issu du live Twitch de Michou\n#gta6 #michou #gta6gameplay #gta6français #jeuxvidéo"
    },
    {
     "time": "17:00",
-    "label": "Clip court · Gotaga",
-    "caption": "Lucia fait danser son bébé et Gotaga fond complètement 🥹 Rockstar a vraiment soigné les détails, non ? 👇\n🎥 Issu du live Twitch de Gotaga\n#gta6 #gta6gameplay #gotaga #gta6français #jeuxvidéo"
+    "label": "Clip court · Squeezie",
+    "caption": "Squeezie fait tomber une voiture sur son pote dans GTA 6 😈 Pire coéquipier ou génie ? 👇\n🎥 Issu du live Twitch de Squeezie\n#gtavi #squeezie #gta6fr #vicecity #jeuxvideofr"
    },
    {
     "time": "21:00",
-    "label": "Clip long · Domingo",
-    "caption": "Domingo rate son braquage dans GTA 6 et s'en veut à mort 💀 Tu aurais fait quoi à sa place ? 👇\n🎥 Issu du live Twitch de Domingo\n#gta6 #gtavi #domingo #vicecity #gta6gameplay"
+    "label": "Clip long · Michou",
+    "caption": "Michou et son tracteur Lamborghini : le MONSTRE de Leonida 🚜 Tu veux le même ? 👇\n🎥 Issu du live Twitch de Michou\n#grandtheftauto6 #gta6gameplay #michou #gta6infos #xboxseriesx"
    }
   ]
  }
