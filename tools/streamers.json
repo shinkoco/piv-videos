@@ -173,6 +173,125 @@
       "platform": "twitch",
       "lang": "fr",
       "cam": null
+    },
+    {
+      "name": "Anyme",
+      "login": "anyme023",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Bylhan",
+      "login": "byilhann",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Helydia",
+      "login": "helydia",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Samuel Etienne",
+      "login": "samueletienne",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Noah Lunsi",
+      "login": "noahlunsi",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Theorus",
+      "login": "theorus_",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Nikos",
+      "login": "nikos",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Hctuan",
+      "login": "hctuan",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Altair",
+      "login": "altair",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Chowh1",
+      "login": "chowh1",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Skyrroztv",
+      "login": "skyrroztv",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Berlu",
+      "login": "berlu",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Jiraya",
+      "login": "jirayalecochon",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "Wisethug",
+      "login": "wisethug",
+      "platform": "twitch",
+      "lang": "fr",
+      "cam": null
+    },
+    {
+      "name": "TimTheTatman",
+      "login": "timthetatman",
+      "platform": "twitch",
+      "lang": "en",
+      "cam": null
+    },
+    {
+      "name": "IShowSpeed",
+      "login": "ishowspeed",
+      "platform": "twitch",
+      "lang": "en",
+      "cam": null
+    },
+    {
+      "name": "Summit1g",
+      "login": "summit1g",
+      "platform": "twitch",
+      "lang": "en",
+      "cam": null
     }
   ],
   "blocked": [],
