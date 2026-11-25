@@ -401,5 +401,67 @@
    "Ça sent le drame 😅",
    "Lundi chaotique"
   ]
+ },
+ {
+  "date": "2026-11-25",
+  "music": null,
+  "source": "clip Twitch public",
+  "type": "clip_court",
+  "streamer": "Domingo",
+  "file": "clips/2026-11-25/domingo_court.mp4",
+  "layout": "double",
+  "clip_ids": [
+   "domingo ThankfulElatedFennelAMPTropPunch (plongeon, cut 3-25s)"
+  ],
+  "pops": [
+   "Le saut de l'ange 😇"
+  ],
+  "posts": {
+   "tiktok_12:00_draft(11:15)": "6b066ea78cb13dba041e56ca",
+   "instagram_12:30": "6b066ea19cddd8483aaeb8a7",
+   "youtube_25/11_22:32": "6b066e9f40e1d58d12fda326"
+  }
+ },
+ {
+  "date": "2026-11-25",
+  "music": null,
+  "source": "clip Twitch public",
+  "type": "clip_court",
+  "streamer": "Hctuan",
+  "file": "clips/2026-11-25/hctuan_court.mp4",
+  "layout": "split",
+  "clip_ids": [
+   "hctuan SucculentObliviousJamCharlieBitMe (3 étoiles, cut 12-33s)"
+  ],
+  "pops": [
+   "Planque de luxe 👀"
+  ],
+  "posts": {
+   "tiktok_17:00_draft(16:15)": "6b066eae70dd18b364130aa4",
+   "instagram_17:30": "6b066ea122dfb7833a80853f"
+  }
+ },
+ {
+  "date": "2026-11-25",
+  "music": null,
+  "source": "clips Twitch publics (3 clips)",
+  "type": "clip_long",
+  "streamer": "IShowSpeed",
+  "file": "clips/2026-11-25/speed_long.mp4",
+  "layout": "split",
+  "clip_ids": [
+   "ishowspeed ProtectivePopularDolphinTriHard (salto moto, 7-25s)",
+   "ishowspeed EphemeralHardGoblinCorgiDerp (combat de coqs, 0-29s)",
+   "ishowspeed BoldAgreeableWombatRedCoat (fusillade, 0-13s)"
+  ],
+  "pops": [
+   "Médaille d'or 🥇",
+   "Leonida n'a aucune limite 😅"
+  ],
+  "posts": {
+   "tiktok_21:00_draft(20:15)": "6b066eaf754e3cbf9583aacb",
+   "instagram_19:00": "6b066ea29cddd8483aaeb8e5",
+   "youtube_26/11_17:25": "6b066e9f22dfb7833a808490"
+  }
  }
 ]

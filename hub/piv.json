@@ -1,26 +1,27 @@
 {
- "updated": "2026-11-24T06:40:00+01:00",
- "date_label": "Mardi 24 novembre",
+ "updated": "2026-11-25T06:20:00+01:00",
+ "date_label": "Mercredi 25 novembre",
  "alerts": [
-  "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Michou stunt court, 17:00 Squeezie court, 21:00 Michou long). Ils arrivent ~45 min avant.",
-  "Partners in Vice : aucun post en erreur (Buffer YouTube/Instagram, Zernio TikTok). Abonnés TikTok 59 (+21 depuis le 19/11). Test court vs long (jour 3) : Michou long 22/11 = 755 vues TikTok, Domingo long 23/11 = 219, Gotaga court = 216, Squeezie court = 216, Kai court 22/11 = 235. Bilan le 29/11.",
-  "Partners in Vice : YouTube : Domingo long 16:30, Squeezie Short 22:10 aujourd'hui ; Chowh1 long demain 17:00. Peu de bons moments FR hier (pool Twitch maigre, Gotaga/Squeezie repris), à surveiller."
+  "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Domingo plongeon court, 17:00 Hctuan court, 21:00 IShowSpeed long VF). Ils arrivent ~45 min avant.",
+  "Partners in Vice : aucun post en erreur (Buffer YouTube/Instagram, Zernio TikTok), aucun nouveau commentaire TikTok. Test court vs long (jour 4) : TikTok 24/11 = 1 218 vues sur 3 clips (Michou court, Squeezie court, Chowh1 long) ; YouTube Squeezie court 23/11 = 1 118 vues, Domingo long 24/11 = 207 vues (partiel). Bilan le 29/11.",
+  "Partners in Vice : YouTube : Chowh1 long 17:00, Domingo Short 22:32 aujourd'hui (fenêtre 24 h) ; IShowSpeed long demain 17:25. Squeezie court du 24/11 encore à 0 vue chez Buffer (stats parfois en retard de 24 h) : à vérifier demain.",
+  "Partners in Vice : clip Hctuan = streamer hors cadre (fauteuil vide en haut) — pool FR maigre hier soir. Si tu le trouves faible, ne publie pas le brouillon de 17:00."
  ],
  "channel": {
   "name": "Partners in Vice",
   "headline": [
    "Partners in Vice,",
-   "3 clips du jour : Michou, Squeezie et Chowh1."
+   "3 clips du jour : Domingo, Hctuan et IShowSpeed."
   ],
-  "summary": "Mardi 24/11 : TikTok = Michou stunt court 12:00, Squeezie court 17:00, Chowh1 long 21:00 (brouillons). Instagram : 12:30, 17:30, 19:00. YouTube : Domingo long 16:30, Squeezie Short 22:10 ; Chowh1 long demain 17:00.",
+  "summary": "Mercredi 25/11 : TikTok = Domingo court 12:00, Hctuan court 17:00, IShowSpeed long 21:00 (brouillons). Instagram : 12:30, 17:30, 19:00. YouTube : Chowh1 long 17:00, Domingo Short 22:32 ; IShowSpeed long demain 17:25.",
   "kpis": [
    {
     "platform": "TikTok",
     "label": "Meilleure vidéo de la veille",
-    "detail": "Domingo long, 23/11 (partiel)",
-    "value": 219,
+    "detail": "3 clips du 24/11 (total)",
+    "value": 1218,
     "unit": "vues",
-    "bar": 0.3
+    "bar": 0.6
    },
    {
     "platform": "Instagram",
@@ -48,129 +49,129 @@
    {
     "time": "12:00",
     "platform": "TikTok",
-    "title": "Clip court · Michou stunt (brouillon)",
+    "title": "Clip court · Domingo plongeon (brouillon)",
     "status": "brouillon à publier"
    },
    {
     "time": "12:30",
     "platform": "Instagram",
-    "title": "Clip court · Michou stunt",
-    "status": "programmé"
-   },
-   {
-    "time": "16:30",
-    "platform": "YouTube",
-    "title": "Clip long · Domingo",
+    "title": "Clip court · Domingo plongeon",
     "status": "programmé"
    },
    {
     "time": "17:00",
     "platform": "TikTok",
-    "title": "Clip court · Squeezie (brouillon)",
+    "title": "Clip court · Hctuan 3 étoiles (brouillon)",
     "status": "brouillon à publier"
+   },
+   {
+    "time": "17:00",
+    "platform": "YouTube",
+    "title": "Clip long · Chowh1",
+    "status": "programmé"
    },
    {
     "time": "17:30",
     "platform": "Instagram",
-    "title": "Clip court · Squeezie",
+    "title": "Clip court · Hctuan",
     "status": "programmé"
    },
    {
     "time": "19:00",
     "platform": "Instagram",
-    "title": "Clip long · Chowh1",
+    "title": "Clip long · IShowSpeed",
     "status": "programmé"
    },
    {
     "time": "21:00",
     "platform": "TikTok",
-    "title": "Clip long · Chowh1 (brouillon)",
+    "title": "Clip long · IShowSpeed VF (brouillon)",
     "status": "brouillon à publier"
    },
    {
-    "time": "22:10",
+    "time": "22:32",
     "platform": "YouTube",
-    "title": "Short · Squeezie",
+    "title": "Clip court · Domingo plongeon",
     "status": "programmé"
    }
   ],
   "upcoming": [
    {
-    "day": "Mercredi 25",
-    "text": "Chowh1 long en YouTube 17:00 + clips du jour"
+    "day": "Jeudi 26",
+    "text": "IShowSpeed long en YouTube 17:25 + clips du jour"
    }
   ],
   "trend": {
    "labels": [
-    "18/11",
     "19/11",
     "20/11",
     "21/11",
     "22/11",
     "23/11",
-    "24/11"
+    "24/11",
+    "25/11"
    ],
    "series": {
     "TikTok": [
-     1165,
      606,
      752,
      634,
      1235,
      655,
-     832
+     1218,
+     0
     ]
    }
   },
   "engagement": {
-   "likes": 264,
+   "likes": 227,
    "comments": 0,
-   "shares": null,
-   "followers_gain": 21
+   "shares": 10,
+   "followers_gain": null
   },
   "best_time": null,
   "warmup": [
    {
     "label": "#gta6fr : fil des vidéos",
     "url": "https://www.tiktok.com/tag/gta6fr",
-    "comment": "Le jeu est tellement vivant, j'ai passé 10 min à regarder les PNJ 😅"
+    "comment": "Les PNJ de Leonida ont plus de répliques que moi 😂"
    },
    {
-    "label": "Anyme (@anyme023)",
-    "url": "https://www.tiktok.com/@anyme023",
-    "comment": "Hâte de voir ta prochaine session GTA 6 🔥"
+    "label": "Recherche « GTA 6 plongeon »",
+    "url": "https://www.tiktok.com/search?q=gta%206%20plongeon",
+    "comment": "Qui a réussi le saut du toit dans la piscine ?"
    },
    {
     "label": "Michou (@michouoff)",
     "url": "https://www.tiktok.com/@michouoff",
-    "comment": "Le stunt sur l'autoroute, propre 😎"
+    "comment": "Tes cascades sur GTA 6 c'est un autre niveau 🔥"
    },
    {
-    "label": "Snir, GTA FR (@sniryt)",
+    "label": "Anyme (@anyme023)",
+    "url": "https://www.tiktok.com/@anyme023",
+    "comment": "Ta prochaine session GTA 6 c'est quand ?"
+   },
+   {
+    "label": "Snir (@sniryt)",
     "url": "https://www.tiktok.com/@sniryt",
-    "comment": "Toujours aussi clair, merci pour le récap 👌"
-   },
-   {
-    "label": "Chris Klippel, Rockstar Mag (@chris_klippel)",
-    "url": "https://www.tiktok.com/@chris_klippel",
-    "comment": "Bonne analyse, ça donne envie de relancer Leonida 🌴"
+    "comment": "Vice City de nuit c'est magnifique"
    }
   ],
   "drafts": [
    {
     "time": "12:00",
-    "label": "Clip court · Michou stunt",
-    "caption": "Michou sort un stunt de dingue en pleine autoroute sur GTA 6 😎 Tu aurais osé ? 👇\n🎥 Issu du live Twitch de Michou\n#gta6 #michou #gta6gameplay #gta6français #jeuxvidéo"
+    "label": "Clip court · Domingo plongeon",
+    "caption": "Domingo tente le plongeon du toit à la piscine sur GTA 6… à 30 cm près 😱 Toi tu sautes ? 👇\n🎥 Issu du live Twitch de Domingo\n#gta6 #domingo #gta6vicecity #gta6fr #jeuxvideofr"
    },
    {
     "time": "17:00",
-    "label": "Clip court · Squeezie",
-    "caption": "Squeezie fait tomber une voiture sur son pote dans GTA 6 😈 Pire coéquipier ou génie ? 👇\n🎥 Issu du live Twitch de Squeezie\n#gtavi #squeezie #gta6fr #vicecity #jeuxvideofr"
+    "label": "Clip court · Hctuan",
+    "caption": "3 étoiles, planqué derrière un mur… et le chat qui hurle « saute ! » 🚨 Tu te rends ou tu fuis ? 👇\n🎥 Issu du live Twitch de Hctuan\n#gtavi #hctuan #leonida #gta6français #gamingfr"
    },
    {
     "time": "21:00",
-    "label": "Clip long · Chowh1",
-    "caption": "Chowh1 part chasser un T-Rex à moto dans GTA 6… et sa journée dérape 💀 Tu aurais fait quoi à sa place ? 👇\n🎥 Issu du live Twitch de Chowh1\n#grandtheftauto6 #gta6gameplay #chowh1 #gta6infos #xboxseriesx"
+    "label": "Clip long · IShowSpeed VF",
+    "caption": "Salto arrière à moto, combat de coqs puis fusillade : la journée d'IShowSpeed dans GTA 6, sous-titrée en français 🔥 Quel moment tu gardes ? 👇\n🎥 Issu du live Twitch de IShowSpeed\n#grandtheftauto6 #ishowspeed #gta6gameplay #gta6infos #ps5"
    }
   ]
  }
