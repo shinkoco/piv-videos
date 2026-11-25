@@ -341,3 +341,9 @@ Clips publics vérifiés le 23/11 : samueletienne (marathon 7/7 GTA VI), noahlun
 
 ## COURBE DU HUB (24/11 — elle restait bloquée au 20/11)
 À CHAQUE run : recalculer channel.trend dans hub/piv.json = 7 derniers jours glissants (labels jj/mm), série TikTok = vues par jour de publication via Zernio analytics_get_daily_metrics (account_id 6afc525031be0a779a30b36e, from = J-6, to = J). Ne jamais laisser une courbe figée.
+
+## HUB v2 (25/11, style « beige + cartes sombres » validé par Mathieu)
+Principe : PEU de stats, uniquement celles qui disent si la chaîne grandit et CE QUE LES GENS VEULENT VOIR. À chaque run, remplir dans hub/piv.json → channel :
+- growth : followers (Zernio accounts_get_follower_stats), goal 1000, followers_delta (vs J-7), followers_note, views_7d / views_prev_7d (analytics_get_daily_metrics), avg_views + avg_watch (moyenne de igReelsAvgWatchTime/1000 des clips, analytics_get_analytics), avg_note.
+- insights (clips de streamers uniquement, depuis le 19/11, via analytics_get_analytics + published.json) : streamers (vues moyennes, trié décroissant, detail « n clips »), formats (court < 30 s vs long, avec temps regardé / % vus en entier = completionRate), slots (créneaux heure de Paris, group:1), takeaways (3-4 phrases = DÉCISIONS, pas des constats vagues ; signaler quand l'échantillon est petit), top (3 meilleures vidéos).
+- trend (7 jours glissants), today, drafts, warmup, upcoming, alerts comme avant. Ne plus remplir kpis / engagement / best_time (retirés).

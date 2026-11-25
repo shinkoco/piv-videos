@@ -14,32 +14,6 @@
    "3 clips du jour : Domingo, Hctuan et IShowSpeed."
   ],
   "summary": "Mercredi 25/11 : TikTok = Domingo court 12:00, Hctuan court 17:00, IShowSpeed long 21:00 (brouillons). Instagram : 12:30, 17:30, 19:00. YouTube : Chowh1 long 17:00, Domingo Short 22:32 ; IShowSpeed long demain 17:25.",
-  "kpis": [
-   {
-    "platform": "TikTok",
-    "label": "Meilleure vidéo de la veille",
-    "detail": "3 clips du 24/11 (total)",
-    "value": 1218,
-    "unit": "vues",
-    "bar": 0.6
-   },
-   {
-    "platform": "Instagram",
-    "label": "Meilleur Reel de la veille",
-    "detail": "Squeezie court, 23/11",
-    "value": 151,
-    "unit": "vues",
-    "bar": 0.3
-   },
-   {
-    "platform": "YouTube",
-    "label": "Meilleur Short récent",
-    "detail": "Squeezie 66 s, 22/11",
-    "value": 918,
-    "unit": "vues",
-    "bar": 0.9
-   }
-  ],
   "followers": {
    "label": "Abonnés TikTok",
    "value": 59,
@@ -118,18 +92,11 @@
      634,
      1235,
      655,
-     1218,
-     0
+     832,
+     null
     ]
    }
   },
-  "engagement": {
-   "likes": 227,
-   "comments": 0,
-   "shares": 10,
-   "followers_gain": null
-  },
-  "best_time": null,
   "warmup": [
    {
     "label": "#gta6fr : fil des vidéos",
@@ -173,6 +140,121 @@
     "label": "Clip long · IShowSpeed VF",
     "caption": "Salto arrière à moto, combat de coqs puis fusillade : la journée d'IShowSpeed dans GTA 6, sous-titrée en français 🔥 Quel moment tu gardes ? 👇\n🎥 Issu du live Twitch de IShowSpeed\n#grandtheftauto6 #ishowspeed #gta6gameplay #gta6infos #ps5"
    }
-  ]
+  ],
+  "growth": {
+   "followers": 58,
+   "goal": 1000,
+   "followers_delta": 40,
+   "followers_note": "stable depuis le 21/11 (53 → 58)",
+   "views_7d": 4714,
+   "views_prev_7d": 1909,
+   "avg_views": 307,
+   "avg_watch": 9.5,
+   "avg_note": "clips de streamers, depuis le 19/11"
+  },
+  "insights": {
+   "streamers": [
+    {
+     "label": "Chowh1",
+     "value": 849,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Michou",
+     "value": 432,
+     "detail": "3 clips"
+    },
+    {
+     "label": "Anyme",
+     "value": 270,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Domingo",
+     "value": 259,
+     "detail": "2 clips"
+    },
+    {
+     "label": "Kameto",
+     "value": 236,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Squeezie",
+     "value": 233,
+     "detail": "3 clips"
+    },
+    {
+     "label": "ZeratoR",
+     "value": 232,
+     "detail": "1 clip"
+    },
+    {
+     "label": "Gotaga",
+     "value": 205,
+     "detail": "2 clips"
+    },
+    {
+     "label": "Kai Cenat",
+     "value": 204,
+     "detail": "2 clips"
+    }
+   ],
+   "formats": [
+    {
+     "label": "Long 60-100 s",
+     "value": 348,
+     "detail": "11 clips · 9,7 s regardées"
+    },
+    {
+     "label": "Court < 30 s",
+     "value": 218,
+     "detail": "5 clips · 18 % vus en entier"
+    }
+   ],
+   "slots": [
+    {
+     "label": "Soir 19h-22h",
+     "value": 452,
+     "detail": "6 clips",
+     "group": 1
+    },
+    {
+     "label": "Midi 11h-14h",
+     "value": 220,
+     "detail": "5 clips",
+     "group": 1
+    },
+    {
+     "label": "Après-midi 16h-17h",
+     "value": 206,
+     "detail": "4 clips",
+     "group": 1
+    }
+   ],
+   "takeaways": [
+    "Les longs font 60 % de vues en plus que les courts (348 contre 218), mais les courts sont regardés jusqu'au bout 7 fois plus souvent. Verdict du test le 29/11.",
+    "Le soir (19h-22h) fait 2 fois plus de vues que midi et l'après-midi : le meilleur clip du jour doit sortir à 21h.",
+    "Michou est la valeur sûre (432 vues en moyenne). Les pépites marchent aussi : Chowh1 détient le record de la chaîne.",
+    "Les abonnés stagnent depuis le 21/11 malgré les vues : à travailler (bio, vidéos épinglées, appel à s'abonner en fin de clip)."
+   ],
+   "top": [
+    {
+     "title": "Chowh1 chasse un T-Rex à moto",
+     "views": 849,
+     "detail": "Long · 24/11 · 21h"
+    },
+    {
+     "title": "Michou s'excuse auprès de Lucia, puis l'Urus dorée",
+     "views": 765,
+     "detail": "Long · 22/11 · 21h"
+    },
+    {
+     "title": "Michou lance GTA 6 en France",
+     "views": 309,
+     "detail": "Long · 19/11 · 20h"
+    }
+   ]
+  }
  }
 }
