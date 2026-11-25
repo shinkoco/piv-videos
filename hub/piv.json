@@ -150,7 +150,11 @@
    "views_prev_7d": 1909,
    "avg_views": 307,
    "avg_watch": 9.5,
-   "avg_note": "clips de streamers, depuis le 19/11"
+   "avg_note": "clips de streamers, depuis le 19/11",
+   "yt_views_7d": 10404,
+   "yt_views_prev_7d": 927,
+   "yt_avg_views": 1157,
+   "yt_note": "69 % de nos vues viennent de YouTube"
   },
   "insights": {
    "streamers": [
@@ -162,7 +166,7 @@
     {
      "label": "Michou",
      "value": 432,
-     "detail": "3 clips"
+     "detail": "3 clips · YouTube 1 221"
     },
     {
      "label": "Anyme",
@@ -177,39 +181,39 @@
     {
      "label": "Kameto",
      "value": 236,
-     "detail": "1 clip"
+     "detail": "1 clip · YouTube 336"
     },
     {
      "label": "Squeezie",
      "value": 233,
-     "detail": "3 clips"
+     "detail": "3 clips · YouTube 1 150"
     },
     {
      "label": "ZeratoR",
      "value": 232,
-     "detail": "1 clip"
+     "detail": "1 clip · YouTube 1 245"
     },
     {
      "label": "Gotaga",
      "value": 205,
-     "detail": "2 clips"
+     "detail": "2 clips · YouTube 1 166"
     },
     {
      "label": "Kai Cenat",
      "value": 204,
-     "detail": "2 clips"
+     "detail": "2 clips · YouTube 1 237"
     }
    ],
    "formats": [
     {
      "label": "Long 60-100 s",
      "value": 348,
-     "detail": "11 clips · 9,7 s regardées"
+     "detail": "TikTok · 9,7 s regardées · YouTube 1 030"
     },
     {
      "label": "Court < 30 s",
      "value": 218,
-     "detail": "5 clips · 18 % vus en entier"
+     "detail": "TikTok · 18 % vus en entier · YouTube 1 178"
     }
    ],
    "slots": [
@@ -233,7 +237,8 @@
     }
    ],
    "takeaways": [
-    "Les longs font 60 % de vues en plus que les courts (348 contre 218), mais les courts sont regardés jusqu'au bout 7 fois plus souvent. Verdict du test le 29/11.",
+    "YouTube fait 69 % de nos vues (10 404 en 7 jours, environ 1 150 par Short) : c'est notre moteur, les 2 Shorts par jour passent avant tout le reste.",
+    "Sur TikTok, les longs font 60 % de vues en plus que les courts (348 contre 218) ; sur YouTube c'est l'inverse (1 178 pour les courts contre 1 030). Verdict du test le 29/11.",
     "Le soir (19h-22h) fait 2 fois plus de vues que midi et l'après-midi : le meilleur clip du jour doit sortir à 21h.",
     "Michou est la valeur sûre (432 vues en moyenne). Les pépites marchent aussi : Chowh1 détient le record de la chaîne.",
     "Les abonnés stagnent depuis le 21/11 malgré les vues : à travailler (bio, vidéos épinglées, appel à s'abonner en fin de clip)."
