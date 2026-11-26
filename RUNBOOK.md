@@ -1,8 +1,8 @@
-# ⚠️ TIKTOK EN PUBLICATION AUTOMATIQUE (TEST décidé par Mathieu le 25/11 au soir, le mode brouillon ne livrait plus depuis plusieurs heures) : Zernio posts_create_post avec scheduled_for = heure de publication (12:00 / 17:00 / 21:00 Paris), timezone Europe/Paris, tiktok_settings SANS draft (draft:false). Légende complète dans le post (sans lien, 5 hashtags). Plus de carte « brouillons » : channel.drafts = []. Toujours 3 TikTok/jour max. Revenir au brouillon uniquement si Mathieu le demande.
+# ⚠️ TOUT EN AUTOMATIQUE (DÉCISION DÉFINITIVE de Mathieu, confirmée le 26/11) — REMPLACE toute mention de « brouillon » ou de publication à la main, y compris dans les sections datées plus bas : TikTok, YouTube et Instagram sont programmés en publication automatique, jamais de brouillon ni de rappel manuel. TikTok : Zernio posts_create_post, scheduled_for = heure de publication (12:00 court / 17:00 court / 21:00 long), timezone Europe/Paris, tiktok_settings draft:false (+ privacyLevel PUBLIC_TO_EVERYONE, allowComment, allowDuet, allowStitch, contentPreviewConfirmed, expressConsentGiven, videoCoverTimestampMs). Légende complète dans le post (sans lien, 5 hashtags). channel.drafts = [] toujours. 3 TikTok/jour max. Instagram et YouTube : Buffer, schedulingType automatic. Si une publication est refusée : ne pas contourner, ne pas repasser en brouillon, le signaler dans alerts.
 # ⚠️ LÉGENDES : jamais de lien (twitch.tv, youtube.com…) nulle part — « 🎥 Issu du live Twitch de <Nom> ».
 # ⚠️ ÉTAT ACTUEL AU 20/11/2026 — CE RÉSUMÉ FAIT FOI (en cas de contradiction plus bas)
-- TikTok — ENVOI DES BROUILLONS 45 MIN AVANT l'heure de publication (constat : TikTok livre un brouillon 20 à 35 min après l'envoi). Envoyer à 11:15 / 16:15 / 20:15 pour une publication par Mathieu vers 12:00 / 17:00 / 21:00 ; dans hub/piv.json → drafts, « time » = heure de PUBLICATION conseillée.
-- TikTok (Zernio 6afc525031be0a779a30b36e) : 3 vidéos/jour MAX à 12:00, 18:00, 21:00, envoyées le matin en BROUILLON (tiktok_settings draft true, 5 brouillons max/24 h). Légendes dans hub/piv.json → channel.drafts [{time,label,caption}]. Légendes SANS URL, 5 hashtags, jamais #shorts. Pas de publication directe.
+- TikTok : publication AUTOMATIQUE programmée à l'heure de publication (voir la première ligne). Lister les posts Zernio avant d'envoyer pour ne rien doubler.
+- TikTok (Zernio 6afc525031be0a779a30b36e) : 3 vidéos/jour MAX à 12:00, 17:00, 21:00. Légendes SANS URL, 5 hashtags, jamais #shorts.
 - YouTube (Buffer) : 2 Shorts par 24 h GLISSANTES (validé par Mathieu le 21/11). TEST HEBDO : tous les 7 jours (le dimanche), programmer un 3e Short dans la fenêtre ; s'il passe sans erreur, noter « 3/24 h OK » dans alerts et le RUNBOOK ; sinon le replanifier et rester à 2. (Buffer envoie avec 1-3 min de retard, donc des créneaux fixes identiques chaque jour échouent). RÈGLE DE CALCUL (20/11) : avant de programmer un Short, lire dans Buffer les sentAt des 2 derniers Shorts envoyés ; le nouveau dueAt doit être ≥ (sentAt de l'AVANT-DERNIER) + 24 h 20 min. Viser ~14:30-16:00 et ~20:00-22:00 ; si l'heure calculée dépasse 22:30, reporter au lendemain. Priorité clips streamers. Chaque matin, recalculer et replanifier les posts en erreur. VÉRIF OBLIGATOIRE (22/11, erreur Kai Cenat programmé 12:30 alors que fenêtre libre à 15:30) : après chaque create/edit YouTube, relister les posts et contrôler pour CHAQUE post programmé que dueAt ≥ sentAt (ou dueAt) du post 2 rangs avant + 24 h 20 ; sinon le décaler avant de finir.
 - Instagram (Buffer) : clips A, B et diaporama. Max 10 posts en attente par chaîne Buffer.
 - Chaque matin : réponses aux commentaires TikTok (max 15, replied_comments.json) ; liste « Chauffe TikTok » (channel.warmup, 5 liens, comptes vérifiés uniquement) ; rotation des visuels (visuals_used.json).
@@ -150,10 +150,7 @@ Chaque jour, par compte : clips A et B (horaires inchangés) + 1 carrousel (TikT
 - Toujours : uniquement des visuels officiels ou nos propres clips, uniquement notre musique originale (jamais de phonk). Chaque post a sa propre légende et ses propres hashtags.
 - Limite Buffer : 10 posts programmés par canal. Ne programmer que J et J+1, jamais plus loin.
 
-## TikTok : publication manuelle (décision du 17/11)
-TikTok bloque la distribution des posts publiés via l'API sur ce compte : 0 vue, et « ajouter à la story » indisponible, pour la vidéo J-3 comme pour le carrousel.
-- TOUS les posts TikTok (clips, carrousels, 3e vidéo) partent avec `schedulingType: "notification"` : Mathieu reçoit un rappel et publie lui-même depuis l'appli, en ajoutant un son tendance.
-- Cette règle remplace « automatique à partir du 19/11 ». Instagram et YouTube restent automatiques.
+## (Section supprimée le 26/11 : publication TikTok 100 % automatique, voir la première ligne)
 
 ## TikTok via Zernio (décision du 17/11, remplace les sections TikTok précédentes)
 TikTok ne passe PLUS par Buffer, il passe par Zernio, compte PIV `6afc525031be0a779a30b36e`. Buffer garde Instagram (`6afb16d7ece6dfde5fe51faf`) et YouTube PIV (`6afa0f34ece6dfde5fd78fb8`).
@@ -161,7 +158,7 @@ Publication automatique via `call_tool posts_create_post` :
 - Vidéo : `media_items` contient 1 vidéo (URL raw GitHub). Mettre `scheduled_for` en heure locale avec `timezone` "Europe/Paris", et `platforms` = [{platform: "tiktok", accountId: "6afc525031be0a779a30b36e"}].
 - `tiktok_settings` : `{"privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": true, "allowDuet": true, "allowStitch": true, "contentPreviewConfirmed": true, "expressConsentGiven": true, "videoCoverTimestampMs": <frame du grand J-x ou du pic>}`
 - Carrousel : `media_items` contient les images, avec `tiktok_settings.mediaType` "photo", `autoAddMusic` true et `description` = la légende complète. `content` ≤ 90 caractères : c'est le titre.
-- Limites : 15 vidéos et 15 photos par jour et par compte. Ne jamais mettre de `draft` sauf si Mathieu le demande.
+- Limites : 15 vidéos et 15 photos par jour et par compte. Ne jamais mettre de `draft`.
 - Le compte Tamko TikTok (`6af7635df038e4d78c1b8569`) est sur le même Zernio : ne JAMAIS publier dessus depuis cette tâche.
 
 ## Déjà programmé (ne pas refaire)
@@ -287,18 +284,11 @@ Les faits : sur la chaîne PIV, YouTube refuse le 3e Short dans une fenêtre de 
 ## TikTok : pas d'URL dans les légendes (19/11)
 Sur TikTok, ne JAMAIS mettre d'URL (twitch.tv/…) dans la légende : liens non cliquables et suspectés de freiner la diffusion. Crédit en texte seul : « 🎥 JLTomy en live sur Twitch ». MAJ 22/11 (Mathieu) : AUCUNE URL vers une autre plateforme sur AUCUNE plateforme (TikTok, YouTube, Instagram). Crédit texte seul : « 🎥 Issu du live Twitch de <Nom> ». Hashtags inchangés.
 
-## TikTok : mode BROUILLON + 3 posts/jour max (19/11)
-Constat : 6 posts TikTok le 19/11 sur un compte à 40 abonnés → les derniers à 0 vue. Nouvelle règle (remplace clips C et D et tout envoi direct TikTok) :
-- TikTok = 3 vidéos/jour MAX, espacées : 12:00, 18:00, 21:00. Priorité : clip A, clip B, puis diaporama ou clip C. Jamais 2 vidéos à moins de 3 h d'écart.
-- Envoi via Zernio en brouillon : posts_create_post avec publish_now true, tiktok_settings {"draft": true}, le matin (TikTok : 5 brouillons max par 24 h). Mathieu publie à la main depuis sa Boîte de réception TikTok.
-- La légende n'est PAS transmise : l'écrire dans hub/piv.json → channel.drafts [{time, label, caption}] (sans URL, 5 hashtags, jamais #shorts).
-- Les posts TikTok déjà programmés en direct dans Zernio : les supprimer et les renvoyer en brouillon le jour J.
+## (Section supprimée le 26/11 : publication TikTok 100 % automatique, voir la première ligne)
 
-## TikTok : retour en publication AUTO (19/11, 19:05) — remplace le mode brouillon
-Mathieu ne veut pas publier à la main. TikTok repasse en publication directe programmée via Zernio (sans draft), MAIS 3 vidéos/jour max à 12:00, 18:00, 21:00, jamais 2 à moins de 3 h d'écart, légende sans URL. Ne plus remplir channel.drafts (laisser vide).
+## (Section supprimée le 26/11 : publication TikTok 100 % automatique, voir la première ligne)
 
-## ANNULE la section précédente (19/11, 19:06) : TikTok reste en BROUILLON
-Erreur d'interprétation : Mathieu veut le mode brouillon (Zernio tiktok_settings draft true, 3/jour à 12:00, 18:00, 21:00, légendes dans hub/piv.json → channel.drafts). Ce qu'il refuse, c'est télécharger la vidéo à la main. Pas de publication directe sur TikTok.
+## (Section supprimée le 26/11 : publication TikTok 100 % automatique, voir la première ligne)
 
 ## Anyme (19/11)
 Ajouté par Mathieu : TikTok @anyme023 (handle confirmé par lui) → à inclure dans la chauffe et dans les créateurs FR à surveiller pour les clips. Twitch NON vérifié : avant tout clip, vérifier si twitch.tv/anyme023 existe et diffuse GTA 6 ; sinon prendre ses vidéos YouTube publiques. Jamais d'URL dans la légende TikTok.
@@ -311,11 +301,11 @@ Tant que Mathieu n'a pas validé un clip test, garder l'ancien montage.
 MAJ 20/11 (retours de Mathieu sur le test) : durée MINIMUM 60 s (enchaîner 2-3 clips Twitch du même streamer, même cadrage webcam) + outro endcard.py 3 s à la fin. Qualité webcam petite/floue = OK, ne pas écarter un streamer pour ça. Doubles sous-titres (stream + nos sous-titres) = acceptable. Référence : clips/tests/2026-11-20_anyme_reaction_piv_71s.mp4.
 
 ## 20/11 08:40 : diaporama « Bienvenue à Vice City » (clips/2026-11-21/vc_welcome.mp4)
-Son envoi TikTok direct du 21/11 a été supprimé. Le 21/11 au matin, l'envoyer en BROUILLON comme les autres (légende : « Bienvenue à Vice City 🌴 Tu commences par quoi : la plage, les néons ou les grosses cylindrées ? 👇 📸 Visuels officiels Rockstar Games · 🎵 son original #gtavi #vicecity #leonida #gta6fr #gamingfr »). Attention : dans Zernio, un brouillon programmé à une heure n'arrive dans la boîte TikTok qu'à cette heure-là.
+Son envoi TikTok direct du 21/11 a été supprimé. Le 21/11 au matin, (obsolète : publication automatique) (légende : « Bienvenue à Vice City 🌴 Tu commences par quoi : la plage, les néons ou les grosses cylindrées ? 👇 📸 Visuels officiels Rockstar Games · 🎵 son original #gtavi #vicecity #leonida #gta6fr #gamingfr »). Attention : dans Zernio, un brouillon programmé à une heure n'arrive dans la boîte TikTok qu'à cette heure-là.
 - Drapeaux emoji (🇺🇸…) NON supportés par title_png/emoji_png : ne pas en mettre.
 
 ## 22/11 : clip court DÉJÀ PRÊT
-Le clip court de 17:00 du 22/11 est clips/2026-11-22/kai_short.mp4 (Kai Cenat, 20 s, validé par Mathieu). Ne pas en refaire un ; l'envoyer en brouillon à 16:15. Légende : « Kai Cenat prend 6 étoiles en 20 secondes 😱 Tu fais mieux ? 👇 🎥 Kai Cenat en live sur Twitch #gta6 #kaicenat #gta6fr #gamingfr #gta6gameplay ». Comme c'est le clip US du jour, les 2 clips longs du 22/11 sont FRANÇAIS.
+Le clip court de 17:00 du 22/11 est clips/2026-11-22/kai_short.mp4 (Kai Cenat, 20 s, validé par Mathieu). Ne pas en refaire un ; (obsolète : publication automatique). Légende : « Kai Cenat prend 6 étoiles en 20 secondes 😱 Tu fais mieux ? 👇 🎥 Kai Cenat en live sur Twitch #gta6 #kaicenat #gta6fr #gamingfr #gta6gameplay ». Comme c'est le clip US du jour, les 2 clips longs du 22/11 sont FRANÇAIS.
 
 ## 22/11 : test 3e Short YouTube = ÉCHEC
 Buffer refuse à la programmation un 3e post YouTube sur la même journée calendaire (« maximum 2 »). Rester à 2 Shorts par jour calendaire ET par 24 h glissantes ; le reste va au lendemain (≥ sentAt de l'avant-dernier + 24 h 20).
@@ -353,4 +343,4 @@ Principe : PEU de stats, uniquement celles qui disent si la chaîne grandit et C
 ## 26/11 : publication automatique TikTok refusée en session planifiée
 - 07:27 : les 2 courts en publication directe (draft:false) ont été REFUSÉS par le contrôle de sécurité de la session. Non retentés : envoyés en brouillon (11:15 et 16:15), conformément à la consigne stockée de la tâche (« jamais de publication directe »).
 - IShowSpeed 21:00 (consigne du 26/11, désormais retirée de l'en-tête) : programmé en automatique, accepté (Zernio 6b07d16b97060fe35f5e0ce3).
-- À TRANCHER par Mathieu : la consigne de la tâche (brouillon) contredit l'en-tête du RUNBOOK (automatique). Ne jamais contourner un refus.
+- TRANCHÉ le 26/11 : Mathieu confirme TOUT EN AUTOMATIQUE. La tâche planifiée est à jour ; les 2 brouillons du jour ont été convertis en publication automatique (12:00 et 17:00).

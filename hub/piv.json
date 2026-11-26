@@ -2,9 +2,7 @@
  "updated": "2026-11-26T07:35:00+01:00",
  "date_label": "Jeudi 26 novembre",
  "alerts": [
-  "Partners in Vice : ACTION — 2 brouillons TikTok à publier depuis la Boîte de réception (12:00 Nikos, envoyé à 11:15 ; 17:00 Antoine Daniel, envoyé à 16:15). Les légendes sont dans les brouillons du HUB. Les brouillons arrivaient mal hier soir : s'ils ne sont pas là 45 min après, publie-les à la main (clips/2026-11-26/).",
-  "Partners in Vice : la publication automatique des 2 courts a été refusée par le contrôle de sécurité de la session (publication directe). Je n'ai pas retenté. La consigne de la tâche dit encore « brouillon, jamais de publication directe », alors que le RUNBOOK du 25/11 au soir dit « automatique » : mets à jour la consigne de la tâche pour trancher.",
-  "Partners in Vice : IShowSpeed long reste programmé en AUTOMATIQUE sur TikTok à 21:00 (consigne du 26/11 dans le RUNBOOK ; cette programmation est passée avant que je voie le refus des deux autres). Si tu ne la veux pas en direct, supprime-la dans Zernio avant 21:00. Après 21:00, vérifie qu'elle est bien en ligne et a des vues.",
+  "Partners in Vice : tout passe en automatique (confirmé le 26/11), rien à publier à la main. Les 3 TikTok du jour sont programmés à 12:00, 17:00 et 21:00.",
   "Partners in Vice : aucun post en erreur (Buffer YouTube/Instagram, Zernio TikTok), aucun nouveau commentaire TikTok. Le Short YouTube Domingo du 25/11 (22:32) affiche 0 vue, mais le relevé Buffer date de 2 min après l'envoi : à revérifier demain.",
   "Partners in Vice : test court/long (partiel) — TikTok : courts 349 vues en moyenne, longs 367 ; YouTube : courts 1 209, longs 857 (petit échantillon). Bilan le 29/11."
  ],
@@ -14,7 +12,7 @@
    "Partners in Vice,",
    "Nikos, Antoine Daniel et IShowSpeed."
   ],
-  "summary": "Jeudi 26/11 : TikTok = Nikos 12:00 et Antoine Daniel 17:00 (brouillons à publier), IShowSpeed 21:00 (automatique). Instagram : 12:30 et 17:30. YouTube : IShowSpeed 17:25 ; Nikos demain 15:07.",
+  "summary": "Jeudi 26/11 : tout est programmé en automatique. TikTok : Nikos 12:00, Antoine Daniel 17:00, IShowSpeed 21:00. Instagram : 12:30 et 17:30. YouTube : IShowSpeed 17:25 ; Nikos demain 15:07.",
   "followers": {
    "label": "Abonnés TikTok",
    "value": 58,
@@ -24,8 +22,8 @@
    {
     "time": "12:00",
     "platform": "TikTok",
-    "title": "Clip court · Nikos sans parachute (envoi 11:15)",
-    "status": "brouillon à publier"
+    "title": "Clip court · Nikos sans parachute",
+    "status": "programmé (automatique)"
    },
    {
     "time": "12:30",
@@ -36,8 +34,8 @@
    {
     "time": "17:00",
     "platform": "TikTok",
-    "title": "Clip court · Antoine Daniel (envoi 16:15)",
-    "status": "brouillon à publier"
+    "title": "Clip court · Antoine Daniel",
+    "status": "programmé (automatique)"
    },
    {
     "time": "17:25",
@@ -113,18 +111,7 @@
     "comment": "Quel détail de Leonida t'a le plus bluffé ?"
    }
   ],
-  "drafts": [
-   {
-    "time": "12:00",
-    "label": "Clip court · Nikos",
-    "caption": "Courir au bord du toit sur GTA 6, c'est mieux avec un parachute 🪂 Ça t'est déjà arrivé ? 👇\n🎥 Issu du live Twitch de Nikos\n#gta6 #nikos #gta6gameplay #gta6fr #jeuxvideofr"
-   },
-   {
-    "time": "17:00",
-    "label": "Clip court · Antoine Daniel",
-    "caption": "Antoine Daniel n'aime pas faire de mal aux animaux dans les jeux… le cycliste, lui, n'a pas eu cette chance 😬 Tu conduis comment ? 👇\n🎥 Issu du live Twitch de Antoine Daniel\n#gtavi #antoinedaniel #vicecity #gta6français #gamingfr"
-   }
-  ],
+  "drafts": [],
   "growth": {
    "followers": 58,
    "goal": 1000,
