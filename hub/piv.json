@@ -3,7 +3,6 @@
  "date_label": "Jeudi 26 novembre",
  "alerts": [
   "Partners in Vice : tout passe en automatique (confirmé le 26/11), rien à publier à la main. Les 3 TikTok du jour sont programmés à 12:00, 17:00 et 21:00.",
-  "Partners in Vice : aucun post en erreur (Buffer YouTube/Instagram, Zernio TikTok), aucun nouveau commentaire TikTok. Le Short YouTube Domingo du 25/11 (22:32) affiche 0 vue, mais le relevé Buffer date de 2 min après l'envoi : à revérifier demain.",
   "Partners in Vice : test court/long (partiel) — TikTok : courts 349 vues en moyenne, longs 367 ; YouTube : courts 1 209, longs 857 (petit échantillon). Bilan le 29/11."
  ],
  "channel": {
@@ -26,12 +25,6 @@
     "status": "programmé (automatique)"
    },
    {
-    "time": "12:30",
-    "platform": "Instagram",
-    "title": "Clip court · Nikos",
-    "status": "programmé"
-   },
-   {
     "time": "17:00",
     "platform": "TikTok",
     "title": "Clip court · Antoine Daniel",
@@ -41,12 +34,6 @@
     "time": "17:25",
     "platform": "YouTube",
     "title": "Clip long · IShowSpeed",
-    "status": "programmé"
-   },
-   {
-    "time": "17:30",
-    "platform": "Instagram",
-    "title": "Clip court · Antoine Daniel",
     "status": "programmé"
    },
    {
