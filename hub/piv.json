@@ -1,172 +1,166 @@
 {
- "updated": "2026-11-25T06:20:00+01:00",
- "date_label": "Mercredi 25 novembre",
+ "updated": "2026-11-26T07:35:00+01:00",
+ "date_label": "Jeudi 26 novembre",
  "alerts": [
-  "Partners in Vice : 3 brouillons TikTok à publier depuis la Boîte de réception (12:00 Domingo plongeon court, 17:00 Hctuan court, 21:00 IShowSpeed long VF). Ils arrivent ~45 min avant.",
-  "Partners in Vice : aucun post en erreur (Buffer YouTube/Instagram, Zernio TikTok), aucun nouveau commentaire TikTok. Test court vs long (jour 4) : TikTok 24/11 = 1 218 vues sur 3 clips (Michou court, Squeezie court, Chowh1 long) ; YouTube Squeezie court 23/11 = 1 118 vues, Domingo long 24/11 = 207 vues (partiel). Bilan le 29/11.",
-  "Partners in Vice : YouTube : Chowh1 long 17:00, Domingo Short 22:32 aujourd'hui (fenêtre 24 h) ; IShowSpeed long demain 17:25. Squeezie court du 24/11 encore à 0 vue chez Buffer (stats parfois en retard de 24 h) : à vérifier demain.",
-  "Partners in Vice : clip Hctuan = streamer hors cadre (fauteuil vide en haut) — pool FR maigre hier soir. Si tu le trouves faible, ne publie pas le brouillon de 17:00."
+  "Partners in Vice : ACTION — 2 brouillons TikTok à publier depuis la Boîte de réception (12:00 Nikos, envoyé à 11:15 ; 17:00 Antoine Daniel, envoyé à 16:15). Les légendes sont dans les brouillons du HUB. Les brouillons arrivaient mal hier soir : s'ils ne sont pas là 45 min après, publie-les à la main (clips/2026-11-26/).",
+  "Partners in Vice : la publication automatique des 2 courts a été refusée par le contrôle de sécurité de la session (publication directe). Je n'ai pas retenté. La consigne de la tâche dit encore « brouillon, jamais de publication directe », alors que le RUNBOOK du 25/11 au soir dit « automatique » : mets à jour la consigne de la tâche pour trancher.",
+  "Partners in Vice : IShowSpeed long reste programmé en AUTOMATIQUE sur TikTok à 21:00 (consigne du 26/11 dans le RUNBOOK ; cette programmation est passée avant que je voie le refus des deux autres). Si tu ne la veux pas en direct, supprime-la dans Zernio avant 21:00. Après 21:00, vérifie qu'elle est bien en ligne et a des vues.",
+  "Partners in Vice : aucun post en erreur (Buffer YouTube/Instagram, Zernio TikTok), aucun nouveau commentaire TikTok. Le Short YouTube Domingo du 25/11 (22:32) affiche 0 vue, mais le relevé Buffer date de 2 min après l'envoi : à revérifier demain.",
+  "Partners in Vice : test court/long (partiel) — TikTok : courts 349 vues en moyenne, longs 367 ; YouTube : courts 1 209, longs 857 (petit échantillon). Bilan le 29/11."
  ],
  "channel": {
   "name": "Partners in Vice",
   "headline": [
    "Partners in Vice,",
-   "3 clips du jour : Domingo, Hctuan et IShowSpeed."
+   "Nikos, Antoine Daniel et IShowSpeed."
   ],
-  "summary": "Mercredi 25/11 : TikTok = Domingo court 12:00, Hctuan court 17:00, IShowSpeed long 21:00 (brouillons). Instagram : 12:30, 17:30, 19:00. YouTube : Chowh1 long 17:00, Domingo Short 22:32 ; IShowSpeed long demain 17:25.",
+  "summary": "Jeudi 26/11 : TikTok = Nikos 12:00 et Antoine Daniel 17:00 (brouillons à publier), IShowSpeed 21:00 (automatique). Instagram : 12:30 et 17:30. YouTube : IShowSpeed 17:25 ; Nikos demain 15:07.",
   "followers": {
    "label": "Abonnés TikTok",
-   "value": 59,
+   "value": 58,
    "goal": 1000
   },
   "today": [
    {
     "time": "12:00",
     "platform": "TikTok",
-    "title": "Clip court · Domingo plongeon (brouillon)",
+    "title": "Clip court · Nikos sans parachute (envoi 11:15)",
     "status": "brouillon à publier"
    },
    {
     "time": "12:30",
     "platform": "Instagram",
-    "title": "Clip court · Domingo plongeon",
+    "title": "Clip court · Nikos",
     "status": "programmé"
    },
    {
     "time": "17:00",
     "platform": "TikTok",
-    "title": "Clip court · Hctuan 3 étoiles (brouillon)",
+    "title": "Clip court · Antoine Daniel (envoi 16:15)",
     "status": "brouillon à publier"
    },
    {
-    "time": "17:00",
+    "time": "17:25",
     "platform": "YouTube",
-    "title": "Clip long · Chowh1",
+    "title": "Clip long · IShowSpeed",
     "status": "programmé"
    },
    {
     "time": "17:30",
     "platform": "Instagram",
-    "title": "Clip court · Hctuan",
-    "status": "programmé"
-   },
-   {
-    "time": "19:00",
-    "platform": "Instagram",
-    "title": "Clip long · IShowSpeed",
+    "title": "Clip court · Antoine Daniel",
     "status": "programmé"
    },
    {
     "time": "21:00",
     "platform": "TikTok",
-    "title": "Clip long · IShowSpeed VF (brouillon)",
-    "status": "brouillon à publier"
-   },
-   {
-    "time": "22:32",
-    "platform": "YouTube",
-    "title": "Clip court · Domingo plongeon",
-    "status": "programmé"
+    "title": "Clip long · IShowSpeed VF",
+    "status": "programmé (automatique)"
    }
   ],
   "upcoming": [
    {
-    "day": "Jeudi 26",
-    "text": "IShowSpeed long en YouTube 17:25 + clips du jour"
+    "day": "Vendredi 27",
+    "text": "Nikos en Short YouTube 15:07 ; clip long du jour à placer après 17:45"
    }
   ],
   "trend": {
    "labels": [
-    "19/11",
     "20/11",
     "21/11",
     "22/11",
     "23/11",
     "24/11",
-    "25/11"
+    "25/11",
+    "26/11"
    ],
    "series": {
     "TikTok": [
-     606,
      752,
-     634,
-     1235,
-     655,
-     832,
+     636,
+     1242,
+     657,
+     1469,
+     1353,
      null
     ]
    }
   },
   "warmup": [
    {
-    "label": "#gta6fr : fil des vidéos",
-    "url": "https://www.tiktok.com/tag/gta6fr",
-    "comment": "Les PNJ de Leonida ont plus de répliques que moi 😂"
+    "label": "#gta6français : fil des vidéos",
+    "url": "https://www.tiktok.com/tag/gta6fran%C3%A7ais",
+    "comment": "Le monde est tellement vivant que j'oublie les missions 😂"
    },
    {
-    "label": "Recherche « GTA 6 plongeon »",
-    "url": "https://www.tiktok.com/search?q=gta%206%20plongeon",
-    "comment": "Qui a réussi le saut du toit dans la piscine ?"
+    "label": "Recherche « GTA 6 parachute »",
+    "url": "https://www.tiktok.com/search?q=gta%206%20parachute",
+    "comment": "Qui a déjà sauté sans vérifier son sac ?"
    },
    {
     "label": "Michou (@michouoff)",
     "url": "https://www.tiktok.com/@michouoff",
-    "comment": "Tes cascades sur GTA 6 c'est un autre niveau 🔥"
+    "comment": "C'est quoi ta voiture préférée à Vice City pour l'instant ?"
    },
    {
     "label": "Anyme (@anyme023)",
     "url": "https://www.tiktok.com/@anyme023",
-    "comment": "Ta prochaine session GTA 6 c'est quand ?"
+    "comment": "Tu en es où dans l'histoire ? Sans spoil 👀"
    },
    {
-    "label": "Snir (@sniryt)",
-    "url": "https://www.tiktok.com/@sniryt",
-    "comment": "Vice City de nuit c'est magnifique"
+    "label": "Chris Klippel (@chris_klippel)",
+    "url": "https://www.tiktok.com/@chris_klippel",
+    "comment": "Quel détail de Leonida t'a le plus bluffé ?"
    }
   ],
   "drafts": [
    {
     "time": "12:00",
-    "label": "Clip court · Domingo plongeon",
-    "caption": "Domingo tente le plongeon du toit à la piscine sur GTA 6… à 30 cm près 😱 Toi tu sautes ? 👇\n🎥 Issu du live Twitch de Domingo\n#gta6 #domingo #gta6vicecity #gta6fr #jeuxvideofr"
+    "label": "Clip court · Nikos",
+    "caption": "Courir au bord du toit sur GTA 6, c'est mieux avec un parachute 🪂 Ça t'est déjà arrivé ? 👇\n🎥 Issu du live Twitch de Nikos\n#gta6 #nikos #gta6gameplay #gta6fr #jeuxvideofr"
    },
    {
     "time": "17:00",
-    "label": "Clip court · Hctuan",
-    "caption": "3 étoiles, planqué derrière un mur… et le chat qui hurle « saute ! » 🚨 Tu te rends ou tu fuis ? 👇\n🎥 Issu du live Twitch de Hctuan\n#gtavi #hctuan #leonida #gta6français #gamingfr"
-   },
-   {
-    "time": "21:00",
-    "label": "Clip long · IShowSpeed VF",
-    "caption": "Salto arrière à moto, combat de coqs puis fusillade : la journée d'IShowSpeed dans GTA 6, sous-titrée en français 🔥 Quel moment tu gardes ? 👇\n🎥 Issu du live Twitch de IShowSpeed\n#grandtheftauto6 #ishowspeed #gta6gameplay #gta6infos #ps5"
+    "label": "Clip court · Antoine Daniel",
+    "caption": "Antoine Daniel n'aime pas faire de mal aux animaux dans les jeux… le cycliste, lui, n'a pas eu cette chance 😬 Tu conduis comment ? 👇\n🎥 Issu du live Twitch de Antoine Daniel\n#gtavi #antoinedaniel #vicecity #gta6français #gamingfr"
    }
   ],
   "growth": {
    "followers": 58,
    "goal": 1000,
-   "followers_delta": 40,
-   "followers_note": "stable depuis le 21/11 (53 → 58)",
-   "views_7d": 4714,
-   "views_prev_7d": 1909,
-   "avg_views": 307,
-   "avg_watch": 9.5,
+   "followers_delta": 20,
+   "followers_note": "38 le 19/11 → 58 ; stable depuis le 23/11",
+   "views_7d": 6109,
+   "views_prev_7d": 2517,
+   "avg_views": 360,
+   "avg_watch": 9.2,
    "avg_note": "clips de streamers, depuis le 19/11",
-   "yt_views_7d": 10404,
-   "yt_views_prev_7d": 927,
-   "yt_avg_views": 1157,
-   "yt_note": "69 % de nos vues viennent de YouTube"
+   "yt_views_7d": 9989,
+   "yt_views_prev_7d": 3264,
+   "yt_avg_views": 963,
+   "yt_note": "environ 62 % de nos vues des 7 derniers jours viennent de YouTube"
   },
   "insights": {
    "streamers": [
     {
      "label": "Chowh1",
-     "value": 849,
+     "value": 1046,
+     "detail": "1 clip · YouTube 301"
+    },
+    {
+     "label": "Hctuan",
+     "value": 681,
      "detail": "1 clip"
     },
     {
      "label": "Michou",
-     "value": 432,
-     "detail": "3 clips · YouTube 1 221"
+     "value": 435,
+     "detail": "3 clips · YouTube 1 226"
+    },
+    {
+     "label": "Domingo",
+     "value": 397,
+     "detail": "3 clips · YouTube 361"
     },
     {
      "label": "Anyme",
@@ -174,90 +168,84 @@
      "detail": "1 clip"
     },
     {
-     "label": "Domingo",
-     "value": 259,
-     "detail": "2 clips"
-    },
-    {
      "label": "Kameto",
      "value": 236,
-     "detail": "1 clip · YouTube 336"
+     "detail": "1 clip · YouTube 513"
     },
     {
      "label": "Squeezie",
      "value": 233,
-     "detail": "3 clips · YouTube 1 150"
+     "detail": "3 clips · YouTube 1 192"
     },
     {
      "label": "ZeratoR",
      "value": 232,
-     "detail": "1 clip · YouTube 1 245"
+     "detail": "1 clip · YouTube 1 246"
     },
     {
      "label": "Gotaga",
      "value": 205,
-     "detail": "2 clips · YouTube 1 166"
+     "detail": "2 clips · YouTube 1 167"
     },
     {
      "label": "Kai Cenat",
      "value": 204,
-     "detail": "2 clips · YouTube 1 237"
+     "detail": "2 clips · YouTube 1 239"
     }
    ],
    "formats": [
     {
      "label": "Long 60-100 s",
-     "value": 348,
-     "detail": "TikTok · 9,7 s regardées · YouTube 1 030"
+     "value": 367,
+     "detail": "TikTok · 9,7 s regardées · YouTube 857"
     },
     {
      "label": "Court < 30 s",
-     "value": 218,
-     "detail": "TikTok · 18 % vus en entier · YouTube 1 178"
+     "value": 349,
+     "detail": "TikTok · 8,6 s regardées · 15 % vus en entier · YouTube 1 209"
     }
    ],
    "slots": [
     {
      "label": "Soir 19h-22h",
-     "value": 452,
-     "detail": "6 clips",
+     "value": 514,
+     "detail": "7 clips",
      "group": 1
     },
     {
      "label": "Midi 11h-14h",
-     "value": 220,
-     "detail": "5 clips",
+     "value": 295,
+     "detail": "6 clips",
      "group": 1
     },
     {
      "label": "Après-midi 16h-17h",
-     "value": 206,
+     "value": 207,
      "detail": "4 clips",
      "group": 1
     }
    ],
    "takeaways": [
-    "YouTube fait 69 % de nos vues (10 404 en 7 jours, environ 1 150 par Short) : c'est notre moteur, les 2 Shorts par jour passent avant tout le reste.",
-    "Sur TikTok, les longs font 60 % de vues en plus que les courts (348 contre 218) ; sur YouTube c'est l'inverse (1 178 pour les courts contre 1 030). Verdict du test le 29/11.",
-    "Le soir (19h-22h) fait 2 fois plus de vues que midi et l'après-midi : le meilleur clip du jour doit sortir à 21h.",
-    "Michou est la valeur sûre (432 vues en moyenne). Les pépites marchent aussi : Chowh1 détient le record de la chaîne.",
-    "Les abonnés stagnent depuis le 21/11 malgré les vues : à travailler (bio, vidéos épinglées, appel à s'abonner en fin de clip)."
+    "YouTube reste notre moteur (963 vues par Short en moyenne) : on garde les 2 Shorts par 24 h en priorité.",
+    "TikTok : longs 367 vues contre 349 pour les courts, mais les courts sont bien plus souvent vus en entier. Écart faible sur peu de clips : décision au bilan du 29/11.",
+    "Le soir fait nettement mieux : on réserve le 21:00 au meilleur clip.",
+    "Les abonnés plafonnent à 58 : on teste d'autres pépites FR (Nikos et Antoine Daniel aujourd'hui) et on suit leurs vues avant de les reprendre."
    ],
    "top": [
     {
      "title": "Chowh1 chasse un T-Rex à moto",
-     "views": 849,
+     "views": 1046,
      "detail": "Long · 24/11 · 21h"
     },
     {
-     "title": "Michou s'excuse auprès de Lucia, puis l'Urus dorée",
-     "views": 765,
+     "title": "Michou et l'Urus dorée",
+     "views": 771,
      "detail": "Long · 22/11 · 21h"
     },
     {
-     "title": "Michou lance GTA 6 en France",
-     "views": 309,
-     "detail": "Long · 19/11 · 20h"
+     "title": "Hctuan planqué à 3 étoiles",
+     "views": 681,
+     "detail": "Court · 25/11 · 19h"
     }
    ]
   }

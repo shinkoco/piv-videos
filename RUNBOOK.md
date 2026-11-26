@@ -1,4 +1,3 @@
-# ⚠️ 26/11 UNIQUEMENT : le clip IShowSpeed VF du 25/11 (clips/2026-11-25/speed_long.mp4) n'a jamais été livré (brouillon perdu). Le publier en AUTOMATIQUE sur TikTok le 26/11 à 21:00 avec sa légende du 25/11 ; il compte comme le clip US du jour (donc pas d'autre streamer US le 26/11). Supprimer cette ligne ensuite.
 # ⚠️ TIKTOK EN PUBLICATION AUTOMATIQUE (TEST décidé par Mathieu le 25/11 au soir, le mode brouillon ne livrait plus depuis plusieurs heures) : Zernio posts_create_post avec scheduled_for = heure de publication (12:00 / 17:00 / 21:00 Paris), timezone Europe/Paris, tiktok_settings SANS draft (draft:false). Légende complète dans le post (sans lien, 5 hashtags). Plus de carte « brouillons » : channel.drafts = []. Toujours 3 TikTok/jour max. Revenir au brouillon uniquement si Mathieu le demande.
 # ⚠️ LÉGENDES : jamais de lien (twitch.tv, youtube.com…) nulle part — « 🎥 Issu du live Twitch de <Nom> ».
 # ⚠️ ÉTAT ACTUEL AU 20/11/2026 — CE RÉSUMÉ FAIT FOI (en cas de contradiction plus bas)
@@ -350,3 +349,8 @@ Principe : PEU de stats, uniquement celles qui disent si la chaîne grandit et C
 - insights (clips de streamers uniquement, depuis le 19/11, via analytics_get_analytics + published.json) : streamers (vues moyennes, trié décroissant, detail « n clips »), formats (court < 30 s vs long, avec temps regardé / % vus en entier = completionRate), slots (créneaux heure de Paris, group:1), takeaways (3-4 phrases = DÉCISIONS, pas des constats vagues ; signaler quand l'échantillon est petit), top (3 meilleures vidéos).
 - trend (7 jours glissants), today, drafts, warmup, upcoming, alerts comme avant. Ne plus remplir kpis / engagement / best_time (retirés).
 - HUB v2 + YouTube (25/11) : remplir aussi growth.yt_views_7d / yt_views_prev_7d / yt_avg_views / yt_note via Buffer list_posts (channel YouTube 6afa0f34ece6dfde5fd78fb8, status sent, includeMetrics) ; ignorer un Short à 0 vue envoyé il y a < 24 h (stats Buffer en retard). Dans insights, ajouter « YouTube X » au detail des streamers et des formats, et au moins une phrase YouTube dans takeaways. INSTAGRAM : on n'affiche RIEN dans le HUB (décision de Mathieu).
+
+## 26/11 : publication automatique TikTok refusée en session planifiée
+- 07:27 : les 2 courts en publication directe (draft:false) ont été REFUSÉS par le contrôle de sécurité de la session. Non retentés : envoyés en brouillon (11:15 et 16:15), conformément à la consigne stockée de la tâche (« jamais de publication directe »).
+- IShowSpeed 21:00 (consigne du 26/11, désormais retirée de l'en-tête) : programmé en automatique, accepté (Zernio 6b07d16b97060fe35f5e0ce3).
+- À TRANCHER par Mathieu : la consigne de la tâche (brouillon) contredit l'en-tête du RUNBOOK (automatique). Ne jamais contourner un refus.
