@@ -345,3 +345,8 @@ Principe : PEU de stats, uniquement celles qui disent si la chaîne grandit et C
 - 07:27 : les 2 courts en publication directe (draft:false) ont été REFUSÉS par le contrôle de sécurité de la session. Non retentés : envoyés en brouillon (11:15 et 16:15), conformément à la consigne stockée de la tâche (« jamais de publication directe »).
 - IShowSpeed 21:00 (consigne du 26/11, désormais retirée de l'en-tête) : programmé en automatique, accepté (Zernio 6b07d16b97060fe35f5e0ce3).
 - TRANCHÉ le 26/11 : Mathieu confirme TOUT EN AUTOMATIQUE. La tâche planifiée est à jour ; les 2 brouillons du jour ont été convertis en publication automatique (12:00 et 17:00).
+
+## ONGLET ANALYSES (26/11, demandé par Mathieu : « comme Zernio mais sur mon HUB »)
+À chaque run, remplir dans hub/piv.json → channel :
+- videos : TOUTES les publications PIV (TikTok via Zernio analytics_get_analytics account 6afc525031be0a779a30b36e, from_date 2026-11-15, limit 40 + pages ; YouTube via Buffer list_posts channel 6afa0f34ece6dfde5fd78fb8 status sent includeMetrics). Une entrée par post : {date (ISO UTC), platform ("TikTok"|"YouTube"), title (titre court lisible), views, likes, comments, shares, saves, watch (s, igReelsAvgWatchTime/1000, null si inconnu), duration (s), completion (completionRate 0-1, null si inconnu), type ("vidéo"|"carrousel")}. Jamais de chiffre inventé (null).
+- followers_history : {"TikTok": [["AAAA-MM-JJ", n], …]} depuis Zernio accounts_get_follower_stats (from_date 2026-11-15). Pas d'Instagram.
