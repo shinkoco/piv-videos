@@ -511,5 +511,77 @@
   "posts": {
    "tiktok_auto_21:00": "6b07d16b97060fe35f5e0ce3"
   }
+ },
+ {
+  "date": "2026-11-27",
+  "type": "clip_court",
+  "streamer": "Skyrroz",
+  "file": "clips/2026-11-27/skyrroz_court.mp4",
+  "music": null,
+  "source": "clips Twitch publics",
+  "layout": "split",
+  "clip_ids": [
+   "skyrroztv ResourcefulSeductiveEelAMPEnergy (plongeon requin, cut 0-13s)"
+  ],
+  "pops": [
+   "Plan sans faille 👌",
+   "Il a rien vu venir 😭"
+  ],
+  "hashtags": {
+   "tiktok": "#gta6 #skyrroz #vicecity #gta6fr #jeuxvideofr",
+   "youtube": "#grandtheftauto6 #skyrroz #gta6vicecity #gta6français #gaming"
+  },
+  "posts": {
+   "tiktok_auto_12:00": "6b091473e1852a09f9bb77b6",
+   "youtube_28/11_15:37": "6b0914871fd46e62e7165a84"
+  }
+ },
+ {
+  "date": "2026-11-27",
+  "type": "clip_court",
+  "streamer": "Chowh1",
+  "file": "clips/2026-11-27/chowh1_court.mp4",
+  "music": null,
+  "source": "clips Twitch publics",
+  "layout": "double",
+  "clip_ids": [
+   "chowh1 SparklyTangibleMomGOWSkull (dépanneuse et avion, cut 6-26s)"
+  ],
+  "pops": [
+   "Zéro permis 🚛",
+   "Assurance refusée 🧾"
+  ],
+  "hashtags": {
+   "tiktok": "#gtavi #chowh1 #gta6gameplay #gta6français #gamingfr"
+  },
+  "posts": {
+   "tiktok_auto_17:00": "6b0914793244447f40545c2c"
+  }
+ },
+ {
+  "date": "2026-11-27",
+  "type": "clip_long",
+  "streamer": "Domingo",
+  "file": "clips/2026-11-27/domingo_long.mp4",
+  "music": null,
+  "source": "clips Twitch publics",
+  "layout": "split",
+  "clip_ids": [
+   "domingo EphemeralVictoriousDiamondWOOP (poteau, cut 2-27s)",
+   "domingo PoisedAstuteShallotGingerPower (moto, cut 32-42s)",
+   "domingo TardyTenuousSrirachaNerfRedBlaster (voiture en feu, cuts 7-18 et 33-47s)"
+  ],
+  "pops": [
+   "Le poteau 1 - 0 Domingo 🏆",
+   "Héros, mais en retard 🚒"
+  ],
+  "hashtags": {
+   "tiktok": "#grandtheftauto6 #domingo #gta6vicecity #gta6fr #jeuxvidéo",
+   "youtube": "#gtavi #domingo #gta6gameplay #gta6fr #ps5"
+  },
+  "posts": {
+   "tiktok_auto_21:00": "6b091479e1852a09f9bb77da",
+   "youtube_17:52": "6b091487776ce21276eada77"
+  }
  }
 ]
