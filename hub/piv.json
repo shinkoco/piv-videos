@@ -1,136 +1,137 @@
 {
- "updated": "2026-11-27T06:35:00+01:00",
- "date_label": "Vendredi 27 novembre",
+ "updated": "2026-11-28T06:30:00+01:00",
+ "date_label": "Samedi 28 novembre",
  "alerts": [
-  "Partners in Vice : rien à faire aujourd'hui. Les 3 TikTok sont programmés en automatique (12:00, 17:00, 21:00) et les Shorts YouTube aussi.",
-  "Partners in Vice : test court/long (partiel depuis le 22/11) : TikTok courts 420 vues en moyenne, longs 582 ; YouTube courts 1173, longs 612 (petit échantillon). Bilan le 29/11.",
-  "Partners in Vice : le Short IShowSpeed d'hier est à 90 vues au dernier relevé (stats en retard), bien sous les autres. À surveiller ; pas de republication."
+  "Partners in Vice : rien à faire aujourd'hui. Les 3 TikTok et les Shorts YouTube sont programmés en automatique, aucune publication en erreur.",
+  "Partners in Vice : test court/long (partiel depuis le 22/11) : TikTok courts 466 vues en moyenne, longs 570 ; YouTube courts 1193, longs 623 (petit échantillon). Bilan demain, 29/11.",
+  "Partners in Vice : aucun Short à 0 vue. Le long IShowSpeed reste faible (144 vues) ; pas de republication."
  ],
  "channel": {
   "name": "Partners in Vice",
   "headline": [
    "Partners in Vice,",
-   "Skyrroz, Chowh1 et Domingo."
+   "Michou, Kai Cenat et Antoine Daniel."
   ],
-  "summary": "Vendredi 27/11 : tout est programmé en automatique. TikTok : Skyrroz 12:00, Chowh1 17:00, Domingo 21:00. YouTube : Nikos 15:07, Domingo 17:52 ; Skyrroz demain 15:37.",
+  "summary": "Samedi 28/11 : tout est programmé en automatique. TikTok : Michou 12:00, Kai Cenat 17:00, Antoine Daniel 21:00. YouTube : Skyrroz 15:37, Antoine Daniel 18:25 ; Michou demain 16:07.",
   "followers": {
    "label": "Abonnés TikTok",
-   "value": 58,
+   "value": 61,
    "goal": 1000
   },
   "today": [
    {
     "time": "12:00",
     "platform": "TikTok",
-    "title": "Clip court · Skyrroz plonge",
+    "title": "Clip court · Michou et le camion",
     "status": "programmé (automatique)"
    },
    {
-    "time": "15:07",
+    "time": "15:37",
     "platform": "YouTube",
-    "title": "Clip court · Nikos",
+    "title": "Clip court · Skyrroz",
     "status": "programmé"
    },
    {
     "time": "17:00",
     "platform": "TikTok",
-    "title": "Clip court · Chowh1 à la dépanneuse",
+    "title": "Clip court · Kai Cenat et la police",
     "status": "programmé (automatique)"
    },
    {
-    "time": "17:52",
+    "time": "18:25",
     "platform": "YouTube",
-    "title": "Clip long · Domingo",
+    "title": "Clip long · Antoine Daniel",
     "status": "programmé"
    },
    {
     "time": "21:00",
     "platform": "TikTok",
-    "title": "Clip long · Domingo",
+    "title": "Clip long · Antoine Daniel",
     "status": "programmé (automatique)"
    }
   ],
   "upcoming": [
    {
-    "day": "Samedi 28",
-    "text": "Skyrroz en Short YouTube 15:37 ; clip long du lendemain à placer après 18:15"
-   },
-   {
     "day": "Dimanche 29",
-    "text": "Bilan court contre long, revue de la semaine et test d'un 3e Short"
+    "text": "Michou en Short YouTube à 16:07, bilan court contre long, revue de la semaine et test d'un 3e Short"
    }
   ],
   "trend": {
    "labels": [
-    "21/11",
     "22/11",
     "23/11",
     "24/11",
     "25/11",
     "26/11",
-    "27/11"
+    "27/11",
+    "28/11"
    ],
    "series": {
     "TikTok": [
-     636,
-     1247,
-     661,
-     1591,
-     1359,
-     1844,
+     1250,
+     662,
+     1675,
+     1362,
+     1864,
+     1731,
      null
     ]
    }
   },
   "warmup": [
    {
-    "label": "Recherche « GTA 6 requin »",
-    "url": "https://www.tiktok.com/search?q=gta%206%20requin",
-    "comment": "Je ne regarde plus l'eau de Leonida pareil 🦈"
+    "label": "Recherche « GTA 6 course poursuite »",
+    "url": "https://www.tiktok.com/search?q=gta%206%20course%20poursuite",
+    "comment": "3 étoiles et plus de portière, là je me rends 😅"
    },
    {
-    "label": "#gta6fr : fil des vidéos",
-    "url": "https://www.tiktok.com/tag/gta6fr",
-    "comment": "Votre pire accident depuis la sortie, c'était quoi ?"
-   },
-   {
-    "label": "Sniryt (@sniryt)",
-    "url": "https://www.tiktok.com/@sniryt",
-    "comment": "Tu as trouvé un détail que personne n'a encore vu ?"
+    "label": "#gta6gameplay : fil des vidéos",
+    "url": "https://www.tiktok.com/tag/gta6gameplay",
+    "comment": "Ce détail, je ne l'avais jamais vu, c'était où ?"
    },
    {
     "label": "Michou (@michouoff)",
     "url": "https://www.tiktok.com/@michouoff",
-    "comment": "Plutôt Jason ou Lucia au volant pour toi ?"
+    "comment": "Les camions de Leonida ne freinent jamais ou c'est moi ?"
    },
    {
-    "label": "Anyme (@anyme023)",
-    "url": "https://www.tiktok.com/@anyme023",
-    "comment": "La mission qui t'a pris le plus d'essais ?"
+    "label": "Chris Klippel (@chris_klippel)",
+    "url": "https://www.tiktok.com/@chris_klippel",
+    "comment": "Après une semaine de jeu, qu'est-ce qui t'a le plus surpris ?"
+   },
+   {
+    "label": "Sniryt (@sniryt)",
+    "url": "https://www.tiktok.com/@sniryt",
+    "comment": "Tu as un coin de la map à conseiller ce week-end ?"
    }
   ],
   "drafts": [],
   "growth": {
-   "followers": 58,
+   "followers": 61,
    "goal": 1000,
-   "followers_delta": 9,
-   "followers_note": "49 le 20/11 → 58 ; stable depuis le 23/11",
-   "views_7d": 8093,
-   "views_prev_7d": 2518,
-   "avg_views": 402,
-   "avg_watch": 9.4,
+   "followers_delta": 8,
+   "followers_note": "53 le 21/11 → 61 au dernier relevé du 27/11",
+   "views_7d": 9184,
+   "views_prev_7d": 3277,
+   "avg_views": 430,
+   "avg_watch": 9.3,
    "avg_note": "clips de streamers, depuis le 19/11",
-   "yt_views_7d": 11747,
-   "yt_views_prev_7d": 3255,
-   "yt_avg_views": 949,
-   "yt_note": "environ 59 % de nos vues des 7 derniers jours viennent de YouTube"
+   "yt_views_7d": 11265,
+   "yt_views_prev_7d": 5707,
+   "yt_avg_views": 953,
+   "yt_note": "environ 55 % de nos vues du 21 au 27/11 viennent de YouTube"
   },
   "insights": {
    "streamers": [
     {
      "label": "Chowh1",
-     "value": 1157,
-     "detail": "1 clip · YouTube 668"
+     "value": 944,
+     "detail": "2 clips · YouTube 782"
+    },
+    {
+     "label": "Skyrroz",
+     "value": 686,
+     "detail": "1 clip"
     },
     {
      "label": "Hctuan",
@@ -139,28 +140,28 @@
     },
     {
      "label": "Nikos",
-     "value": 666,
-     "detail": "1 clip"
+     "value": 669,
+     "detail": "1 clip · YouTube 1257"
     },
     {
      "label": "Antoine Daniel",
-     "value": 658,
+     "value": 668,
      "detail": "1 clip"
     },
     {
      "label": "IShowSpeed",
-     "value": 519,
-     "detail": "1 clip · YouTube 90"
+     "value": 527,
+     "detail": "1 clip · YouTube 144"
     },
     {
      "label": "Michou",
-     "value": 436,
+     "value": 438,
      "detail": "3 clips · YouTube 1229"
     },
     {
      "label": "Domingo",
-     "value": 399,
-     "detail": "3 clips · YouTube 824"
+     "value": 402,
+     "detail": "4 clips · YouTube 723"
     },
     {
      "label": "Anyme",
@@ -169,13 +170,13 @@
     },
     {
      "label": "Kameto",
-     "value": 236,
+     "value": 238,
      "detail": "1 clip · YouTube 514"
     },
     {
      "label": "Squeezie",
      "value": 235,
-     "detail": "3 clips · YouTube 1198"
+     "detail": "3 clips · YouTube 1200"
     },
     {
      "label": "ZeratoR",
@@ -189,86 +190,156 @@
     },
     {
      "label": "Kai Cenat",
-     "value": 204,
+     "value": 206,
      "detail": "2 clips · YouTube 1238"
     }
    ],
    "formats": [
     {
      "label": "Court < 30 s",
-     "value": 420,
-     "detail": "TikTok · 9,3 s regardées · 18 % vus en entier · YouTube 1173"
+     "value": 466,
+     "detail": "TikTok · 8,9 s regardées · 18 % vus en entier · YouTube 1193"
     },
     {
      "label": "Long 60-100 s",
-     "value": 389,
-     "detail": "TikTok · 9,5 s regardées · 0 % vus en entier · YouTube 838"
+     "value": 399,
+     "detail": "TikTok · 9,6 s regardées · 0 % vus en entier · YouTube 820"
     }
    ],
    "slots": [
     {
      "label": "Soir 19h-22h",
-     "value": 530,
-     "detail": "8 clips",
+     "value": 528,
+     "detail": "9 clips",
      "group": 1
     },
     {
      "label": "Midi 11h-14h",
-     "value": 341,
+     "value": 392,
      "detail": "8 clips",
      "group": 1
     },
     {
      "label": "Après-midi 16h-18h",
-     "value": 297,
-     "detail": "5 clips",
+     "value": 357,
+     "detail": "6 clips",
      "group": 1
     }
    ],
    "takeaways": [
-    "YouTube : les courts font mieux que les longs (1173 contre 612 vues depuis le 22/11) ; on garde 1 court + 1 long par 24 h jusqu'au bilan.",
-    "TikTok : les courts récents tiennent autour de 660-680 vues et sont bien plus souvent vus en entier ; les longs sont très irréguliers (222 à 1 157). Décision au bilan du 29/11.",
-    "Les petits streamers (Nikos, Antoine Daniel, Hctuan) ont tenu leur rang : on continue avec les pépites FR (Skyrroz aujourd'hui).",
-    "Les abonnés restent à 58 : on garde des accroches avec une chute visible dès les premières secondes."
+    "YouTube : les courts font nettement mieux que les longs depuis le 22/11 (1193 contre 623 vues) ; on garde 1 court + 1 long par 24 h jusqu'au bilan de demain.",
+    "TikTok : 466 vues en moyenne pour les courts, 570 pour les longs depuis le 22/11 ; les courts sont bien plus souvent vus en entier. Petit échantillon.",
+    "Les petits streamers (Nikos, Skyrroz, Antoine Daniel, Hctuan) tiennent leur rang : aujourd'hui Michou, Kai Cenat et Antoine Daniel.",
+    "61 abonnés : la reprise est faible, on garde des accroches où la chute se voit dès les premières secondes."
    ],
    "top": [
     {
      "title": "Chowh1 chasse un T-Rex à moto",
-     "views": 1157,
+     "views": 1249,
      "detail": "Long · 24/11 · 21h"
     },
     {
-     "title": "Michou et l'Urus dorée",
-     "views": 776,
-     "detail": "Long · 22/11 · 21h"
+     "title": "Michou, Lucia et l'Urus dorée",
+     "views": 777,
+     "detail": "Long · 22/11 · 20h"
     },
     {
-     "title": "Hctuan planqué à 3 étoiles",
-     "views": 684,
-     "detail": "Court · 25/11 · 19h"
+     "title": "Skyrroz plonge",
+     "views": 686,
+     "detail": "Court · 27/11 · 12h"
     }
    ]
   },
   "videos": [
    {
-    "date": "2026-11-26T20:02:00Z",
+    "date": "2026-11-27T20:02:00Z",
+    "platform": "TikTok",
+    "title": "Domingo : poteau, moto et feu",
+    "views": 406,
+    "likes": 11,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "watch": 12.0,
+    "duration": 66,
+    "completion": 0.0099,
+    "type": "vidéo"
+   },
+   {
+    "date": "2026-11-27T16:52:00Z",
+    "platform": "YouTube",
+    "title": "Domingo : poteau, moto et feu",
+    "views": 514,
+    "likes": 12,
+    "comments": 0,
+    "shares": null,
+    "saves": null,
+    "watch": null,
+    "duration": 66,
+    "completion": null,
+    "type": "vidéo"
+   },
+   {
+    "date": "2026-11-27T16:02:10Z",
+    "platform": "TikTok",
+    "title": "Chowh1 à la dépanneuse",
+    "views": 639,
+    "likes": 1,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "watch": 4.2,
+    "duration": 23,
+    "completion": 0.0151,
+    "type": "vidéo"
+   },
+   {
+    "date": "2026-11-27T14:07:00Z",
+    "platform": "YouTube",
+    "title": "Nikos sans parachute",
+    "views": 1257,
+    "likes": 25,
+    "comments": 0,
+    "shares": null,
+    "saves": null,
+    "watch": null,
+    "duration": 19,
+    "completion": null,
+    "type": "vidéo"
+   },
+   {
+    "date": "2026-11-27T11:02:38Z",
+    "platform": "TikTok",
+    "title": "Skyrroz plonge",
+    "views": 686,
+    "likes": 8,
+    "comments": 0,
+    "shares": 0,
+    "saves": 1,
+    "watch": 10.4,
+    "duration": 16,
+    "completion": 0.371,
+    "type": "vidéo"
+   },
+   {
+    "date": "2026-11-26T20:02:05Z",
     "platform": "TikTok",
     "title": "IShowSpeed : salto, coqs et fusillade",
-    "views": 519,
+    "views": 527,
     "likes": 7,
     "comments": 0,
     "shares": 0,
     "saves": 0,
     "watch": 6.7,
     "duration": 66,
-    "completion": 0.0,
+    "completion": 0,
     "type": "vidéo"
    },
    {
     "date": "2026-11-26T16:25:00Z",
     "platform": "YouTube",
     "title": "IShowSpeed : salto, coqs et fusillade",
-    "views": 90,
+    "views": 144,
     "likes": 3,
     "comments": 0,
     "shares": null,
@@ -279,38 +350,38 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-26T16:02:00Z",
+    "date": "2026-11-26T16:02:21Z",
     "platform": "TikTok",
     "title": "Antoine Daniel et le cycliste",
-    "views": 658,
-    "likes": 14,
+    "views": 668,
+    "likes": 15,
     "comments": 0,
     "shares": 0,
     "saves": 0,
     "watch": 12.0,
     "duration": 20,
-    "completion": 0.325,
+    "completion": 0.323,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-26T11:01:00Z",
+    "date": "2026-11-26T11:01:37Z",
     "platform": "TikTok",
     "title": "Nikos au bord du toit",
-    "views": 666,
+    "views": 669,
     "likes": 34,
     "comments": 1,
     "shares": 0,
     "saves": 0,
     "watch": 11.8,
     "duration": 19,
-    "completion": 0.232,
+    "completion": 0.2307,
     "type": "vidéo"
    },
    {
     "date": "2026-11-25T21:32:00Z",
     "platform": "YouTube",
-    "title": "Domingo plonge du toit",
-    "views": 1048,
+    "title": "Domingo et le plongeon",
+    "views": 1057,
     "likes": 10,
     "comments": 0,
     "shares": null,
@@ -321,7 +392,7 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-25T18:02:00Z",
+    "date": "2026-11-25T18:02:41Z",
     "platform": "TikTok",
     "title": "Hctuan, 3 étoiles derrière un mur",
     "views": 684,
@@ -331,15 +402,15 @@
     "saves": 0,
     "watch": 5.3,
     "duration": 24,
-    "completion": 0.054,
+    "completion": 0.0542,
     "type": "vidéo"
    },
    {
     "date": "2026-11-25T16:03:00Z",
     "platform": "YouTube",
-    "title": "Chowh1 chasse un T-Rex à moto",
-    "views": 668,
-    "likes": 7,
+    "title": "Chowh1 et le T-Rex",
+    "views": 782,
+    "likes": 9,
     "comments": 0,
     "shares": null,
     "saves": null,
@@ -349,24 +420,24 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-25T11:32:00Z",
+    "date": "2026-11-25T11:32:47Z",
     "platform": "TikTok",
     "title": "Domingo plonge du toit",
-    "views": 675,
-    "likes": 18,
+    "views": 678,
+    "likes": 19,
     "comments": 0,
     "shares": 0,
     "saves": 1,
     "watch": 9.6,
     "duration": 25,
-    "completion": 0.083,
+    "completion": 0.0829,
     "type": "vidéo"
    },
    {
     "date": "2026-11-24T21:10:00Z",
     "platform": "YouTube",
     "title": "Squeezie fait tomber une voiture",
-    "views": 1209,
+    "views": 1212,
     "likes": 10,
     "comments": 0,
     "shares": null,
@@ -377,38 +448,38 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-24T20:11:00Z",
+    "date": "2026-11-24T20:11:16Z",
     "platform": "TikTok",
     "title": "Chowh1 chasse un T-Rex à moto",
-    "views": 1157,
-    "likes": 7,
-    "comments": 0,
+    "views": 1249,
+    "likes": 8,
+    "comments": 2,
     "shares": 2,
-    "saves": 0,
-    "watch": 13.2,
+    "saves": 1,
+    "watch": 13.1,
     "duration": 64,
-    "completion": 0.026,
+    "completion": 0.0259,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-24T15:31:00Z",
+    "date": "2026-11-24T15:31:45Z",
     "platform": "TikTok",
     "title": "Squeezie fait tomber une voiture",
-    "views": 201,
+    "views": 202,
     "likes": 16,
     "comments": 0,
     "shares": 0,
     "saves": 1,
     "watch": 9.5,
     "duration": 18,
-    "completion": 0.23,
+    "completion": 0.2294,
     "type": "vidéo"
    },
    {
     "date": "2026-11-24T15:31:00Z",
     "platform": "YouTube",
     "title": "Domingo rate son braquage",
-    "views": 599,
+    "views": 598,
     "likes": 9,
     "comments": 0,
     "shares": null,
@@ -419,24 +490,24 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-24T12:30:00Z",
+    "date": "2026-11-24T12:30:11Z",
     "platform": "TikTok",
     "title": "Michou, stunt sur l'autoroute",
-    "views": 223,
+    "views": 224,
     "likes": 18,
     "comments": 0,
     "shares": 1,
     "saves": 0,
-    "watch": 9.7,
+    "watch": 9.6,
     "duration": 19,
-    "completion": 0.196,
+    "completion": 0.1952,
     "type": "vidéo"
    },
    {
     "date": "2026-11-23T20:50:00Z",
     "platform": "YouTube",
-    "title": "Squeezie, pas un mauvais criminel",
-    "views": 1198,
+    "title": "Squeezie, mauvais criminel",
+    "views": 1200,
     "likes": 14,
     "comments": 0,
     "shares": null,
@@ -447,21 +518,21 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-23T19:49:00Z",
+    "date": "2026-11-23T19:49:56Z",
     "platform": "TikTok",
     "title": "Domingo rate son braquage",
-    "views": 222,
+    "views": 223,
     "likes": 3,
     "comments": 0,
     "shares": 0,
     "saves": 0,
-    "watch": 6.9,
+    "watch": 7.0,
     "duration": 65,
-    "completion": 0.0,
+    "completion": 0,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-23T15:33:00Z",
+    "date": "2026-11-23T15:33:33Z",
     "platform": "TikTok",
     "title": "Gotaga et le bébé de Lucia",
     "views": 219,
@@ -471,13 +542,13 @@
     "saves": 0,
     "watch": 8.3,
     "duration": 24,
-    "completion": 0.135,
+    "completion": 0.1345,
     "type": "vidéo"
    },
    {
     "date": "2026-11-23T15:03:00Z",
     "platform": "YouTube",
-    "title": "Kameto se fait braquer",
+    "title": "Kameto braqué",
     "views": 514,
     "likes": 5,
     "comments": 0,
@@ -489,7 +560,7 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-23T10:26:00Z",
+    "date": "2026-11-23T10:26:33Z",
     "platform": "TikTok",
     "title": "Squeezie, pas un mauvais criminel",
     "views": 220,
@@ -499,14 +570,14 @@
     "saves": 0,
     "watch": 7.1,
     "duration": 22,
-    "completion": 0.098,
+    "completion": 0.0975,
     "type": "vidéo"
    },
    {
     "date": "2026-11-22T20:25:00Z",
     "platform": "YouTube",
     "title": "Squeezie découvre GTA 6",
-    "views": 1187,
+    "views": 1188,
     "likes": 13,
     "comments": 0,
     "shares": null,
@@ -517,21 +588,21 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-22T19:54:00Z",
+    "date": "2026-11-22T19:54:43Z",
     "platform": "TikTok",
     "title": "Michou, Lucia et l'Urus dorée",
-    "views": 776,
+    "views": 777,
     "likes": 37,
     "comments": 0,
     "shares": 2,
     "saves": 2,
     "watch": 15.1,
     "duration": 85,
-    "completion": 0.002,
+    "completion": 0.0024,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-22T15:57:00Z",
+    "date": "2026-11-22T15:57:32Z",
     "platform": "TikTok",
     "title": "Kai Cenat, 6 étoiles en 20 s",
     "views": 235,
@@ -541,13 +612,13 @@
     "saves": 1,
     "watch": 10.3,
     "duration": 20,
-    "completion": 0.236,
+    "completion": 0.2358,
     "type": "vidéo"
    },
    {
     "date": "2026-11-22T14:35:00Z",
     "platform": "YouTube",
-    "title": "Kai Cenat, 6 étoiles en 20 s",
+    "title": "Kai Cenat : 6 étoiles",
     "views": 1238,
     "likes": 8,
     "comments": 0,
@@ -559,21 +630,21 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-22T10:43:00Z",
+    "date": "2026-11-22T10:43:09Z",
     "platform": "TikTok",
     "title": "Kameto se fait braquer",
-    "views": 236,
+    "views": 238,
     "likes": 8,
     "comments": 0,
     "shares": 1,
     "saves": 0,
-    "watch": 13.6,
+    "watch": 13.5,
     "duration": 93,
-    "completion": 0.004,
+    "completion": 0.0039,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-21T20:32:00Z",
+    "date": "2026-11-21T20:32:06Z",
     "platform": "TikTok",
     "title": "Anyme découvre les cinématiques",
     "views": 270,
@@ -583,14 +654,14 @@
     "saves": 1,
     "watch": 7.3,
     "duration": 71,
-    "completion": 0.003,
+    "completion": 0.0033,
     "type": "vidéo"
    },
    {
     "date": "2026-11-21T20:01:00Z",
     "platform": "YouTube",
     "title": "Gotaga, courses et galères",
-    "views": 1166,
+    "views": 1167,
     "likes": 15,
     "comments": 0,
     "shares": null,
@@ -601,24 +672,24 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-21T15:28:00Z",
+    "date": "2026-11-21T15:28:15Z",
     "platform": "TikTok",
     "title": "Kai Cenat découvre GTA 6",
-    "views": 174,
+    "views": 178,
     "likes": 11,
     "comments": 0,
     "shares": 0,
     "saves": 0,
-    "watch": 6.3,
+    "watch": 6.2,
     "duration": 99,
-    "completion": 0.005,
+    "completion": 0.0048,
     "type": "vidéo"
    },
    {
     "date": "2026-11-21T14:10:00Z",
     "platform": "YouTube",
-    "title": "Premier tour de Vice City",
-    "views": 393,
+    "title": "Bienvenue à Vice City",
+    "views": 394,
     "likes": 5,
     "comments": 0,
     "shares": null,
@@ -629,7 +700,7 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-21T11:37:00Z",
+    "date": "2026-11-21T11:37:22Z",
     "platform": "TikTok",
     "title": "Gotaga, course à 2 500 $",
     "views": 192,
@@ -639,14 +710,14 @@
     "saves": 0,
     "watch": 14.4,
     "duration": 79,
-    "completion": 0.0,
+    "completion": 0,
     "type": "vidéo"
    },
    {
     "date": "2026-11-20T19:20:00Z",
     "platform": "YouTube",
     "title": "ZeratoR et le yéti",
-    "views": 1245,
+    "views": 1246,
     "likes": 10,
     "comments": 0,
     "shares": null,
@@ -657,7 +728,7 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-20T18:06:00Z",
+    "date": "2026-11-20T18:06:30Z",
     "platform": "TikTok",
     "title": "Domingo et le requin",
     "views": 299,
@@ -667,11 +738,11 @@
     "saves": 1,
     "watch": 6.7,
     "duration": 69,
-    "completion": 0.003,
+    "completion": 0.0029,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-20T13:55:00Z",
+    "date": "2026-11-20T13:55:20Z",
     "platform": "TikTok",
     "title": "Vice City 2002 contre GTA 6",
     "views": 224,
@@ -681,14 +752,14 @@
     "saves": 2,
     "watch": 5.0,
     "duration": 27,
-    "completion": 0.028,
+    "completion": 0.0281,
     "type": "vidéo"
    },
    {
     "date": "2026-11-20T13:30:00Z",
     "platform": "YouTube",
     "title": "Vice City 2002 contre GTA 6",
-    "views": 1192,
+    "views": 1194,
     "likes": 12,
     "comments": 0,
     "shares": null,
@@ -699,7 +770,7 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-20T11:13:00Z",
+    "date": "2026-11-20T11:13:49Z",
     "platform": "TikTok",
     "title": "ZeratoR et le yéti",
     "views": 232,
@@ -709,28 +780,28 @@
     "saves": 0,
     "watch": 7.4,
     "duration": 63,
-    "completion": 0.0,
+    "completion": 0,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-19T19:19:00Z",
+    "date": "2026-11-19T19:19:40Z",
     "platform": "TikTok",
     "title": "Michou lance GTA 6",
-    "views": 310,
-    "likes": 23,
+    "views": 313,
+    "likes": 24,
     "comments": 0,
     "shares": 1,
     "saves": 4,
     "watch": 6.3,
     "duration": 83,
-    "completion": 0.003,
+    "completion": 0.0028,
     "type": "vidéo"
    },
    {
     "date": "2026-11-19T19:02:00Z",
     "platform": "YouTube",
     "title": "Michou découvre GTA 6",
-    "views": 1221,
+    "views": 1229,
     "likes": 29,
     "comments": 0,
     "shares": null,
@@ -743,8 +814,8 @@
    {
     "date": "2026-11-19T13:02:00Z",
     "platform": "YouTube",
-    "title": "Quiz vrai ou faux sortie",
-    "views": 1107,
+    "title": "Quiz vrai ou faux",
+    "views": 1108,
     "likes": 6,
     "comments": 0,
     "shares": null,
@@ -755,7 +826,7 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-19T12:02:00Z",
+    "date": "2026-11-19T12:02:32Z",
     "platform": "TikTok",
     "title": "Quiz vrai ou faux sortie",
     "views": 15,
@@ -763,13 +834,13 @@
     "comments": 0,
     "shares": 0,
     "saves": 0,
-    "watch": 3.6,
+    "watch": 3.5,
     "duration": 23,
     "completion": 0,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-19T07:02:00Z",
+    "date": "2026-11-19T07:02:01Z",
     "platform": "TikTok",
     "title": "Squeezie découvre GTA 6",
     "views": 283,
@@ -779,14 +850,14 @@
     "saves": 0,
     "watch": 9.5,
     "duration": 66,
-    "completion": 0.009,
+    "completion": 0.0087,
     "type": "vidéo"
    },
    {
-    "date": "2026-11-18T20:02:00Z",
+    "date": "2026-11-18T20:02:09Z",
     "platform": "TikTok",
     "title": "J-1",
-    "views": 235,
+    "views": 236,
     "likes": 26,
     "comments": 0,
     "shares": 0,
@@ -813,8 +884,8 @@
    {
     "date": "2026-11-18T13:02:00Z",
     "platform": "YouTube",
-    "title": "Guide express de sortie",
-    "views": 509,
+    "title": "Guide de sortie",
+    "views": 510,
     "likes": 5,
     "comments": 0,
     "shares": null,
@@ -825,7 +896,7 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-18T12:03:00Z",
+    "date": "2026-11-18T12:03:11Z",
     "platform": "TikTok",
     "title": "GTA 6 sort cette nuit",
     "views": 931,
@@ -835,14 +906,14 @@
     "saves": 1,
     "watch": 3.8,
     "duration": 24,
-    "completion": 0.02,
+    "completion": 0.0201,
     "type": "vidéo"
    },
    {
     "date": "2026-11-17T18:04:00Z",
     "platform": "YouTube",
     "title": "Plus que 48 h",
-    "views": 150,
+    "views": 151,
     "likes": 6,
     "comments": 0,
     "shares": null,
@@ -853,7 +924,7 @@
     "type": "vidéo"
    },
    {
-    "date": "2026-11-17T16:31:00Z",
+    "date": "2026-11-17T16:31:15Z",
     "platform": "TikTok",
     "title": "Vice City en 10 images",
     "views": 8,
@@ -861,13 +932,13 @@
     "comments": 0,
     "shares": 0,
     "saves": 0,
-    "watch": 6.7,
+    "watch": 1.5,
     "duration": null,
-    "completion": 0.042,
+    "completion": 0.0417,
     "type": "carrousel"
    },
    {
-    "date": "2026-11-17T13:38:00Z",
+    "date": "2026-11-17T13:38:35Z",
     "platform": "TikTok",
     "title": "J-2 PS5 ou Xbox",
     "views": 736,
@@ -875,16 +946,16 @@
     "comments": 0,
     "shares": 2,
     "saves": 4,
-    "watch": 3.3,
+    "watch": 3.1,
     "duration": 64,
-    "completion": 0.003,
+    "completion": 0.0026,
     "type": "vidéo"
    },
    {
     "date": "2026-11-16T18:02:00Z",
     "platform": "YouTube",
-    "title": "Dans 3 jours",
-    "views": 207,
+    "title": "J-3 Vice City",
+    "views": 208,
     "likes": 3,
     "comments": 0,
     "shares": null,
@@ -936,31 +1007,10 @@
     [
      "2026-11-26",
      58
-    ]
-   ]
-  },
-  "accumulation": {
-   "n": 1,
-   "points": [
-    [
-     "Publication",
-     0
     ],
     [
-     "Jour J",
-     71
-    ],
-    [
-     "J+1",
-     98
-    ],
-    [
-     "J+2",
-     99
-    ],
-    [
-     "J+3",
-     100
+     "2026-11-27",
+     61
     ]
    ]
   }

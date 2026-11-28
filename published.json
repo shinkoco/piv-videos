@@ -583,5 +583,76 @@
    "tiktok_auto_21:00": "6b091479e1852a09f9bb77da",
    "youtube_17:52": "6b091487776ce21276eada77"
   }
+ },
+ {
+  "date": "2026-11-28",
+  "type": "clip_court",
+  "streamer": "Michou",
+  "file": "clips/2026-11-28/michou_court.mp4",
+  "music": null,
+  "source": "clips Twitch publics",
+  "layout": "double",
+  "clip_ids": [
+   "michou SwissEnticingHedgehogTebowing (camion, 0-14s)"
+  ],
+  "pops": [
+   "Priorité : zéro 🚚"
+  ],
+  "hashtags": {
+   "tiktok": "#gtavi #michou #gta6gameplay #gta6français #jeuxvidéo",
+   "youtube": "#grandtheftauto6 #michou #gta6gameplay #gta6fr #ps5"
+  },
+  "posts": {
+   "tiktok_auto_12:00": "6b0a63bd561a7238eb0951f7",
+   "youtube_29/11_16:07": "6b0a63cd23fb5b77001ffdad"
+  }
+ },
+ {
+  "date": "2026-11-28",
+  "type": "clip_court",
+  "streamer": "Kai Cenat",
+  "file": "clips/2026-11-28/kai_court.mp4",
+  "music": null,
+  "source": "clips Twitch publics",
+  "layout": "split",
+  "clip_ids": [
+   "kaicenat GenerousSnappyGuanacoTwitchRaid (poursuite, cut 2-23s)"
+  ],
+  "pops": [
+   "La police ne lâche rien 🚓"
+  ],
+  "hashtags": {
+   "tiktok": "#gta6 #kaicenat #vicecity #gta6fr #gamingfr"
+  },
+  "posts": {
+   "tiktok_auto_17:00": "6b0a63cb2c03a99f4af3589a"
+  }
+ },
+ {
+  "date": "2026-11-28",
+  "type": "clip_long",
+  "streamer": "Antoine Daniel",
+  "file": "clips/2026-11-28/antoine_long.mp4",
+  "music": null,
+  "source": "clips Twitch publics",
+  "layout": "split",
+  "clip_ids": [
+   "antoinedaniel KathishStormyPoultry4Head (cut 7.8-27.2s)",
+   "antoinedaniel FamousDaintyLadiesPartyTime (0-16s)",
+   "antoinedaniel CaringFlirtyThymeBabyRage (0-9s)",
+   "antoinedaniel UnsightlyBoringKiwiRitzMitz (avion, cut 36-54.5s)"
+  ],
+  "pops": [
+   "Spoiler : ça va pas durer 👀",
+   "Les colis arriveront jamais 📦"
+  ],
+  "hashtags": {
+   "tiktok": "#grandtheftauto6 #antoinedaniel #gta6vicecity #gta6infos #jeuxvideofr",
+   "youtube": "#gtavi #gta6gameplay #antoinedaniel #gta6français #gaming"
+  },
+  "posts": {
+   "tiktok_auto_21:00": "6b0a63cc4b2df15c6e3fce5e",
+   "youtube_18:25": "6b0a63cdeab081a3f526a2e7"
+  }
  }
 ]
